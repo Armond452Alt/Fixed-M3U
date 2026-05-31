@@ -1,4 +1,4 @@
-
+#EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://bellaliant.bell.ca/binaries/small/content/gallery/common_en/tv/channel-logos/cartoonnetwork.png" group-title="Kids",Cartoon Network(ARAB)
 http://95.170.215.109:80/hls/m3u8/CNArabica-Backup.m3u8
 
