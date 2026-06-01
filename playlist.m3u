@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://bellaliant.bell.ca/binaries/small/content/gallery/common_en/tv/channel-logos/cartoonnetwork.png" group-title="Kids",Cartoon Network(ARAB)
 http://95.170.215.109:80/hls/m3u8/CNArabica-Backup.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://bellaliant.bell.ca/binaries/small/content/gallery/common_en/tv/channel-logos/cartoonnetwork.png" group-title="Kids",Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.directv.com/images/logos/channels/dark/large/296.png" group-title="Kids",Cartoon Network
 https://t.freetv.fun/live/cartoon-network-3.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://bellaliant.bell.ca/binaries/small/content/gallery/common_en/tv/channel-logos/cartoonnetwork.png" group-title="Kids",Cartoon Network
