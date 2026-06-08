@@ -7,11 +7,11 @@ https://playout.cdn.cartoonnetwork.com.br/playout_02/playlist.m3u8
 https://playout.cdn.cartoonnetwork.com.br/playout_04/playlist.m3u8
 #EXTINF:-1 group-title="Cartoon Network" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="TVE Cartoon Network USA East",TVE Cartoon Network USA East 
 http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
-#EXTINF:-1 group-title="Adult Swim" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a91e-1739d82dcd10.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIU[...]
+#EXTINF:-1 group-title="Adult Swim" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a91e-1739d82dcd10.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIU",Adult Swim East
 https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
-#EXTINF:-1 group-title="Adult Swim" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a91e-1739d82dcd10.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIU[...]
+#EXTINF:-1 group-title="Adult Swim" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a91e-1739d82dcd10.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIU",Adult Swim West 
 https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_1928000.m3u8
-#EXTINF:-1 group-title="Boomerang" tvg-logo="https://www.bing.com/ck/a?!&&p=1880a4ff44cb1256c87b4fd42ddf832fbbf4c13f20556695e077e06bc81ac9f9JmltdHM9MTc4MDcwNDAwMA&ptn=3&ver=2&hsh=4&fclid=03fba49b-a4e9-60eb-07f7-b267a5866143&[...]
+#EXTINF:-1 group-title="Boomerang" tvg-logo="https://www.bing.com/ck/a?!&&p=1880a4ff44cb1256c87b4fd42ddf832fbbf4c13f20556695e077e06bc81ac9f9JmltdHM9MTc4MDcwNDAwMA&ptn=3&ver=2&hsh=4&fclid=03fba49b-a4e9-60eb-07f7-b267a5866143&",Boomerang East West
 http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 #EXTINF:-1 group-title="FX Networks" tvg-logo="https://tse2.mm.bing.net/th/id/OIP.mO4GZxhbcCW-ck_ok6BNLgHaEJ?r=0&cb=thfc1falcon2&rs=1&pid=ImgDetMain&o=7&rm=3 tvg-name="FXX HD",FXX HD
 http://23.237.104.106:8080/USA_FXX/index.m3u8
