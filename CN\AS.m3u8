@@ -21,11 +21,7 @@ http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 
 # Added MX playlist fallbacks for Cartoon Network Mexico
-#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.mx" tvg-name="Cartoon Network Mexico (playlist - CharlieII)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_Network_2010_logo.svg",Cartoon Network Mexico (CharlieII)
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.mx" tvg-name="Cartoon Network Mexico (playlist - CharlieII)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_N[...]
 https://raw.githubusercontent.com/CharlieII/IPTV_mexico/main/lista.m3u
-#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.mx" tvg-name="Cartoon Network Mexico (playlist - Free-TV)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_Network_2010_logo.svg",Cartoon Network Mexico (Free-TV)
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.mx" tvg-name="Cartoon Network Mexico (playlist - Free-TV)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_Net[...]
 https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_mexico.m3u8
-
-# Added community candidate: Amagi Samsung Cartoon Network (may be region-locked)
-#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.candidate" tvg-name="Cartoon Network (community candidate - Amagi Samsung)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_Network_2010_logo.svg",Cartoon Network (Amagi candidate)
-https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-samsungin-cartoonnw-samsungin/playlist.m3u8
