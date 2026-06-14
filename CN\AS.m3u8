@@ -15,5 +15,5 @@ https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_19
 http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 #EXTINF:-1 group-title="FX Networks" tvg-logo="https://tse2.mm.bing.net/th/id/OIP.mO4GZxhbcCW-ck_ok6BNLgHaEJ?r=0&cb=thfc1falcon2&rs=1&pid=ImgDetMain&o=7&rm=3",FXX HD
 http://23.237.104.106:8080/USA_FXX/index.m3u8
-#EXTINF:-1 group-title="Comedy Central" tvg-logo="" ,Comedy Central
+#EXTINF:-1 group-title="Comedy Central" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/Comedy_Central_logo_2018.png",Comedy Central
 http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
