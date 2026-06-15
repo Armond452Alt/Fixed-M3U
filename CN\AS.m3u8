@@ -1,11 +1,11 @@
 #EXTM3U
-#EXTINF:-1 group-title="Cartoon Network Asia" tvg-id="cartoonnetworkasia.sg" tvg-name="Cartoon Network Southeast Asia HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_Network_2010_[...]"
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetworkasia.sg" tvg-name="Cartoon Network Southeast Asia HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_Network_20[...]
 https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
-#EXTINF:-1 group-title="Cartoon Network LA" tvg-id="cartoonnetwork.latam" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_Network_2010_logo.svg" tvg-name="Cartoon Network LA (LATAM)[...]"
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.latam" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_Network_2010_logo.svg" tvg-name="Cartoon Network LA (LAT[...]
 https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
-#EXTINF:-1 group-title="Cartoon Network LA" tvg-id="cartoonnetwork.latam" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_Network_2010_logo.svg" tvg-name="Cartoon Network LA (LATAM)[...]"
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.latam" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_Network_2010_logo.svg" tvg-name="Cartoon Network LA (LAT[...]
 https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
-#EXTINF:-1 group-title="Cartoon Network US" tvg-id="cartoonnetwork.us_east" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_Network_2010_logo.svg" tvg-name="TVE Cartoon Network USA [...]"
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.us_east" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_Network_2010_logo.svg" tvg-name="TVE Cartoon Network U[...]
 http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
 #EXTINF:-1 group-title="Adult Swim" tvg-id="adultswim.us_east" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5d/Adult_Swim.svg",Adult Swim
 https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
@@ -21,7 +21,7 @@ http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 
 # Added MX playlist fallbacks for Cartoon Network Mexico
-#EXTINF:-1 group-title="Unknown" tvg-id="cartoonnetwork.mx" tvg-name="Cartoon Network Mexico (playlist - CharlieII)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_N[...]
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.mx" tvg-name="Cartoon Network Mexico (playlist - CharlieII)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_N[...]
 https://raw.githubusercontent.com/CharlieII/IPTV_mexico/main/lista.m3u
-#EXTINF:-1 group-title="Unknown" tvg-id="cartoonnetwork.mx" tvg-name="Cartoon Network Mexico (playlist - Free-TV)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_Net[...]
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.mx" tvg-name="Cartoon Network Mexico (playlist - Free-TV)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Cartoon_Net[...]
 https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_mexico.m3u8
