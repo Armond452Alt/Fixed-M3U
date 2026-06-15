@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/Armond452Alt/Fixed-M3U/master/CN/AS.xml"
 #EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetworkasia.sg" tvg-name="Cartoon Network Southeast Asia HD 1080p " tvg-logo="https://logodix.com/logo/851092.jpg",Cartoon Network HD
 https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
 #EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.latam" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="Cartoon Network LA (LATAM) 480p ",Cartoon Network LA (LATAM)
