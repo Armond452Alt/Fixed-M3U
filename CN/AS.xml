@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  CN/AS.xml
+  Purpose: channel mapping for the CN\AS.m3u8 playlist in Armond452Alt/Fixed-M3U.
+  Contains: entries for channels found in CN\AS.m3u8 with tvg-id, display name, logo, stream url (from the playlist), epg.pw id and a TVPassport search link to help locate the numeric station page.
+
+  Note: TV Passport does not always provide pages for international (non‑North American) feeds. The tvpassport search links below can be used to find the canonical station page if/when available.
+-->
+<channels source="Fixed-M3U/CN-AS">
+  <channel id="cartoonnetworkasia.sg">
+    <display-name>Cartoon Network Southeast Asia HD</display-name>
+    <tvg-id>cartoonnetworkasia.sg</tvg-id>
+    <tvg-logo>https://logodix.com/logo/851092.jpg</tvg-logo>
+    <stream>https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8</stream>
+    <epg-pw>cartoonnetworkasia.sg</epg-pw>
+    <tvpassport-search>https://www.tvpassport.com/search?query=Cartoon+Network+Asia</tvpassport-search>
+  </channel>
+
+  <channel id="cartoonnetwork.latam">
+    <display-name>Cartoon Network LA (LATAM)</display-name>
+    <tvg-id>cartoonnetwork.latam</tvg-id>
+    <tvg-logo>https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200</tvg-logo>
+    <stream>https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD</stream>
+    <epg-pw>cartoonnetwork.latam</epg-pw>
+    <tvpassport-search>https://www.tvpassport.com/search?query=Cartoon+Network+Latin+America</tvpassport-search>
+  </channel>
+
+  <channel id="cartoonnetwork.us_east">
+    <display-name>TVE Cartoon Network USA East</display-name>
+    <tvg-id>cartoonnetwork.us_east</tvg-id>
+    <stream>http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8</stream>
+    <epg-pw>cartoonnetwork.us_east</epg-pw>
+    <tvpassport-search>https://www.tvpassport.com/search?query=Cartoon+Network+USA+East</tvpassport-search>
+  </channel>
+
+  <channel id="adultswim.us_east">
+    <display-name>Adult Swim (East)</display-name>
+    <tvg-id>adultswim.us_east</tvg-id>
+    <tvg-logo>https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a</tvg-logo>
+    <stream>https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8</stream>
+    <epg-pw>adultswim.us_east</epg-pw>
+    <tvpassport-search>https://www.tvpassport.com/search?query=Adult+Swim+East</tvpassport-search>
+  </channel>
+
+  <channel id="adultswim.us_west">
+    <display-name>Adult Swim (West)</display-name>
+    <tvg-id>adultswim.us_west</tvg-id>
+    <tvg-logo>https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a</tvg-logo>
+    <stream>https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_1928000.m3u8</stream>
+    <epg-pw>adultswim.us_west</epg-pw>
+    <tvpassport-search>https://www.tvpassport.com/search?query=Adult+Swim+West</tvpassport-search>
+  </channel>
+
+  <channel id="boomerang.us">
+    <display-name>Boomerang (US)</display-name>
+    <tvg-id>boomerang.us</tvg-id>
+    <tvg-logo>https://www.bing.com/ck/a?!&&p=1880a4ff44cb1256c87b4fd42ddf832fbbf4c13f20556695e077e06bc81ac9f9JmltdHM9MTc4MDcwNDAwMA&ptn=3&ver=2</tvg-logo>
+    <stream>http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8</stream>
+    <epg-pw>boomerang.us</epg-pw>
+    <tvpassport-search>https://www.tvpassport.com/search?query=Boomerang</tvpassport-search>
+  </channel>
+
+  <channel id="fxx.us">
+    <display-name>FXX (US)</display-name>
+    <tvg-id>fxx.us</tvg-id>
+    <tvg-logo>https://tse2.mm.bing.net/th/id/OIP.mO4GZxhbcCW-ck_ok6BNLgHaEJ?r=0&cb=thfc1falcon2&rs=1&pid=ImgDetMain&o=7&rm=3</tvg-logo>
+    <stream>http://23.237.104.106:8080/USA_FXX/index.m3u8</stream>
+    <epg-pw>fxx.us</epg-pw>
+    <tvpassport-search>https://www.tvpassport.com/search?query=FXX</tvpassport-search>
+  </channel>
+
+  <channel id="comedycentral.us">
+    <display-name>Comedy Central (US)</display-name>
+    <tvg-id>comedycentral.us</tvg-id>
+    <tvg-logo>https://upload.wikimedia.org/wikipedia/commons/2/2a/Comedy_Central_logo_2018.png</tvg-logo>
+    <stream>http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8</stream>
+    <epg-pw>comedycentral.us</epg-pw>
+    <tvpassport-search>https://www.tvpassport.com/search?query=Comedy+Central+USA</tvpassport-search>
+  </channel>
+
+  <channel id="Nickelodeon.us">
+    <display-name>Nickelodeon (US)</display-name>
+    <tvg-id>Nickelodeon.us</tvg-id>
+    <tvg-name>Nickelodeon.us</tvg-name>
+    <tvg-logo>https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg</tvg-logo>
+    <stream>http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8</stream>
+    <epg-pw>nickelodeon.us</epg-pw>
+    <tvpassport-search>https://www.tvpassport.com/search?query=Nickelodeon+USA</tvpassport-search>
+  </channel>
+</channels>
