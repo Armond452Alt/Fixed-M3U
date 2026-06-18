@@ -1,0 +1,28 @@
+#EXTM3U tvg-url="https://raw.githubusercontent.com/Armond452Alt/Fixed-M3U/master/CN/AS.directv.channels.xml"
+
+#EXTINF:-1 tvg-id="cartoonnetworkasia.sg" tvg-name="Cartoon Network SEA" tvg-logo="https://logodix.com/logo/851092.jpg",Cartoon Network Southeast Asia HD
+https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
+
+#EXTINF:-1 tvg-id="cartoonnetwork.latam" tvg-name="Cartoon Network LATAM" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200",Cartoon Network LA (LATAM)
+https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
+
+#EXTINF:-1 tvg-id="cartoonnetwork.us_east" tvg-name="Cartoon Network USA East" tvg-logo="",TVE Cartoon Network USA East
+http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
+
+#EXTINF:-1 tvg-id="adultswim.us_east" tvg-name="Adult Swim East" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a",Adult Swim (East)
+https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
+
+#EXTINF:-1 tvg-id="adultswim.us_west" tvg-name="Adult Swim West" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a",Adult Swim (West)
+https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_1928000.m3u8
+
+#EXTINF:-1 tvg-id="boomerang.us" tvg-name="Boomerang US" tvg-logo="https://www.bing.com/ck/a?!&&p=1880a4ff44cb1256c87b4fd42ddf832fbbf4c13f20556695e077e06bc81ac9f9JmltdHM9MTc4MDcwNDAwMA&ptn=3&ver=2",Boomerang (US)
+http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
+
+#EXTINF:-1 tvg-id="fxx.us" tvg-name="FXX US" tvg-logo="https://tse2.mm.bing.net/th/id/OIP.mO4GZxhbcCW-ck_ok6BNLgHaEJ?r=0&cb=thfc1falcon2&rs=1&pid=ImgDetMain&o=7&rm=3",FXX (US)
+http://23.237.104.106:8080/USA_FXX/index.m3u8
+
+#EXTINF:-1 tvg-id="comedycentral.us" tvg-name="Comedy Central US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/Comedy_Central_logo_2018.png",Comedy Central (US)
+http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
+
+#EXTINF:-1 tvg-id="Nickelodeon.us" tvg-name="Nickelodeon US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg",Nickelodeon (US)
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
