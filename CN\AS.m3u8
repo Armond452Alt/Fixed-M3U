@@ -19,5 +19,5 @@ http://23.237.104.106:8080/USA_FXX/index.m3u8
 http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
 #EXTINF:-1 group-title="Nickelodeon" tvg-id="Nickelodeon.us" tvg-name="Nickelodeon.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg",Nickelodeon 480p
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
-#EXTINF:-1 group-title="Nicktoons" tvg-id="nicktoons.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg" tvg-name="Nicktoons 480p",Nicktoons 480p
+#EXTINF:-1 group-title="Nickelodeon" tvg-id="nicktoons.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg" tvg-name="Nicktoons 576p",Nicktoons 576p
 http://41.205.93.154/NICKTOONS/index.m3u8
