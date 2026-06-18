@@ -1,15 +1,15 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/Armond452Alt/Fixed-M3U/master/CN/AS.xml"
 #EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetworkasia.sg" tvg-name="Cartoon Network Southeast Asia HD 1080p " tvg-logo="https://logodix.com/logo/851092.jpg",Cartoon Network HD
 https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
-#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.latam" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="Cartoon Network LA (LATAM) 480p ",Cartoon Network LA (LATAM)
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.latam" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="Cartoon Network LA (LATAM) 480p
 https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
-#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.latam" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="Cartoon Network LA (LATAM) 480p ",Cartoon Network LA (LATAM)
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.latam" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="Cartoon Network LA (LATAM) 480p
 https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
-#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.us_east" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="TVE Cartoon Network USA East",TVE Cartoon Network USA East 480p
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.us_east" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="TVE Cartoon Network USA East
 http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
-#EXTINF:-1 group-title="Adult Swim" tvg-id="adultswim.us_east" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a",Adult Swim East 720p
+#EXTINF:-1 group-title="Adult Swim" tvg-id="adultswim.us_east" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a",Adult Swim East
 https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
-#EXTINF:-1 group-title="Adult Swim" tvg-id="adultswim.us_west" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a",Adult Swim West 720p
+#EXTINF:-1 group-title="Adult Swim" tvg-id="adultswim.us_west" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a",Adult Swim West
 https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_1928000.m3u8
 #EXTINF:-1 group-title="Boomerang" tvg-id="boomerang.us" tvg-logo="https://www.bing.com/ck/a?!&&p=1880a4ff44cb1256c87b4fd42ddf832fbbf4c13f20556695e077e06bc81ac9f9JmltdHM9MTc4MDcwNDAwMA&ptn=3&ver=2",Boomerang 480p
 http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
@@ -19,3 +19,5 @@ http://23.237.104.106:8080/USA_FXX/index.m3u8
 http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
 #EXTINF:-1 group-title="Nickelodeon" tvg-id="Nickelodeon.us" tvg-name="Nickelodeon.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg",Nickelodeon 480p
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:-1 group-title="Nicktoons" tvg-id="nicktoons.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg" tvg-name="Nicktoons 480p",Nicktoons 480p
+http://41.205.93.154/NICKTOONS/index.m3u8
