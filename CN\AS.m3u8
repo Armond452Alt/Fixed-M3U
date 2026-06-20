@@ -21,3 +21,11 @@ http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1 group-title="Nickelodeon" tvg-id="nicktoons.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg" tvg-name="Nicktoons 576p",Nicktoons 576p
 http://41.205.93.154/NICKTOONS/index.m3u8
+#EXTINF:-1 tvg-id="AdultSwimWest.us"  tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Animation", TEST Adult Swim (West Simulcast)
+https://tve-live-lln.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_1928000.m3u8
+#EXTINF:-1 tvg-id="AdultSwimRickAndMorty.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Marathons", Adult Swim: Rick and Morty 24/7
+http://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+#EXTINF:-1 tvg-id="AdultSwimPrimal.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Marathons", Adult Swim: Primal 24/7
+https://adultswim-vodlive.cdn.turner.com/live/primal/stream_de.m3u8
+#EXTINF:-1 tvg-id="AdultSwimWilliams.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Marathons", Adult Swim: Williams Stream
+https://adultswim-vodlive.cdn.turner.com/live/williams-stream/stream.m3u8
