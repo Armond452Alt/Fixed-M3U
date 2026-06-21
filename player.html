@@ -25,6 +25,21 @@
       display: flex;
       align-items: center;
       gap: 8px;
+      .screen-bug {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  pointer-events: none; /* Allows clicking "through" the logo to play/pause */
+  z-index: 10;          /* Keeps it rendered on top of the stream */
+  user-select: none;
+}
+
+.screen-bug img {
+  height: 35px;         /* Control how big the logo appears on screen */
+  width: auto;
+  opacity: 0.45;        /* Makes it semi-transparent like a real TV bug */
+  display: block;
+}
     }
     .player-container {
       width: 100%;
