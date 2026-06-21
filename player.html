@@ -82,7 +82,13 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.8/dist/hls.min.js"></script>
-  
+  const hls = new Hls({
+  maxBufferSize: 15 * 1024 * 1024, // Increased from 8MB to 15MB to buffer more data ahead
+  maxBufferLength: 30,             // Allow up to 30 seconds of video to pre-load
+  stableDelay: 3,                  // Forces a 3-second safety delay to sync audio/video tracks perfectly
+  lowLatencyMode: false,           // Turning this off helps smooth out unstable international stream sources
+  enableWorker: true
+});
   <script>
     const params = new URLSearchParams(window.location.search);
     const targetStream = params.get('stream');
