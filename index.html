@@ -91,28 +91,26 @@
     <div class="grid" id="channel-grid">
       <div class="loading">
         <i class="fa-solid fa-circle-notch fa-spin" style="margin-bottom: 10px;"></i>
-        <div>Parsing channels via AllOrigins pipeline...</div>
+        <div>Fetching video playlist feeds directly...</div>
       </div>
     </div>
   </div>
 
   <script>
-    // Pointing exactly to the working .m3u link
-    const TARGET_PLAYLIST = "https://raw.githubusercontent.com/Armond452Alt/Fixed-M3U/master/CN/AS.m3u";
-    const PLAYLIST_URL = `https://api.allorigins.win/get?url=${encodeURIComponent(TARGET_PLAYLIST)}&t=${Date.now()}`;
+    // This calls the relative path mapped to your live pages deploy
+    const PLAYLIST_URL = "./CN/AS.m3u";
 
     async function parseAndBuildGrid() {
       const grid = document.getElementById('channel-grid');
       
       try {
         let response = await fetch(PLAYLIST_URL);
-        if (!response.ok) throw new Error("Network response error");
+        if (!response.ok) throw new Error("Could not fetch file stream mapping");
         
-        let data = await response.json();
-        let text = data.contents;
+        let text = await response.text();
 
         if (!text || text.trim().length === 0) {
-          grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> The playlist loaded, but it appears to be empty.</div>`;
+          grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Playlist text file resolved empty.</div>`;
           return;
         }
 
@@ -142,7 +140,7 @@
         grid.innerHTML = ""; 
         
         if (channels.length === 0) {
-          grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Playlist loaded, but could not read channels. Make sure text lines begin with http.</div>`;
+          grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Found the file, but no streaming URLs were detected inside the list tags.</div>`;
           return;
         }
         
@@ -163,7 +161,7 @@
         
       } catch (err) {
         console.error(err);
-        grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Error communicating with server proxy pipeline. Reload the tab.</div>`;
+        grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Error loading local channel configuration directory files.</div>`;
       }
     }
 
