@@ -15,7 +15,24 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-    }
+      .screen-bug {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black background */
+  color: rgba(255, 255, 255, 0.6);      /* Semi-transparent white text */
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  pointer-events: none;                  /* CRITICAL: Lets you click "through" it to use player controls */
+  z-index: 10;                           /* Forces it to sit on top of the video frame */
+  user-select: none;
+}
+    {
     .back-btn {
       align-self: flex-start;
       color: #3b82f6;
