@@ -3,216 +3,166 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Revival TVPass - Homepage</title>
-  
-  <!-- Modern Font & Icons -->
+  <title>Revival TVPass</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
   <style>
-    :root {
-      --bg-dark: #0f0f12;
-      --bg-card: #1a1a24;
-      --accent-color: #3b82f6;
-      --text-main: #f3f4f6;
-      --text-muted: #9ca3af;
-    }
-
     body {
-      margin: 0;
-      padding: 0;
-      background-color: var(--bg-dark);
-      color: var(--text-main);
+      background-color: #0f0f12;
+      color: #f3f4f6;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      display: flex;
-    }
-
-    /* Sidebar Layout */
-    .sidebar {
-      width: 240px;
-      height: 100vh;
-      background-color: #16161e;
-      position: fixed;
-      top: 0;
-      left: 0;
-      display: flex;
-      flex-direction: column;
-      border-right: 1px solid #27273a;
-    }
-
-    .brand {
-      padding: 24px;
-      font-size: 1.2rem;
-      font-weight: bold;
-      color: var(--accent-color);
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      border-bottom: 1px solid #27273a;
-    }
-
-    .nav-links {
-      list-style: none;
-      padding: 20px 0;
       margin: 0;
+      padding: 40px 20px;
     }
-
-    .nav-links li a {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      padding: 14px 24px;
-      color: var(--text-muted);
-      text-decoration: none;
-      transition: all 0.2s ease;
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
     }
-
-    .nav-links li a:hover, .nav-links li.active a {
-      color: var(--text-main);
-      background-color: #222230;
-      border-left: 4px solid var(--accent-color);
-    }
-
-    /* Main Dashboard Area */
-    .main-content {
-      margin-left: 240px;
-      padding: 40px;
-      width: calc(100% - 240px);
-      box-sizing: border-box;
-    }
-
-    .header-banner {
-      background: linear-gradient(135deg, #1e1b4b 0%, #311042 100%);
-      padding: 30px;
-      border-radius: 12px;
+    header {
       margin-bottom: 40px;
-      border: 1px solid #3c1e5a;
+      text-align: center;
     }
-
-    .header-banner h1 {
-      margin: 0 0 10px 0;
-      font-size: 2rem;
+    h1 {
+      font-size: 2.5rem;
+      color: #fff;
+      margin-bottom: 10px;
+      letter-spacing: -0.5px;
     }
-
-    .header-banner p {
-      margin: 0;
-      color: var(--text-muted);
+    .subtitle {
+      color: #9ca3af;
+      font-size: 1.1rem;
     }
-
-    /* Channels Grid */
-    .section-title {
-      font-size: 1.3rem;
-      margin-bottom: 20px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .channel-grid {
+    .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
     }
-
-    /* Interactive Channel Card */
-    .channel-card {
-      background-color: var(--bg-card);
-      border-radius: 10px;
-      overflow: hidden;
+    .card {
+      background-color: #1e1e2f;
       border: 1px solid #27273a;
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
       text-decoration: none;
       color: inherit;
-      transition: transform 0.2s ease, border-color 0.2s ease;
-    }
-
-    .channel-card:hover {
-      transform: translateY(-5px);
-      border-color: var(--accent-color);
-    }
-
-    .logo-container {
-      height: 120px;
-      background-color: #111116;
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
       display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 140px;
     }
-
-    .logo-container img {
-      max-width: 100%;
-      max-height: 100%;
-      object-fit: contain;
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #3b82f6;
+      box-shadow: 0 8px 20px rgba(59, 130, 246, 0.15);
     }
-
-    .channel-info {
-      padding: 15px;
+    .card i {
+      font-size: 2.5rem;
+      color: #3b82f6;
+      margin-bottom: 15px;
     }
-
-    .channel-name {
-      font-weight: 600;
-      font-size: 1rem;
-      margin-bottom: 4px;
+    .card h3 {
+      margin: 0 0 10px 0;
+      font-size: 1.25rem;
+      color: #fff;
     }
-
-    .channel-status {
-      font-size: 0.8rem;
-      color: #10b981; /* Green status color */
-      display: flex;
-      align-items: center;
-      gap: 5px;
+    .card p {
+      margin: 0;
+      color: #9ca3af;
+      font-size: 0.85rem;
     }
+    .loading, .error {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #9ca3af;
+      grid-column: 1 / -1;
+      padding: 60px;
+    }
+    .error { color: #ef4444; }
   </style>
 </head>
 <body>
 
-  <!-- Left Navigation Sidebar -->
-  <aside class="sidebar">
-    <div class="brand">
-      <i class="fa-solid fa-tv"></i> Revival TVPass
+  <div class="container">
+    <header>
+      <h1>Revival TVPass</h1>
+      <p class="subtitle">Select a live feed below to start streaming</p>
+    </header>
+
+    <div class="grid" id="channel-grid">
+      <div class="loading">
+        <i class="fa-solid fa-circle-notch fa-spin" style="margin-bottom: 10px;"></i>
+        <div>Parsing playlist channels...</div>
+      </div>
     </div>
-    <ul class="nav-links">
-      <li class="active"><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
-      <li><a href="player.html"><i class="fa-solid fa-play"></i> Live Player</a></li>
-      <li><a href="https://github.com/Armond452Alt/fixed-m3u" target="_blank"><i class="fa-brands fa-github"></i> M3U Repo</a></li>
-    </ul>
-  </aside>
+  </div>
 
-  <!-- Main Grid Layout -->
-  <main class="main-content">
-    <section class="header-banner">
-      <h1>Welcome to the Revival</h1>
-      <p>Clean, fixed, and community-maintained live TV layouts. Select a channel below to launch the video runtime.</p>
-    </section>
+  <script>
+    // Pulls your raw master M3U8 list directly from your GitHub repo
+    const PLAYLIST_URL = "https://github.com/Armond452Alt/Fixed-M3U/raw/refs/heads/master/CN%5CAS.m3u8";
 
-    <h2 class="section-title"><i class="fa-solid fa-bolt" style="color: #eab308;"></i> Featured Channels</h2>
-    
-    <div class="channel-grid">
+    async function parseAndBuildGrid() {
+      const grid = document.getElementById('channel-grid');
       
-      <!-- Cartoon Network Card -->
-      <a href="player.html?channel=cn_as" class="channel-card">
-        <div class="logo-container">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_2010_logo.svg" alt="CN">
-        </div>
-        <div class="channel-info">
-          <div class="channel-name">Cartoon Network / AS</div>
-          <div class="channel-status"><i class="fa-solid fa-circle-check"></i> Live Stream</div>
-        </div>
-      </a>
+      try {
+        const response = await fetch(PLAYLIST_URL);
+        if (!response.ok) throw new Error("Could not access playlist file.");
+        
+        const text = await response.text();
+        const lines = text.split(/\r?\n/);
+        
+        let channels = [];
+        let tempTitle = "";
+        
+        for (let i = 0; i < lines.length; i++) {
+          let line = lines[i].trim();
+          
+          if (line.toUpperCase().startsWith('#EXTINF:')) {
+            // Locate the final comma where the channel name is stored
+            const commaIdx = line.lastIndexOf(',');
+            if (commaIdx !== -1) {
+              tempTitle = line.substring(commaIdx + 1).trim();
+            } else {
+              tempTitle = "Live Stream Feed";
+            }
+          } else if (line.startsWith('http://') || line.startsWith('https://')) {
+            channels.push({
+              title: tempTitle || `Channel ${channels.length + 1}`,
+              url: line
+            });
+            tempTitle = ""; // Reset variables
+          }
+        }
+        
+        grid.innerHTML = ""; // Drop layout loader loader
+        
+        if (channels.length === 0) {
+          grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> No valid streaming lines inside the parsed list.</div>`;
+          return;
+        }
+        
+        channels.forEach((channel) => {
+          const card = document.createElement('a');
+          card.className = 'card';
+          // Send link stream data forward via URL query strings safely encoded
+          card.href = `player.html?stream=${encodeURIComponent(channel.url)}&title=${encodeURIComponent(channel.title)}`;
+          
+          card.innerHTML = `
+            <div>
+              <i class="fa-solid fa-tv"></i>
+              <h3>${channel.title}</h3>
+            </div>
+            <p>Launch Player →</p>
+          `;
+          grid.appendChild(card);
+        });
+        
+      } catch (err) {
+        console.error(err);
+        grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Network error loading streams. Make sure CORS is permitted.</div>`;
+      }
+    }
 
-      <!-- Nicktoons Card -->
-      <a href="player.html?channel=nicktoons" class="channel-card">
-        <div class="logo-container">
-          <!-- Temporary placeholder icon - swap out for your clean local repo asset paths -->
-          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Nicktoons_2009_logo.svg" alt="Nicktoons">
-        </div>
-        <div class="channel-info">
-          <div class="channel-name">Nicktoons HD</div>
-          <div class="channel-status"><i class="fa-solid fa-circle-check"></i> Live Stream</div>
-        </div>
-      </a>
-
-    </div>
-  </main>
-
+    window.addEventListener('DOMContentLoaded', parseAndBuildGrid);
+  </script>
 </body>
 </html>
