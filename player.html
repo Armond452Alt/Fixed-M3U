@@ -2,31 +2,114 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Revival TVPass Player</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revival TVPass - Live Player</title>
+  
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
   <link href="https://unpkg.com/@videojs/themes@1.0.1/forest/index.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <style>
+    body {
+      background-color: #0f0f12;
+      color: #f3f4f6;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .back-btn {
+      align-self: flex-start;
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: bold;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: color 0.2s;
+    }
+    .back-btn:hover { color: #60a5fa; }
+    .player-container {
+      width: 100%;
+      max-width: 960px;
+      background-color: #000;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #27273a;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+    }
+    video {
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
+    }
+    .stream-info {
+      width: 100%;
+      max-width: 940px;
+      margin-top: 20px;
+      padding: 5px;
+    }
+    h2 { margin: 0 0 6px 0; font-size: 1.5rem; color: #fff; }
+    p { margin: 0; color: #9ca3af; font-size: 0.85rem; word-break: break-all; font-family: monospace; }
+  </style>
 </head>
-<body style="background: #111; margin: 0; padding: 0;">
+<body>
 
-  <div style="width: 80%; margin: 50px auto;">
+  <a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Feed Guide</a>
+
+  <div class="player-container">
     <video
-      id="tvpass-player"
+      id="revival-player"
       class="video-js vjs-big-play-centered vjs-theme-forest"
       controls
       preload="auto"
-      width="1024"
-      height="576"
-      data-setup='{}'>
-      
-      <source src="https://revival.tvpass.org/api/stream.mp4?channel=nicktoons&token=USER_SESSION_KEY" type="application/x-mpegURL">
-      
-      <p class="vjs-no-js">
-        To view this video please enable JavaScript, and consider upgrading to a web browser that
-        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-      </p>
+      width="960"
+      height="540">
     </video>
   </div>
 
+  <div class="stream-info">
+    <h2 id="channel-title">Live Pipeline</h2>
+    <p id="channel-desc">Fetching parameters...</p>
+  </div>
+
   <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const targetStream = params.get('stream');
+    const targetTitle = params.get('title');
+
+    if (targetStream) {
+      document.getElementById('channel-title').innerText = targetTitle || "Live Feed";
+      document.getElementById('channel-desc').innerText = `Source: ${targetStream}`;
+
+      // Automatically sets classic aspect constraints based on channel names
+      let aspectConfig = "16:9"; 
+      if (targetTitle.toLowerCase().includes("cartoon") || targetTitle.toLowerCase().includes("adult swim")) {
+          aspectConfig = "4:3"; 
+      }
+
+      const player = videojs('revival-player', {
+          responsive: true,
+          fluid: true,
+          aspectRatio: aspectConfig
+      });
+
+      player.src({
+          src: targetStream,
+          type: 'application/x-mpegURL'
+      });
+
+      player.ready(function() {
+          player.play().catch(function(err) {
+              console.log("Autoplay caught by browser restrictions.");
+          });
+      });
+    } else {
+      document.getElementById('channel-title').innerText = "No playback file targeted.";
+    }
+  </script>
 </body>
 </html>
