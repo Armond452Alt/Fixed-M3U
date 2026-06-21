@@ -97,22 +97,41 @@
   </div>
 
   <script>
-    // Uses the AllOrigins JSON engine to avoid rate-limiting throttling errors on Xbox
-    const TARGET_PLAYLIST = "https://raw.githubusercontent.com/Armond452Alt/Fixed-M3U/master/CN/AS.m3u8";
-    const PLAYLIST_URL = `https://api.allorigins.win/get?url=${encodeURIComponent(TARGET_PLAYLIST)}`;
+    // GitHub path configuration setups
+    const REPO_OWNER = "Armond452Alt";
+    const REPO_NAME = "Fixed-M3U";
+
+    // Standardizes paths to escape forward slashes vs windows backslashes
+    const TARGET_PLAYLIST = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/master/CN/AS.m3u8`;
+    const BACKUP_PLAYLIST = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/master/AS.m3u8`;
+
+    let PLAYLIST_URL = `https://api.allorigins.win/get?url=${encodeURIComponent(TARGET_PLAYLIST)}`;
 
     async function parseAndBuildGrid() {
       const grid = document.getElementById('channel-grid');
       
       try {
-        const response = await fetch(PLAYLIST_URL);
-        if (!response.ok) throw new Error("Could not reach backup gateway pipeline.");
+        let response = await fetch(PLAYLIST_URL);
+        if (!response.ok) throw new Error();
         
-        const data = await response.json();
-        // Extract plain text string out of the proxy container payload
-        const text = data.contents;
+        let data = await response.json();
+        let text = data.contents;
+
+        // Fallback safety layer: if the primary folder path fails, check root repository
+        if (!text || text.trim().length === 0 || !text.includes("#EXTM3U")) {
+          console.log("Primary path empty or invalid. Running root folder fallback loop...");
+          const backupFetchUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(BACKUP_PLAYLIST)}`;
+          response = await fetch(backupFetchUrl);
+          data = await response.json();
+          text = data.contents;
+        }
+
+        if (!text || text.trim().length === 0) {
+          grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Playlist data context is entirely empty on GitHub. Check AS.m3u8 text contents.</div>`;
+          return;
+        }
+
         const lines = text.split(/\r?\n/);
-        
         let channels = [];
         let tempTitle = "";
         
@@ -138,7 +157,7 @@
         grid.innerHTML = ""; 
         
         if (channels.length === 0) {
-          grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Playlist wrapper resolved empty. Check master text lines.</div>`;
+          grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Document resolved successfully, but no live URL streams were identified inside the file tags.</div>`;
           return;
         }
         
@@ -159,7 +178,7 @@
         
       } catch (err) {
         console.error(err);
-        grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Network configuration error on endpoint fetch. Refresh the app.</div>`;
+        grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Network configuration error on endpoint proxy fetch. Try resetting layout browser tab.</div>`;
       }
     }
 
