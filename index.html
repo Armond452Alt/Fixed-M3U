@@ -91,99 +91,80 @@
     <div class="grid" id="channel-grid">
       <div class="loading">
         <i class="fa-solid fa-circle-notch fa-spin" style="margin-bottom: 10px;"></i>
-        <div>Parsing playlist channels via universal path...</div>
+        <div>Parsing channels via AllOrigins pipeline...</div>
       </div>
     </div>
   </div>
 
   <script>
-    // This looks for the file relatively on your own website, eliminating branch name issues
-    const PATH_1 = "./CN/AS.m3u8";
-    const PATH_2 = "./AS.m3u8";
-
-    async function tryFetchPlaylist(url) {
-      // Direct relative fetch (Works perfectly if GitHub Pages serves the file directly)
-      try {
-        let response = await fetch(url);
-        if (response.ok) {
-          let t = await response.text();
-          if (t && t.includes("#EXTM3U")) return t;
-        }
-      } catch(e) {}
-
-      // Fallback via proxy if browser blocks direct relative reading
-      try {
-        let absoluteUrl = new URL(url, window.location.href).href;
-        let proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(absoluteUrl)}`;
-        let response = await fetch(proxyUrl);
-        if (response.ok) {
-          let data = await response.json();
-          if (data.contents && data.contents.includes("#EXTM3U")) return data.contents;
-        }
-      } catch(e) {}
-      
-      return null;
-    }
+    // Pointing exactly to the working .m3u link
+    const TARGET_PLAYLIST = "https://raw.githubusercontent.com/Armond452Alt/Fixed-M3U/master/CN/AS.m3u";
+    const PLAYLIST_URL = `https://api.allorigins.win/get?url=${encodeURIComponent(TARGET_PLAYLIST)}&t=${Date.now()}`;
 
     async function parseAndBuildGrid() {
       const grid = document.getElementById('channel-grid');
       
-      // Try finding the file in the CN folder first, then try the root folder
-      let text = await tryFetchPlaylist(PATH_1);
-      if (!text) {
-        console.log("Path 1 empty, attempting path 2...");
-        text = await tryFetchPlaylist(PATH_2);
-      }
-
-      if (!text) {
-        grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Playlist wrapper empty. Could not locate your AS.m3u8 file on this server.</div>`;
-        return;
-      }
-
-      const lines = text.split(/\r?\n/);
-      let channels = [];
-      let tempTitle = "";
-      
-      for (let i = 0; i < lines.length; i++) {
-        let line = lines[i].trim();
+      try {
+        let response = await fetch(PLAYLIST_URL);
+        if (!response.ok) throw new Error("Network response error");
         
-        if (line.toUpperCase().startsWith('#EXTINF:')) {
-          const commaIdx = line.lastIndexOf(',');
-          if (commaIdx !== -1) {
-            tempTitle = line.substring(commaIdx + 1).trim();
-          } else {
-            tempTitle = "Live Stream Feed";
-          }
-        } else if (line.startsWith('http://') || line.startsWith('https://')) {
-          channels.push({
-            title: tempTitle || `Channel ${channels.length + 1}`,
-            url: line
-          });
-          tempTitle = "";
+        let data = await response.json();
+        let text = data.contents;
+
+        if (!text || text.trim().length === 0) {
+          grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> The playlist loaded, but it appears to be empty.</div>`;
+          return;
         }
-      }
-      
-      grid.innerHTML = ""; 
-      
-      if (channels.length === 0) {
-        grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Playlist found, but it contains zero channel links starting with HTTP/HTTPS.</div>`;
-        return;
-      }
-      
-      channels.forEach((channel) => {
-        const card = document.createElement('a');
-        card.className = 'card';
-        card.href = `player.html?stream=${encodeURIComponent(channel.url)}&title=${encodeURIComponent(channel.title)}`;
+
+        const lines = text.split(/\r?\n/);
+        let channels = [];
+        let tempTitle = "";
         
-        card.innerHTML = `
-          <div>
-            <i class="fa-solid fa-tv"></i>
-            <h3>${channel.title}</h3>
-          </div>
-          <p>Launch Player →</p>
-        `;
-        grid.appendChild(card);
-      });
+        for (let i = 0; i < lines.length; i++) {
+          let line = lines[i].trim();
+          
+          if (line.toUpperCase().startsWith('#EXTINF:')) {
+            const commaIdx = line.lastIndexOf(',');
+            if (commaIdx !== -1) {
+              tempTitle = line.substring(commaIdx + 1).trim();
+            } else {
+              tempTitle = "Live Stream Feed";
+            }
+          } else if (line.startsWith('http://') || line.startsWith('https://')) {
+            channels.push({
+              title: tempTitle || `Channel ${channels.length + 1}`,
+              url: line
+            });
+            tempTitle = "";
+          }
+        }
+        
+        grid.innerHTML = ""; 
+        
+        if (channels.length === 0) {
+          grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Playlist loaded, but could not read channels. Make sure text lines begin with http.</div>`;
+          return;
+        }
+        
+        channels.forEach((channel) => {
+          const card = document.createElement('a');
+          card.className = 'card';
+          card.href = `player.html?stream=${encodeURIComponent(channel.url)}&title=${encodeURIComponent(channel.title)}`;
+          
+          card.innerHTML = `
+            <div>
+              <i class="fa-solid fa-tv"></i>
+              <h3>${channel.title}</h3>
+            </div>
+            <p>Launch Player →</p>
+          `;
+          grid.appendChild(card);
+        });
+        
+      } catch (err) {
+        console.error(err);
+        grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Error communicating with server proxy pipeline. Reload the tab.</div>`;
+      }
     }
 
     window.addEventListener('DOMContentLoaded', parseAndBuildGrid);
