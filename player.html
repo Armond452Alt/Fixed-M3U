@@ -3,12 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Revival TVPass - Live Player</title>
-  
-  <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
-  <link href="https://unpkg.com/@videojs/themes@1.0.1/forest/index.css" rel="stylesheet">
+  <title>Revival TVPass - HLS Engine</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
   <style>
     body {
       background-color: #0f0f12;
@@ -29,9 +25,7 @@
       display: flex;
       align-items: center;
       gap: 8px;
-      transition: color 0.2s;
     }
-    .back-btn:hover { color: #60a5fa; }
     .player-container {
       width: 100%;
       max-width: 960px;
@@ -42,17 +36,17 @@
       box-shadow: 0 10px 25px rgba(0,0,0,0.6);
     }
     video {
-      image-rendering: -webkit-optimize-contrast;
-      image-rendering: crisp-edges;
+      width: 100%;
+      height: auto;
+      display: block;
     }
     .stream-info {
       width: 100%;
       max-width: 940px;
       margin-top: 20px;
-      padding: 5px;
     }
-    h2 { margin: 0 0 6px 0; font-size: 1.5rem; color: #fff; }
-    p { margin: 0; color: #9ca3af; font-size: 0.85rem; word-break: break-all; font-family: monospace; }
+    h2 { margin: 0 0 6px 0; color: #fff; }
+    p { margin: 0; color: #9ca3af; font-family: monospace; font-size: 0.85rem; word-break: break-all; }
   </style>
 </head>
 <body>
@@ -60,22 +54,16 @@
   <a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Feed Guide</a>
 
   <div class="player-container">
-    <video
-      id="revival-player"
-      class="video-js vjs-big-play-centered vjs-theme-forest"
-      controls
-      preload="auto"
-      width="960"
-      height="540">
-    </video>
+    <video id="video-engine" controls autoplay playsinline></video>
   </div>
 
   <div class="stream-info">
     <h2 id="channel-title">Live Pipeline</h2>
-    <p id="channel-desc">Fetching parameters...</p>
+    <p id="channel-desc">Initializing decoder stream engine...</p>
   </div>
 
-  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.8/dist/hls.min.js"></script>
+  
   <script>
     const params = new URLSearchParams(window.location.search);
     const targetStream = params.get('stream');
@@ -85,30 +73,55 @@
       document.getElementById('channel-title').innerText = targetTitle || "Live Feed";
       document.getElementById('channel-desc').innerText = `Source: ${targetStream}`;
 
-      // Automatically sets classic aspect constraints based on channel names
-      let aspectConfig = "16:9"; 
-      if (targetTitle.toLowerCase().includes("cartoon") || targetTitle.toLowerCase().includes("adult swim")) {
-          aspectConfig = "4:3"; 
+      const video = document.getElementById('video-engine');
+
+      // 1. If the browser supports HLS natively (like Safari on iPhones)
+      if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = targetStream;
+      } 
+      // 2. For modern browsers without native support (Xbox Edge, Chrome, Firefox)
+      else if (Hls.isSupported()) {
+        
+        // Optimizing engine configs specifically for a console environment
+        const hls = new Hls({
+          maxBufferSize: 8 * 1024 * 1024, // Keeps RAM cache under 8MB so the console browser doesn't freeze
+          maxBufferLength: 15,            // Limits ahead buffering to 15 seconds max
+          lowLatencyMode: true,           // Ensures high-speed sync for live tracks
+          enableWorker: true              // Offloads decoding onto a separate CPU thread
+        });
+
+        hls.loadSource(targetStream);
+        hls.attachMedia(video);
+
+        hls.on(Hls.Events.MANIFEST_PARSED, function() {
+          video.play().catch(e => console.log("Autoplay blocked, waiting for click interaction."));
+        });
+
+        // Error Recovery Engine Layer
+        hls.on(Hls.Events.ERROR, function (event, data) {
+          if (data.fatal) {
+            switch (data.type) {
+              case Hls.ErrorTypes.NETWORK_ERROR:
+                console.log("Fatal network error encountered, attempting pipeline reset...");
+                hls.startLoad();
+                break;
+              case Hls.ErrorTypes.MEDIA_ERROR:
+                console.log("Fatal media decoding glitch, forcing stall recovery...");
+                hls.recoverMediaError();
+                break;
+              default:
+                console.log("Unrecoverable error state reached.");
+                break;
+            }
+          }
+        });
+
+      } else {
+        document.getElementById('channel-title').innerText = "Streaming Unresolvable";
+        document.getElementById('channel-desc').innerText = "Your browser architecture lacks Media Source Extensions (MSE).";
       }
-
-      const player = videojs('revival-player', {
-          responsive: true,
-          fluid: true,
-          aspectRatio: aspectConfig
-      });
-
-      player.src({
-          src: targetStream,
-          type: 'application/x-mpegURL'
-      });
-
-      player.ready(function() {
-          player.play().catch(function(err) {
-              console.log("Autoplay caught by browser restrictions.");
-          });
-      });
     } else {
-      document.getElementById('channel-title').innerText = "No playback file targeted.";
+      document.getElementById('channel-title').innerText = "No stream parameters targeted.";
     }
   </script>
 </body>
