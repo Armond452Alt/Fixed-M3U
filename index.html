@@ -1,1 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revival TVPass</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      background-color: #0f0f12;
+      color: #f3f4f6;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    header {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #fff;
+      margin-bottom: 10px;
+      letter-spacing: -0.5px;
+    }
+    .subtitle {
+      color: #9ca3af;
+      font-size: 1.1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background-color: #1e1e2f;
+      border: 1px solid #27273a;
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 140px;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #3b82f6;
+      box-shadow: 0 8px 20px rgba(59, 130, 246, 0.15);
+    }
+    .card i {
+      font-size: 2.5rem;
+      color: #3b82f6;
+      margin-bottom: 15px;
+    }
+    .card h3 {
+      margin: 0 0 10px 0;
+      font-size: 1.25rem;
+      color: #fff;
+    }
+    .card p {
+      margin: 0;
+      color: #9ca3af;
+      font-size: 0.85rem;
+    }
+    .loading, .error {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #9ca3af;
+      grid-column: 1 / -1;
+      padding: 60px;
+    }
+    .error { color: #ef4444; }
+  </style>
+</head>
+<body>
 
+  <div class="container">
+    <header>
+      <h1>Revival TVPass</h1>
+      <p class="subtitle">Select a live feed below to start streaming</p>
+    </header>
+
+    <div class="grid" id="channel-grid">
+      <div class="loading">
+        <i class="fa-solid fa-circle-notch fa-spin" style="margin-bottom: 10px;"></i>
+        <div>Parsing playlist channels safely via secondary proxy pipeline...</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Uses the AllOrigins JSON engine to avoid rate-limiting throttling errors on Xbox
+    const TARGET_PLAYLIST = "https://raw.githubusercontent.com/Armond452Alt/Fixed-M3U/master/CN/AS.m3u8";
+    const PLAYLIST_URL = `https://api.allorigins.win/get?url=${encodeURIComponent(TARGET_PLAYLIST)}`;
+
+    async function parseAndBuildGrid() {
+      const grid = document.getElementById('channel-grid');
+      
+      try {
+        const response = await fetch(PLAYLIST_URL);
+        if (!response.ok) throw new Error("Could not reach backup gateway pipeline.");
+        
+        const data = await response.json();
+        // Extract plain text string out of the proxy container payload
+        const text = data.contents;
+        const lines = text.split(/\r?\n/);
+        
+        let channels = [];
+        let tempTitle = "";
+        
+        for (let i = 0; i < lines.length; i++) {
+          let line = lines[i].trim();
+          
+          if (line.toUpperCase().startsWith('#EXTINF:')) {
+            const commaIdx = line.lastIndexOf(',');
+            if (commaIdx !== -1) {
+              tempTitle = line.substring(commaIdx + 1).trim();
+            } else {
+              tempTitle = "Live Stream Feed";
+            }
+          } else if (line.startsWith('http://') || line.startsWith('https://')) {
+            channels.push({
+              title: tempTitle || `Channel ${channels.length + 1}`,
+              url: line
+            });
+            tempTitle = "";
+          }
+        }
+        
+        grid.innerHTML = ""; 
+        
+        if (channels.length === 0) {
+          grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Playlist wrapper resolved empty. Check master text lines.</div>`;
+          return;
+        }
+        
+        channels.forEach((channel) => {
+          const card = document.createElement('a');
+          card.className = 'card';
+          card.href = `player.html?stream=${encodeURIComponent(channel.url)}&title=${encodeURIComponent(channel.title)}`;
+          
+          card.innerHTML = `
+            <div>
+              <i class="fa-solid fa-tv"></i>
+              <h3>${channel.title}</h3>
+            </div>
+            <p>Launch Player →</p>
+          `;
+          grid.appendChild(card);
+        });
+        
+      } catch (err) {
+        console.error(err);
+        grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Network configuration error on endpoint fetch. Refresh the app.</div>`;
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', parseAndBuildGrid);
+  </script>
+</body>
+</html>
