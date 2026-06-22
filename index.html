@@ -3,12 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TVPass - Live Feed Portal</title>
+  <title>TVPass - Channel Guide</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
-  <!-- Video.js Open Source Engine (No License Keys Required) -->
-  <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
-  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
   
   <style>
     :root {
@@ -35,167 +31,114 @@
     header {
       width: 100%;
       background-color: var(--bg-surface);
-      padding: 20px 0;
+      padding: 25px 0;
       text-align: center;
       border-bottom: 1px solid #27273a;
     }
 
     header h1 {
       margin: 0;
-      font-size: 1.8rem;
+      font-size: 2rem;
       letter-spacing: 1px;
       color: #fff;
     }
 
     header p {
-      margin: 5px 0 0 0;
+      margin: 6px 0 0 0;
       color: var(--text-muted);
-      font-size: 0.9rem;
+      font-size: 0.95rem;
     }
 
     .main-container {
       width: 100%;
-      max-width: 1100px;
-      padding: 20px;
+      max-width: 1000px;
+      padding: 30px 20px;
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
-      gap: 25px;
+      gap: 20px;
     }
 
-    /* Video Screen Container */
-    .player-window {
-      width: 100%;
-      background-color: #000;
-      border-radius: 12px;
-      overflow: hidden;
-      border: 1px solid #27273a;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.7);
-      position: relative;
-    }
-
-    .video-js {
-      width: 100%;
-      aspect-ratio: 16/9;
-    }
-
-    /* Custom Screen Bug / Watermark */
-    .screen-bug {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      pointer-events: none; 
-      z-index: 10;
-      user-select: none;
-    }
-    .screen-bug img {
-      height: 30px;
-      width: auto;
-      opacity: 0.35;
-    }
-
-    /* Active Track Info bar */
-    .now-playing-bar {
-      background-color: var(--bg-surface);
-      padding: 15px 20px;
-      border-bottom: 1px solid #27273a;
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-    .now-playing-bar h2 { margin: 0; font-size: 1.3rem; color: #fff; }
-    .now-playing-bar p { margin: 0; font-size: 0.85rem; color: var(--text-muted); font-family: monospace; word-break: break-all; }
-
-    /* Channel Grid Section */
     .grid-title {
-      font-size: 1.2rem;
-      margin: 10px 0 0 0;
-      color: var(--text-main);
+      font-size: 1.25rem;
+      margin: 0;
+      color: #fff;
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 10px;
     }
 
+    /* Channel Grid Assembly */
     .channel-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-      gap: 15px;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 20px;
+    }
+
+    /* Clickable Link Cards for Xbox Browser Navigation */
+    .channel-link {
+      text-decoration: none;
+      color: inherit;
+      outline: none;
     }
 
     .channel-card {
       background-color: var(--bg-card);
       border: 1px solid #2d2d3d;
-      border-radius: 10px;
-      padding: 20px 15px;
+      border-radius: 12px;
+      padding: 25px 20px;
       text-align: center;
-      cursor: pointer;
       transition: all 0.2s ease;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 10px;
+      gap: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
 
-    .channel-card:hover, .channel-card:focus {
+    /* Visual cues when navigating with an Xbox Controller */
+    .channel-link:hover .channel-card,
+    .channel-link:focus .channel-card {
       border-color: var(--accent);
       background-color: #242430;
-      transform: translateY(-2px);
-      outline: none;
-    }
-
-    .channel-card.active {
-      border-color: #10b981;
-      background-color: #132824;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(59, 130, 246, 0.2);
     }
 
     .channel-icon {
-      font-size: 2rem;
+      font-size: 2.2rem;
       color: var(--accent);
     }
 
     .channel-name {
       font-weight: 600;
-      font-size: 0.95rem;
+      font-size: 1.05rem;
+      color: #fff;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>TVPass Pipeline</h1>
-    <p>Select a live transmission network feed below</p>
+    <h1>TVPass Control Guide</h1>
+    <p>Select a transmission line to launch the dedicated player screen</p>
   </header>
 
   <div class="main-container">
     
-    <!-- Unified Player Screen Component -->
-    <div class="player-window">
-      <video id="tvpass-core-engine" class="video-js vjs-default-skin" controls autoplay preload="auto" playsinline></video>
-      
-      <!-- Network Bug Overlay -->
-      <div class="screen-bug">
-        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/414ef987-7ebb-45f1-a5d4-a9417121856d/djlsw10-5249177b-9e6f-488e-953a-12027b5ad518.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi80MTRlZjk4Ny03ZWJiLTQ1ZjEtYTVkNC1hOTQxNzEyMTg1NmQvZGpsc3cxMC01MjQ5MTc3Yi05ZTZmLTQ4OGUtOTUzYS0xMjAyN2I1YWQ1MTgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ty-UcWiL7cbB5a8TGCVw17wpcqbW53AKElLOJ89KME8" alt="Watermark Bug">
-      </div>
+    <h3 class="grid-title"><i class="fa-solid fa-satellite-dish"></i> Active Pipeline Stations</h3>
 
-      <div class="now-playing-bar">
-        <h2 id="active-title">No Feed Loaded</h2>
-        <p id="active-source">Select a pipeline station to initialize stream tracking</p>
-      </div>
-    </div>
-
-    <h3 class="grid-title"><i class="fa-solid fa-satellite-dish"></i> Available Network Pipelines</h3>
-
-    <!-- Channel Grid Array -->
+    <!-- The Grid Deck -->
     <div class="channel-grid" id="station-deck">
-      <!-- Cards generated automatically via the JavaScript Array below -->
+      <!-- Generated automatically via the data script below -->
     </div>
 
   </div>
 
   <script>
     // 1. Centralized Streaming Data Bank
-    // Simply swap out or add your specific custom streaming .m3u8 source links here
+    // Update or add your specific live .m3u8 source URLs right inside this list!
     const channels = [
       { 
         name: "Cartoon Network", 
@@ -219,69 +162,27 @@
       }
     ];
 
-    // 2. Initialize Video.js Player with custom memory-buffer configs to stabilize Xbox browser playback
-    const player = videojs('tvpass-core-engine', {
-      html5: {
-        vhs: {
-          overrideNative: true,
-          maxBufferSize: 20 * 1024 * 1024, // 20MB deep cache buffering
-          smoothQualityChange: true,
-          fastStart: false
-        }
-      }
-    });
-
     const deckElement = document.getElementById('station-deck');
-    const titleElement = document.getElementById('active-title');
-    const sourceElement = document.getElementById('active-source');
 
-    // 3. Engine Link Controller Function
-    function injectStream(url, name, element) {
-      // Manage visual highlight tracking on selection
-      document.querySelectorAll('.channel-card').forEach(card => card.classList.remove('active'));
-      if(element) element.classList.add('active');
-
-      // Update text displays
-      titleElement.innerText = `Streaming Live: ${name}`;
-      sourceElement.innerText = `Pipeline Target: ${url}`;
-
-      // Feed source directly to internal core
-      player.src({
-        src: url,
-        type: 'application/x-mpegURL'
-      });
-
-      player.ready(function() {
-        player.play().catch(e => console.log("Waiting for user input block to release audio/video initialization pipeline."));
-      });
-    }
-
-    // 4. Generate Interactive Card System Layout dynamically
-    channels.forEach((chan, index) => {
-      const card = document.createElement('div');
-      card.className = 'channel-card';
-      card.tabIndex = 0; // Enables navigation support for Xbox Controller D-pads
+    // 2. Loop through and create links that send parameters safely to player.html
+    channels.forEach(chan => {
+      // Safely encode strings for URL parameter transmission
+      const encodedUrl = encodeURIComponent(chan.url);
+      const encodedTitle = encodeURIComponent(chan.name);
       
-      card.innerHTML = `
-        <i class="fa-solid ${chan.icon} channel-icon"></i>
-        <div class="channel-name">${chan.name}</div>
+      const anchor = document.createElement('a');
+      anchor.className = 'channel-link';
+      // Automatically target player.html with our data parameters attached
+      anchor.href = `player.html?stream=${encodedUrl}&title=${encodedTitle}`;
+
+      anchor.innerHTML = `
+        <div class="channel-card">
+          <i class="fa-solid ${chan.icon} channel-icon"></i>
+          <div class="channel-name">${chan.name}</div>
+        </div>
       `;
 
-      // Click / Controller confirmation actions
-      card.addEventListener('click', () => injectStream(chan.url, chan.name, card));
-      card.addEventListener('keydown', (e) => {
-        if(e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          injectStream(chan.url, chan.name, card);
-        }
-      });
-
-      deckElement.appendChild(card);
-
-      // Auto-load the very first channel layout when the index page launches
-      if (index === 0) {
-        injectStream(chan.url, chan.name, card);
-      }
+      deckElement.appendChild(anchor);
     });
   </script>
 </body>
