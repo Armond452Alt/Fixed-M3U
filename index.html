@@ -3,169 +3,286 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Revival TVPass</title>
+  <title>TVPass - Live Feed Portal</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Video.js Open Source Engine (No License Keys Required) -->
+  <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+  
   <style>
+    :root {
+      --bg-main: #0a0a0c;
+      --bg-surface: #121216;
+      --bg-card: #1c1c24;
+      --accent: #3b82f6;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+    }
+
     body {
-      background-color: #0f0f12;
-      color: #f3f4f6;
+      background-color: var(--bg-main);
+      color: var(--text-main);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       margin: 0;
-      padding: 40px 20px;
-    }
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    header {
-      margin-bottom: 40px;
-      text-align: center;
-    }
-    h1 {
-      font-size: 2.5rem;
-      color: #fff;
-      margin-bottom: 10px;
-      letter-spacing: -0.5px;
-    }
-    .subtitle {
-      color: #9ca3af;
-      font-size: 1.1rem;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 24px;
-    }
-    .card {
-      background-color: #1e1e2f;
-      border: 1px solid #27273a;
-      border-radius: 12px;
-      padding: 24px;
-      text-align: center;
-      text-decoration: none;
-      color: inherit;
-      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+      padding: 0;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      min-height: 140px;
+      align-items: center;
+      min-height: 100vh;
     }
-    .card:hover {
-      transform: translateY(-4px);
-      border-color: #3b82f6;
-      box-shadow: 0 8px 20px rgba(59, 130, 246, 0.15);
+
+    header {
+      width: 100%;
+      background-color: var(--bg-surface);
+      padding: 20px 0;
+      text-align: center;
+      border-bottom: 1px solid #27273a;
     }
-    .card i {
-      font-size: 2.5rem;
-      color: #3b82f6;
-      margin-bottom: 15px;
-    }
-    .card h3 {
-      margin: 0 0 10px 0;
-      font-size: 1.25rem;
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
       color: #fff;
     }
-    .card p {
-      margin: 0;
-      color: #9ca3af;
-      font-size: 0.85rem;
+
+    header p {
+      margin: 5px 0 0 0;
+      color: var(--text-muted);
+      font-size: 0.9rem;
     }
-    .loading, .error {
-      text-align: center;
+
+    .main-container {
+      width: 100%;
+      max-width: 1100px;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+
+    /* Video Screen Container */
+    .player-window {
+      width: 100%;
+      background-color: #000;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #27273a;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+      position: relative;
+    }
+
+    .video-js {
+      width: 100%;
+      aspect-ratio: 16/9;
+    }
+
+    /* Custom Screen Bug / Watermark */
+    .screen-bug {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      pointer-events: none; 
+      z-index: 10;
+      user-select: none;
+    }
+    .screen-bug img {
+      height: 30px;
+      width: auto;
+      opacity: 0.35;
+    }
+
+    /* Active Track Info bar */
+    .now-playing-bar {
+      background-color: var(--bg-surface);
+      padding: 15px 20px;
+      border-bottom: 1px solid #27273a;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .now-playing-bar h2 { margin: 0; font-size: 1.3rem; color: #fff; }
+    .now-playing-bar p { margin: 0; font-size: 0.85rem; color: var(--text-muted); font-family: monospace; word-break: break-all; }
+
+    /* Channel Grid Section */
+    .grid-title {
       font-size: 1.2rem;
-      color: #9ca3af;
-      grid-column: 1 / -1;
-      padding: 60px;
+      margin: 10px 0 0 0;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
-    .error { color: #ef4444; }
+
+    .channel-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 15px;
+    }
+
+    .channel-card {
+      background-color: var(--bg-card);
+      border: 1px solid #2d2d3d;
+      border-radius: 10px;
+      padding: 20px 15px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .channel-card:hover, .channel-card:focus {
+      border-color: var(--accent);
+      background-color: #242430;
+      transform: translateY(-2px);
+      outline: none;
+    }
+
+    .channel-card.active {
+      border-color: #10b981;
+      background-color: #132824;
+    }
+
+    .channel-icon {
+      font-size: 2rem;
+      color: var(--accent);
+    }
+
+    .channel-name {
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
 
-  <div class="container">
-    <header>
-      <h1>Revival TVPass</h1>
-      <p class="subtitle">Select a live feed below to start streaming</p>
-    </header>
+  <header>
+    <h1>TVPass Pipeline</h1>
+    <p>Select a live transmission network feed below</p>
+  </header>
 
-    <div class="grid" id="channel-grid">
-      <div class="loading">
-        <i class="fa-solid fa-circle-notch fa-spin" style="margin-bottom: 10px;"></i>
-        <div>Fetching video playlist feeds directly...</div>
+  <div class="main-container">
+    
+    <!-- Unified Player Screen Component -->
+    <div class="player-window">
+      <video id="tvpass-core-engine" class="video-js vjs-default-skin" controls autoplay preload="auto" playsinline></video>
+      
+      <!-- Network Bug Overlay -->
+      <div class="screen-bug">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/414ef987-7ebb-45f1-a5d4-a9417121856d/djlsw10-5249177b-9e6f-488e-953a-12027b5ad518.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi80MTRlZjk4Ny03ZWJiLTQ1ZjEtYTVkNC1hOTQxNzEyMTg1NmQvZGpsc3cxMC01MjQ5MTc3Yi05ZTZmLTQ4OGUtOTUzYS0xMjAyN2I1YWQ1MTgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ty-UcWiL7cbB5a8TGCVw17wpcqbW53AKElLOJ89KME8" alt="Watermark Bug">
+      </div>
+
+      <div class="now-playing-bar">
+        <h2 id="active-title">No Feed Loaded</h2>
+        <p id="active-source">Select a pipeline station to initialize stream tracking</p>
       </div>
     </div>
+
+    <h3 class="grid-title"><i class="fa-solid fa-satellite-dish"></i> Available Network Pipelines</h3>
+
+    <!-- Channel Grid Array -->
+    <div class="channel-grid" id="station-deck">
+      <!-- Cards generated automatically via the JavaScript Array below -->
+    </div>
+
   </div>
 
   <script>
-    // This calls the relative path mapped to your live pages deploy
-    const PLAYLIST_URL = "./CN/AS.m3u";
-
-    async function parseAndBuildGrid() {
-      const grid = document.getElementById('channel-grid');
-      
-      try {
-        let response = await fetch(PLAYLIST_URL);
-        if (!response.ok) throw new Error("Could not fetch file stream mapping");
-        
-        let text = await response.text();
-
-        if (!text || text.trim().length === 0) {
-          grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Playlist text file resolved empty.</div>`;
-          return;
-        }
-
-        const lines = text.split(/\r?\n/);
-        let channels = [];
-        let tempTitle = "";
-        
-        for (let i = 0; i < lines.length; i++) {
-          let line = lines[i].trim();
-          
-          if (line.toUpperCase().startsWith('#EXTINF:')) {
-            const commaIdx = line.lastIndexOf(',');
-            if (commaIdx !== -1) {
-              tempTitle = line.substring(commaIdx + 1).trim();
-            } else {
-              tempTitle = "Live Stream Feed";
-            }
-          } else if (line.startsWith('http://') || line.startsWith('https://')) {
-            channels.push({
-              title: tempTitle || `Channel ${channels.length + 1}`,
-              url: line
-            });
-            tempTitle = "";
-          }
-        }
-        
-        grid.innerHTML = ""; 
-        
-        if (channels.length === 0) {
-          grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Found the file, but no streaming URLs were detected inside the list tags.</div>`;
-          return;
-        }
-        
-        channels.forEach((channel) => {
-          const card = document.createElement('a');
-          card.className = 'card';
-          card.href = `player.html?stream=${encodeURIComponent(channel.url)}&title=${encodeURIComponent(channel.title)}`;
-          
-          card.innerHTML = `
-            <div>
-              <i class="fa-solid fa-tv"></i>
-              <h3>${channel.title}</h3>
-            </div>
-            <p>Launch Player →</p>
-          `;
-          grid.appendChild(card);
-        });
-        
-      } catch (err) {
-        console.error(err);
-        grid.innerHTML = `<div class="error"><i class="fa-solid fa-triangle-exclamation"></i> Error loading local channel configuration directory files.</div>`;
+    // 1. Centralized Streaming Data Bank
+    // Simply swap out or add your specific custom streaming .m3u8 source links here
+    const channels = [
+      { 
+        name: "Cartoon Network", 
+        icon: "fa-tv", 
+        url: "https://your-stream-provider.com/live/cartoon_network.m3u8" 
+      },
+      { 
+        name: "Adult Swim", 
+        icon: "fa-moon", 
+        url: "https://your-stream-provider.com/live/adult_swim.m3u8" 
+      },
+      { 
+        name: "Nickelodeon", 
+        icon: "fa-circle-dot", 
+        url: "https://your-stream-provider.com/live/nickelodeon.m3u8" 
+      },
+      { 
+        name: "Nicktoons", 
+        icon: "fa-bolt", 
+        url: "https://your-stream-provider.com/live/nicktoons.m3u8" 
       }
+    ];
+
+    // 2. Initialize Video.js Player with custom memory-buffer configs to stabilize Xbox browser playback
+    const player = videojs('tvpass-core-engine', {
+      html5: {
+        vhs: {
+          overrideNative: true,
+          maxBufferSize: 20 * 1024 * 1024, // 20MB deep cache buffering
+          smoothQualityChange: true,
+          fastStart: false
+        }
+      }
+    });
+
+    const deckElement = document.getElementById('station-deck');
+    const titleElement = document.getElementById('active-title');
+    const sourceElement = document.getElementById('active-source');
+
+    // 3. Engine Link Controller Function
+    function injectStream(url, name, element) {
+      // Manage visual highlight tracking on selection
+      document.querySelectorAll('.channel-card').forEach(card => card.classList.remove('active'));
+      if(element) element.classList.add('active');
+
+      // Update text displays
+      titleElement.innerText = `Streaming Live: ${name}`;
+      sourceElement.innerText = `Pipeline Target: ${url}`;
+
+      // Feed source directly to internal core
+      player.src({
+        src: url,
+        type: 'application/x-mpegURL'
+      });
+
+      player.ready(function() {
+        player.play().catch(e => console.log("Waiting for user input block to release audio/video initialization pipeline."));
+      });
     }
 
-    window.addEventListener('DOMContentLoaded', parseAndBuildGrid);
+    // 4. Generate Interactive Card System Layout dynamically
+    channels.forEach((chan, index) => {
+      const card = document.createElement('div');
+      card.className = 'channel-card';
+      card.tabIndex = 0; // Enables navigation support for Xbox Controller D-pads
+      
+      card.innerHTML = `
+        <i class="fa-solid ${chan.icon} channel-icon"></i>
+        <div class="channel-name">${chan.name}</div>
+      `;
+
+      // Click / Controller confirmation actions
+      card.addEventListener('click', () => injectStream(chan.url, chan.name, card));
+      card.addEventListener('keydown', (e) => {
+        if(e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          injectStream(chan.url, chan.name, card);
+        }
+      });
+
+      deckElement.appendChild(card);
+
+      // Auto-load the very first channel layout when the index page launches
+      if (index === 0) {
+        injectStream(chan.url, chan.name, card);
+      }
+    });
   </script>
 </body>
 </html>
