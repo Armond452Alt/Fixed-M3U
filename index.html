@@ -141,76 +141,80 @@
 
   <script>
     const deckElement = document.getElementById('station-deck');
-    const loadingText = document.getElementById('loading-text');
+const loadingText = document.getElementById('loading-text');
 
-    // Automatically assigns a clean icon based on keywords in the channel name
-    function getIcon(name) {
-      const lower = name.toLowerCase();
-      if (lower.includes('adult swim') || lower.includes('swim')) return 'fa-moon';
-      if (lower.includes('cartoon') || lower.includes('cn')) return 'fa-tv';
-      if (lower.includes('toons') || lower.includes('bolt')) return 'fa-bolt';
-      return 'fa-circle-dot'; // Default fallback icon
-    }
+// Automatically pairs the parsed channel with the correct iptv-org logo URL
+function getLogoUrl(name) {
+  const lower = name.toLowerCase();
+  const base = "https://iptv-org.github.io/logos/languages/mul/";
+  
+  if (lower.includes('adult swim') || lower.includes('swim')) return `${base}AdultSwim.png`;
+  if (lower.includes('cartoon') || lower.includes('cn')) return `${base}CartoonNetwork.png`;
+  if (lower.includes('nickelodeon')) return `${base}Nickelodeon.png`;
+  if (lower.includes('nicktoons')) return `${base}Nicktoons.png`;
+  
+  // Fallback if a channel name doesn't match
+  return "https://iptv-org.github.io/logos/categories/classic.png"; 
+}
 
-    // Read and parse the local CN/AS.m3u playlist file directly
-    fetch('CN/AS.m3u')
-      .then(response => {
-        if (!response.ok) throw new Error('Could not load playlist file.');
-        return response.text();
-      })
-      .then(data => {
-        // Clear loading message
-        deckElement.innerHTML = '';
+// Read and parse the local CN/AS.m3u playlist file directly
+fetch('CN/AS.m3u')
+  .then(response => {
+    if (!response.ok) throw new Error('Could not load playlist file.');
+    return response.text();
+  })
+  .then(data => {
+    deckElement.innerHTML = ''; // Clear loading text
 
-        const lines = data.split('\n');
-        let currentName = '';
+    const lines = data.split('\n');
+    let currentName = '';
 
-        lines.forEach(line => {
-          line = line.trim();
+    lines.forEach(line => {
+      line = line.trim();
 
-          // Look for the metadata info line (#EXTINF)
-          if (line.startsWith('#EXTINF:')) {
-            // Pull the channel name after the last comma
-            const commaIndex = line.lastIndexOf(',');
-            if (commaIndex !== -1) {
-              currentName = line.substring(commaIndex + 1).trim();
-            }
-          } 
-          // If the line is an active HTTP stream link and we have a name ready
-          else if (line.startsWith('http') && currentName) {
-            const streamUrl = line;
-            
-            // Encode parameters securely for player.html handoff
-            const encodedUrl = encodeURIComponent(streamUrl);
-            const encodedTitle = encodeURIComponent(currentName);
-            const iconClass = getIcon(currentName);
-
-            const anchor = document.createElement('a');
-            anchor.className = 'channel-link';
-            anchor.href = `player.html?stream=${encodedUrl}&title=${encodedTitle}`;
-
-            anchor.innerHTML = `
-              <div class="channel-card">
-                <i class="fa-solid ${iconClass} channel-icon"></i>
-                <div class="channel-name">${currentName}</div>
-              </div>
-            `;
-
-            deckElement.appendChild(anchor);
-            
-            // Reset tracker for the next item loop
-            currentName = '';
-          }
-        });
-
-        if (deckElement.children.length === 0) {
-          deckElement.innerHTML = '<p class="status-msg">No active streaming lines parsed out of CN/AS.m3u.</p>';
+      if (line.startsWith('#EXTINF:')) {
+        const commaIndex = line.lastIndexOf(',');
+        if (commaIndex !== -1) {
+          currentName = line.substring(commaIndex + 1).trim();
         }
-      })
-      .catch(err => {
-        console.error(err);
-        loadingText.innerText = "Error reading tracking stream: Make sure 'CN/AS.m3u' matches your file path path exactly.";
-      });
-  </script>
+      } 
+      else if (line.startsWith('http') && currentName) {
+        const streamUrl = line;
+        
+        const encodedUrl = encodeURIComponent(streamUrl);
+        const encodedTitle = encodeURIComponent(currentName);
+        const logoImgUrl = getLogoUrl(currentName);
+
+        const anchor = document.createElement('a');
+        anchor.className = 'channel-link';
+        anchor.href = `player.html?stream=${encodedUrl}&title=${encodedTitle}`;
+
+        // Uses an <img> tag now instead of an icon font class
+        anchor.innerHTML = `
+          <div class="channel-card">
+            <img src="${logoImgUrl}" alt="${currentName}" style="max-height: 50px; max-width: 120px; object-fit: contain; margin-bottom: 8px;">
+            <div class="channel-name">${currentName}</div>
+          </div>
+        `;
+
+        deckElement.appendChild(anchor);
+        currentName = ''; // Reset loop variable
+      }
+    });
+
+    if (deckElement.children.length === 0) {
+      deckElement.innerHTML = '<p class="status-msg">No active streaming lines parsed out of CN/AS.m3u.</p>';
+    }
+  })
+  .catch(err => {
+    console.error(err);
+    loadingText.innerText = "Error reading tracking stream: Make sure 'CN/AS.m3u' matches your file path exactly.";
+  })
+  .catch(err => {
+    console.error(err);
+    loadingText.innerText = "Error reading tracking stream: Make sure 'CN/AS.m3u' matches your file path exactly.";
+  }); // <--- THIS CLOSES THE FETCH CHAIN
+
+</script>
 </body>
 </html>
