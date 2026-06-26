@@ -123,5 +123,7 @@ http://200.115.120.1:8000/play/ca002/index.m3u8
 http://200.115.120.1:8000/play/ca003/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.la" group-title="Cibernet", Nickelodeon LATAM (Possible Map)
 http://200.115.120.1:8000/play/ca001/index.m3u8
-#EXTINF:-1 tvg-id="CartoonNetwork.in" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="Cartoon Network", Cartoon Network India (Samsung FAST)
-https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-samsungin-cartoonnw-samsungin/playlist.m3u8
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/in/cartoonnetwork.in.epg.xml"
+
+#EXTINF:-1 tvg-id="CartoonNetwork.in" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="International", Cartoon Network India (Full Fix)
+https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-samsungin-cartoonnw-samsungin/playlist.m3u8|User-Agent="Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/12.0 Chrome/79.0.3945.136 Mobile Safari/537.36"
