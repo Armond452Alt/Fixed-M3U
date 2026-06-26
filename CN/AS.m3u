@@ -123,5 +123,5 @@ http://200.115.120.1:8000/play/ca002/index.m3u8
 http://200.115.120.1:8000/play/ca003/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.la" group-title="Cibernet", Nickelodeon LATAM (Possible Map)
 http://200.115.120.1:8000/play/ca001/index.m3u8
-#EXTINF:-1 tvg-id="CartoonNetwork.in" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="International", Cartoon Network India (Samsung FAST)
+#EXTINF:-1 tvg-id="CartoonNetwork.in" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="Cartoon Network", Cartoon Network India (Samsung FAST)
 https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-samsungin-cartoonnw-samsungin/playlist.m3u8
