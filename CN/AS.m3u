@@ -117,3 +117,9 @@ https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
 http://200.115.120.1:8000/play/ca002/index.m3u8
 #EXTINF:-1 tvg-id="VeaCanal.la@mx" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="Forced Video", Vea Canal LATAM (Direct TS)
 http://200.115.120.1:8000/play/ca087/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.la" group-title="Cibernet", Cartoon Network LATAM (Active)
+http://200.115.120.1:8000/play/ca002/index.m3u8
+#EXTINF:-1 tvg-id="AdultSwim.la" group-title="Cibernet", Adult Swim Latinoamérica (Possible Map)
+http://200.115.120.1:8000/play/ca003/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.la" group-title="Cibernet", Nickelodeon LATAM (Possible Map)
+http://200.115.120.1:8000/play/ca001/index.m3u8
