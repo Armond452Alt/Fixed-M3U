@@ -132,3 +132,8 @@ http://142.44.214.194:8080/cartoon/index.m3u8
 https://live.dogantv.com.tr/cartoonnetwork/cartoonnetwork.m3u8
 #EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.us_east" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="TVE Cartoon Network USA East",TVE Cartoon Network USA East 720p
 https://fl2.moveonjoy.com/CARTOON_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="TBS.us" tvg-name="TBS East" tvg-logo="https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Logos/tbs.png" group-title="US East",TBS East
+https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="TNT.us" tvg-name="TNT East" tvg-logo="https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Logos/tnt.png" group-title="US East",TNT East
+https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
+
