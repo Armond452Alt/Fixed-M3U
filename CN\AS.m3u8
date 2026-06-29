@@ -136,4 +136,5 @@ https://fl2.moveonjoy.com/CARTOON_NETWORK/index.m3u8
 https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TNT.us" tvg-name="TNT East" tvg-logo="https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Logos/tnt.png" group-title="US East",TNT East
 https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
-
+#EXTINF:-1 tvg-id="FOX.us" tvg-name="FOX East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg" group-title="Entertainment",FOX East
+http://84.17.50.102/fox/index.m3u8
