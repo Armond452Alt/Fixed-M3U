@@ -138,3 +138,6 @@ https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_356
 https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="FOX.us" tvg-name="FOX East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg" group-title="Entertainment",FOX East
 http://84.17.50.102/fox/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetworkExtras" tvg-name="CN Extras" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_2010_logo.svg" group-title="Animation",CN Extras
+https://mci01.nive.live/8/index.m3u8
+
