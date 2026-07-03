@@ -142,4 +142,438 @@ http://84.17.50.102/fox/index.m3u8
 https://mci01.nive.live/8/index.m3u8
 #EXTINF:-1 tvg-id="WKYC.us" tvg-name="WKYC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/WKYC_logo_2021.png" group-title="News", WKYC (NBC Cleveland)
 https://livevideo01.wkyc.com/hls/live/2015504/newscasts/live.m3u8
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/Armond452Alt/Fixed-M3U/master/CN/AS.xml"
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetworkasia.sg" tvg-name="Cartoon Network Southeast Asia HD 1080p " tvg-logo="https://logodix.com/logo/851092.jpg",Cartoon Network HD
+https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.latam" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="Cartoon Network LA (LATAM) 480p",Cartoon Network LA (LATAM) 480p
+https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_SD
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.latam" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="Cartoon Network LA (LATAM) 720p",Cartoon Network LA (LATAM) 720p
+https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.us_east" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="TVE Cartoon Network USA East",TVE Cartoon Network USA East
+http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
+#EXTINF:-1 group-title="Adult Swim" tvg-id="adultswim.us_east" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a8cc-d4a4df23f6b6/d1hb85a-b4eead99-c85f-4d12-ab1e-4f31b68c8b8f.png",Adult Swim US East
+https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
+#EXTINF:-1 group-title="Adult Swim" tvg-id="adultswim.us_west" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a8cc-d4a4df23f6b6/d1hb85a-b4eead99-c85f-4d12-ab1e-4f31b68c8b8f.png",Adult Swim US West
+https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_1928000.m3u8
+#EXTINF:-1 group-title="Boomerang" tvg-id="boomerang.us" tvg-logo="https://www.bing.com/ck/a?!&&p=1880a4ff44cb1256c87b4fd42ddf832fbbf4c13f20556695e077e06bc81ac9f9JmltdHM9MTc4MDcwNDAwMA&ptn=3&ver=2",Boomerang
+http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
+#EXTINF:-1 group-title="FX Networks" tvg-id="fxx.us" tvg-logo="https://tse2.mm.bing.net/th/id/OIP.mO4GZxhbcCW-ck_ok6BNLgHaEJ?r=0&cb=thfc1falcon2&rs=1&pid=ImgDetMain&o=7&rm=3",FXX SD 480P
+http://23.237.104.106:8080/USA_FXX/index.m3u8
+#EXTINF:-1 group-title="Comedy Central" tvg-id="comedycentral.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/Comedy_Central_logo_2018.png",Comedy Central 480p
+http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
+#EXTINF:-1 group-title="Nickelodeon" tvg-id="Nickelodeon.us" tvg-name="Nickelodeon.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg",Nickelodeon 480p
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:-1 group-title="Nickelodeon" tvg-id="nicktoons.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg" tvg-name="Nicktoons 576p",Nicktoons 576p
+http://41.205.93.154/NICKTOONS/index.m3u8
+#EXTINF:-1 tvg-id="AdultSwimWest.us"  tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Animation", TEST Adult Swim (West Simulcast)
+https://tve-live-lln.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_1928000.m3u8
+#EXTINF:-1 tvg-id="AdultSwimRickAndMorty.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Marathons", Adult Swim: Rick and Morty 24/7
+http://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+#EXTINF:-1 tvg-id="AdultSwimPrimal.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Adult Swim: Primal 24/7
+https://adultswim-vodlive.cdn.turner.com/live/primal/stream_de.m3u8
+#EXTINF:-1 tvg-id="AdultSwimWilliams.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Adult Swim: Williams Stream
+https://adultswim-vodlive.cdn.turner.com/live/williams-stream/stream.m3u8
+#EXTINF:-1 tvg-id="ATHF.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Aqua Teen Hunger Force
+https://adultswim-vodlive.cdn.turner.com/live/aqua-teen/stream.m3u8
+#EXTINF:-1 tvg-id="BlackJesus.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Black Jesus
+https://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream.m3u8
+#EXTINF:-1 tvg-id="Channel5.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Channel 5
+https://adultswim-vodlive.cdn.turner.com/live/channel-5/stream.m3u8
+#EXTINF:-1 tvg-id="DailyAnimated.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Daily Animated
+https://adultswim-vodlive.cdn.turner.com/live/daily_animated_1/stream.m3u8
+#EXTINF:-1 tvg-id="DailyLiveAction.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Daily Live Action
+https://adultswim-vodlive.cdn.turner.com/live/daily_liveaction_1/stream.m3u8
+#EXTINF:-1 tvg-id="DreamCorp.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Dream Corp LLC
+https://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8
+#EXTINF:-1 tvg-id="HomeMovies.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Home Movies
+https://adultswim-vodlive.cdn.turner.com/live/test-2/stream.m3u8
+#EXTINF:-1 tvg-id="Infomercials.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Infomercials
+https://adultswim-vodlive.cdn.turner.com/live/infomercials/stream.m3u8
+#EXTINF:-1 tvg-id="Metalocalypse.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Metalocalypse
+https://adultswim-vodlive.cdn.turner.com/live/metalocalypse/stream.m3u8
+#EXTINF:-1 tvg-id="MrPickles.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Mr. Pickles
+https://adultswim-vodlive.cdn.turner.com/live/mr-pickles/stream.m3u8
+#EXTINF:-1 tvg-id="OffTheAir.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Off The Air
+https://adultswim-vodlive.cdn.turner.com/live/off-the-air/stream.m3u8
+#EXTINF:-1 tvg-id="Primal.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Primal
+https://adultswim-vodlive.cdn.turner.com/live/primal/stream.m3u8
+#EXTINF:-1 tvg-id="RickAndMorty.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Rick and Morty
+https://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+#EXTINF:-1 tvg-id="RobotChicken.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Robot Chicken
+https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
+#EXTINF:-1 tvg-id="SamuraiJack.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Samurai Jack
+https://adultswim-vodlive.cdn.turner.com/live/samurai-jack/stream.m3u8
+#EXTINF:-1 tvg-id="Squidbillies.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Squidbillies
+https://adultswim-vodlive.cdn.turner.com/live/squidbillies/stream.m3u8
+#EXTINF:-1 tvg-id="Superjail.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Superjail!
+https://adultswim-vodlive.cdn.turner.com/live/superjail/stream.m3u8
+#EXTINF:-1 tvg-id="ATHF.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Aqua Teen Hunger Force
+https://adultswim-vodlive.cdn.turner.com/live/aqua-teen/stream.m3u8
+#EXTINF:-1 tvg-id="BlackJesus.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Black Jesus
+https://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream.m3u8
+#EXTINF:-1 tvg-id="Channel5.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Channel 5
+https://adultswim-vodlive.cdn.turner.com/live/channel-5/stream.m3u8
+#EXTINF:-1 tvg-id="DailyAnimated.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Daily Animated
+https://adultswim-vodlive.cdn.turner.com/live/daily_animated_1/stream.m3u8
+#EXTINF:-1 tvg-id="DailyLiveAction.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Daily Live Action
+https://adultswim-vodlive.cdn.turner.com/live/daily_liveaction_1/stream.m3u8
+#EXTINF:-1 tvg-id="DreamCorp.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Dream Corp LLC
+https://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8
+#EXTINF:-1 tvg-id="HomeMovies.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Home Movies
+https://adultswim-vodlive.cdn.turner.com/live/test-2/stream.m3u8
+#EXTINF:-1 tvg-id="Infomercials.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Infomercials
+https://adultswim-vodlive.cdn.turner.com/live/infomercials/stream.m3u8
+#EXTINF:-1 tvg-id="Metalocalypse.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Metalocalypse
+https://adultswim-vodlive.cdn.turner.com/live/metalocalypse/stream.m3u8
+#EXTINF:-1 tvg-id="MrPickles.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Mr. Pickles
+https://adultswim-vodlive.cdn.turner.com/live/mr-pickles/stream.m3u8
+#EXTINF:-1 tvg-id="OffTheAir.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Off The Air
+https://adultswim-vodlive.cdn.turner.com/live/off-the-air/stream.m3u8
+#EXTINF:-1 tvg-id="Primal.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Primal
+https://adultswim-vodlive.cdn.turner.com/live/primal/stream.m3u8
+#EXTINF:-1 tvg-id="RickAndMorty.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Rick and Morty
+https://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+#EXTINF:-1 tvg-id="RobotChicken.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Robot Chicken
+https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
+#EXTINF:-1 tvg-id="SamuraiJack.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Samurai Jack
+https://adultswim-vodlive.cdn.turner.com/live/samurai-jack/stream.m3u8
+#EXTINF:-1 tvg-id="Squidbillies.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Squidbillies
+https://adultswim-vodlive.cdn.turner.com/live/squidbillies/stream.m3u8
+#EXTINF:-1 tvg-id="Superjail.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Superjail!
+https://adultswim-vodlive.cdn.turner.com/live/superjail/stream.m3u8
+#EXTINF:-1 tvg-id="EricAndre.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", The Eric Andre Show
+https://adultswim-vodlive.cdn.turner.com/live/eric-andre/stream.m3u8
+#EXTINF:-1 tvg-id="VentureBros.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", The Venture Bros.
+https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
+#EXTINF:-1 tvg-id="TimAndEric.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Tim and Eric
+https://adultswim-vodlive.cdn.turner.com/live/tim-and-eric/stream.m3u8
+#EXTINF:-1 tvg-id="YPF.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Your Pretty Face Is Going To Hell
+https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
+#EXTINF:-1 tvg-id="EricAndre.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", The Eric Andre Show
+https://adultswim-vodlive.cdn.turner.com/live/eric-andre/stream.m3u8
+#EXTINF:-1 tvg-id="VentureBros.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", The Venture Bros.
+https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
+#EXTINF:-1 tvg-id="TimAndEric.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Tim and Eric
+https://adultswim-vodlive.cdn.turner.com/live/tim-and-eric/stream.m3u8
+#EXTINF:-1 tvg-id="YPF.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Your Pretty Face Is Going To Hell
+https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.la@mx" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="Forced Video", Cartoon Network LATAM (Direct TS)
+http://200.115.120.1:8000/play/ca002/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryScience.la@mx" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="Forced Video", Discovery Science LATAM (Direct TS)
+http://200.115.120.1:8000/play/ca087/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.la" group-title="Cibernet", Cartoon Network LATAM (Active)
+http://200.115.120.1:8000/play/ca002/index.m3u8
+#EXTINF:-1 tvg-id="AdultSwim.la" group-title="Cibernet", Adult Swim Latinoamérica (Possible Map)
+http://200.115.120.1:8000/play/ca003/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.la" group-title="Cibernet", Nickelodeon LATAM (Possible Map)
+http://200.115.120.1:8000/play/ca001/index.m3u8
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/in/cartoonnetwork.in.epg.xml"
+#EXTINF:-1 tvg-id="CartoonNetwork.in" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="International", Cartoon Network India (Full Fix)
+https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-samsungin-cartoonnw-samsungin/playlist.m3u8|User-Agent="Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/12.0 Chrome/79.0.3945.136 Mobile Safari/537.36"
+#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="US Live", Cartoon Network East (US Proxy Relay)
+http://142.44.214.194:8080/cartoon/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.tr" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="International", Cartoon Network Turkey (Official Unlocked Web Feed)
+https://live.dogantv.com.tr/cartoonnetwork/cartoonnetwork.m3u8
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.us_east" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="TVE Cartoon Network USA East",TVE Cartoon Network USA East 720p
+https://fl2.moveonjoy.com/CARTOON_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="TBS.us" tvg-name="TBS East" tvg-logo="https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Logos/tbs.png" group-title="US East",TBS East
+https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="TNT.us" tvg-name="TNT East" tvg-logo="https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Logos/tnt.png" group-title="US East",TNT East
+https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="FOX.us" tvg-name="FOX East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg" group-title="Entertainment",FOX East
+http://84.17.50.102/fox/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetworkExtras" tvg-name="CN Extras" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_2010_logo.svg" group-title="Animation",CN Extras
+https://mci01.nive.live/8/index.m3u8
+#EXTINF:-1 tvg-id="WKYC.us" tvg-name="WKYC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/WKYC_logo_2021.png" group-title="News", WKYC (NBC Cleveland)
+https://livevideo01.wkyc.com/hls/live/2015504/newscasts/live.m3u8
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/Armond452Alt/Fixed-M3U/master/CN/AS.xml"
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetworkasia.sg" tvg-name="Cartoon Network Southeast Asia HD 1080p " tvg-logo="https://logodix.com/logo/851092.jpg",Cartoon Network HD
+https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.latam" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="Cartoon Network LA (LATAM) 480p",Cartoon Network LA (LATAM) 480p
+https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_SD
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.latam" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="Cartoon Network LA (LATAM) 720p",Cartoon Network LA (LATAM) 720p
+https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.us_east" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="TVE Cartoon Network USA East",TVE Cartoon Network USA East
+http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
+#EXTINF:-1 group-title="Adult Swim" tvg-id="adultswim.us_east" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a8cc-d4a4df23f6b6/d1hb85a-b4eead99-c85f-4d12-ab1e-4f31b68c8b8f.png",Adult Swim US East
+https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
+#EXTINF:-1 group-title="Adult Swim" tvg-id="adultswim.us_west" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a8cc-d4a4df23f6b6/d1hb85a-b4eead99-c85f-4d12-ab1e-4f31b68c8b8f.png",Adult Swim US West
+https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_1928000.m3u8
+#EXTINF:-1 group-title="Boomerang" tvg-id="boomerang.us" tvg-logo="https://www.bing.com/ck/a?!&&p=1880a4ff44cb1256c87b4fd42ddf832fbbf4c13f20556695e077e06bc81ac9f9JmltdHM9MTc4MDcwNDAwMA&ptn=3&ver=2",Boomerang
+http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
+#EXTINF:-1 group-title="FX Networks" tvg-id="fxx.us" tvg-logo="https://tse2.mm.bing.net/th/id/OIP.mO4GZxhbcCW-ck_ok6BNLgHaEJ?r=0&cb=thfc1falcon2&rs=1&pid=ImgDetMain&o=7&rm=3",FXX SD 480P
+http://23.237.104.106:8080/USA_FXX/index.m3u8
+#EXTINF:-1 group-title="Comedy Central" tvg-id="comedycentral.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/Comedy_Central_logo_2018.png",Comedy Central 480p
+http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
+#EXTINF:-1 group-title="Nickelodeon" tvg-id="Nickelodeon.us" tvg-name="Nickelodeon.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg",Nickelodeon 480p
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:-1 group-title="Nickelodeon" tvg-id="nicktoons.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg" tvg-name="Nicktoons 576p",Nicktoons 576p
+http://41.205.93.154/NICKTOONS/index.m3u8
+#EXTINF:-1 tvg-id="AdultSwimWest.us"  tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Animation", TEST Adult Swim (West Simulcast)
+https://tve-live-lln.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_1928000.m3u8
+#EXTINF:-1 tvg-id="AdultSwimRickAndMorty.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Marathons", Adult Swim: Rick and Morty 24/7
+http://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+#EXTINF:-1 tvg-id="AdultSwimPrimal.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Adult Swim: Primal 24/7
+https://adultswim-vodlive.cdn.turner.com/live/primal/stream_de.m3u8
+#EXTINF:-1 tvg-id="AdultSwimWilliams.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Adult Swim: Williams Stream
+https://adultswim-vodlive.cdn.turner.com/live/williams-stream/stream.m3u8
+#EXTINF:-1 tvg-id="ATHF.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Aqua Teen Hunger Force
+https://adultswim-vodlive.cdn.turner.com/live/aqua-teen/stream.m3u8
+#EXTINF:-1 tvg-id="BlackJesus.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Black Jesus
+https://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream.m3u8
+#EXTINF:-1 tvg-id="Channel5.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Channel 5
+https://adultswim-vodlive.cdn.turner.com/live/channel-5/stream.m3u8
+#EXTINF:-1 tvg-id="DailyAnimated.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Daily Animated
+https://adultswim-vodlive.cdn.turner.com/live/daily_animated_1/stream.m3u8
+#EXTINF:-1 tvg-id="DailyLiveAction.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Daily Live Action
+https://adultswim-vodlive.cdn.turner.com/live/daily_liveaction_1/stream.m3u8
+#EXTINF:-1 tvg-id="DreamCorp.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Dream Corp LLC
+https://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8
+#EXTINF:-1 tvg-id="HomeMovies.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Home Movies
+https://adultswim-vodlive.cdn.turner.com/live/test-2/stream.m3u8
+#EXTINF:-1 tvg-id="Infomercials.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Infomercials
+https://adultswim-vodlive.cdn.turner.com/live/infomercials/stream.m3u8
+#EXTINF:-1 tvg-id="Metalocalypse.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Metalocalypse
+https://adultswim-vodlive.cdn.turner.com/live/metalocalypse/stream.m3u8
+#EXTINF:-1 tvg-id="MrPickles.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Mr. Pickles
+https://adultswim-vodlive.cdn.turner.com/live/mr-pickles/stream.m3u8
+#EXTINF:-1 tvg-id="OffTheAir.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Off The Air
+https://adultswim-vodlive.cdn.turner.com/live/off-the-air/stream.m3u8
+#EXTINF:-1 tvg-id="Primal.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Primal
+https://adultswim-vodlive.cdn.turner.com/live/primal/stream.m3u8
+#EXTINF:-1 tvg-id="RickAndMorty.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Rick and Morty
+https://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+#EXTINF:-1 tvg-id="RobotChicken.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Robot Chicken
+https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
+#EXTINF:-1 tvg-id="SamuraiJack.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Samurai Jack
+https://adultswim-vodlive.cdn.turner.com/live/samurai-jack/stream.m3u8
+#EXTINF:-1 tvg-id="Squidbillies.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Squidbillies
+https://adultswim-vodlive.cdn.turner.com/live/squidbillies/stream.m3u8
+#EXTINF:-1 tvg-id="Superjail.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Superjail!
+https://adultswim-vodlive.cdn.turner.com/live/superjail/stream.m3u8
+#EXTINF:-1 tvg-id="ATHF.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Aqua Teen Hunger Force
+https://adultswim-vodlive.cdn.turner.com/live/aqua-teen/stream.m3u8
+#EXTINF:-1 tvg-id="BlackJesus.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Black Jesus
+https://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream.m3u8
+#EXTINF:-1 tvg-id="Channel5.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Channel 5
+https://adultswim-vodlive.cdn.turner.com/live/channel-5/stream.m3u8
+#EXTINF:-1 tvg-id="DailyAnimated.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Daily Animated
+https://adultswim-vodlive.cdn.turner.com/live/daily_animated_1/stream.m3u8
+#EXTINF:-1 tvg-id="DailyLiveAction.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Daily Live Action
+https://adultswim-vodlive.cdn.turner.com/live/daily_liveaction_1/stream.m3u8
+#EXTINF:-1 tvg-id="DreamCorp.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Dream Corp LLC
+https://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8
+#EXTINF:-1 tvg-id="HomeMovies.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Home Movies
+https://adultswim-vodlive.cdn.turner.com/live/test-2/stream.m3u8
+#EXTINF:-1 tvg-id="Infomercials.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Infomercials
+https://adultswim-vodlive.cdn.turner.com/live/infomercials/stream.m3u8
+#EXTINF:-1 tvg-id="Metalocalypse.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Metalocalypse
+https://adultswim-vodlive.cdn.turner.com/live/metalocalypse/stream.m3u8
+#EXTINF:-1 tvg-id="MrPickles.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Mr. Pickles
+https://adultswim-vodlive.cdn.turner.com/live/mr-pickles/stream.m3u8
+#EXTINF:-1 tvg-id="OffTheAir.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Off The Air
+https://adultswim-vodlive.cdn.turner.com/live/off-the-air/stream.m3u8
+#EXTINF:-1 tvg-id="Primal.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Primal
+https://adultswim-vodlive.cdn.turner.com/live/primal/stream.m3u8
+#EXTINF:-1 tvg-id="RickAndMorty.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Rick and Morty
+https://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+#EXTINF:-1 tvg-id="RobotChicken.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Robot Chicken
+https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
+#EXTINF:-1 tvg-id="SamuraiJack.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Samurai Jack
+https://adultswim-vodlive.cdn.turner.com/live/samurai-jack/stream.m3u8
+#EXTINF:-1 tvg-id="Squidbillies.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Squidbillies
+https://adultswim-vodlive.cdn.turner.com/live/squidbillies/stream.m3u8
+#EXTINF:-1 tvg-id="Superjail.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Superjail!
+https://adultswim-vodlive.cdn.turner.com/live/superjail/stream.m3u8
+#EXTINF:-1 tvg-id="EricAndre.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", The Eric Andre Show
+https://adultswim-vodlive.cdn.turner.com/live/eric-andre/stream.m3u8
+#EXTINF:-1 tvg-id="VentureBros.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", The Venture Bros.
+https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
+#EXTINF:-1 tvg-id="TimAndEric.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Tim and Eric
+https://adultswim-vodlive.cdn.turner.com/live/tim-and-eric/stream.m3u8
+#EXTINF:-1 tvg-id="YPF.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Your Pretty Face Is Going To Hell
+https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
+#EXTINF:-1 tvg-id="EricAndre.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", The Eric Andre Show
+https://adultswim-vodlive.cdn.turner.com/live/eric-andre/stream.m3u8
+#EXTINF:-1 tvg-id="VentureBros.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", The Venture Bros.
+https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
+#EXTINF:-1 tvg-id="TimAndEric.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Tim and Eric
+https://adultswim-vodlive.cdn.turner.com/live/tim-and-eric/stream.m3u8
+#EXTINF:-1 tvg-id="YPF.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Your Pretty Face Is Going To Hell
+https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.la@mx" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="Forced Video", Cartoon Network LATAM (Direct TS)
+http://200.115.120.1:8000/play/ca002/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryScience.la@mx" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="Forced Video", Discovery Science LATAM (Direct TS)
+http://200.115.120.1:8000/play/ca087/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.la" group-title="Cibernet", Cartoon Network LATAM (Active)
+http://200.115.120.1:8000/play/ca002/index.m3u8
+#EXTINF:-1 tvg-id="AdultSwim.la" group-title="Cibernet", Adult Swim Latinoamérica (Possible Map)
+http://200.115.120.1:8000/play/ca003/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.la" group-title="Cibernet", Nickelodeon LATAM (Possible Map)
+http://200.115.120.1:8000/play/ca001/index.m3u8
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/in/cartoonnetwork.in.epg.xml"
+#EXTINF:-1 tvg-id="CartoonNetwork.in" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="International", Cartoon Network India (Full Fix)
+https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-samsungin-cartoonnw-samsungin/playlist.m3u8|User-Agent="Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/12.0 Chrome/79.0.3945.136 Mobile Safari/537.36"
+#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="US Live", Cartoon Network East (US Proxy Relay)
+http://142.44.214.194:8080/cartoon/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.tr" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="International", Cartoon Network Turkey (Official Unlocked Web Feed)
+https://live.dogantv.com.tr/cartoonnetwork/cartoonnetwork.m3u8
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.us_east" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="TVE Cartoon Network USA East",TVE Cartoon Network USA East 720p
+https://fl2.moveonjoy.com/CARTOON_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="TBS.us" tvg-name="TBS East" tvg-logo="https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Logos/tbs.png" group-title="US East",TBS East
+https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="TNT.us" tvg-name="TNT East" tvg-logo="https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Logos/tnt.png" group-title="US East",TNT East
+https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="FOX.us" tvg-name="FOX East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg" group-title="Entertainment",FOX East
+http://84.17.50.102/fox/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetworkExtras" tvg-name="CN Extras" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_2010_logo.svg" group-title="Animation",CN Extras
+https://mci01.nive.live/8/index.m3u8
+#EXTINF:-1 tvg-id="WKYC.us" tvg-name="WKYC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/WKYC_logo_2021.png" group-title="News", WKYC (NBC Cleveland)
+https://livevideo01.wkyc.com/hls/live/2015504/newscasts/live.m3u8
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/Armond452Alt/Fixed-M3U/master/CN/AS.xml"
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetworkasia.sg" tvg-name="Cartoon Network Southeast Asia HD 1080p " tvg-logo="https://logodix.com/logo/851092.jpg",Cartoon Network HD
+https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.latam" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="Cartoon Network LA (LATAM) 480p",Cartoon Network LA (LATAM) 480p
+https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_SD
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.latam" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="Cartoon Network LA (LATAM) 720p",Cartoon Network LA (LATAM) 720p
+https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.us_east" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="TVE Cartoon Network USA East",TVE Cartoon Network USA East
+http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
+#EXTINF:-1 group-title="Adult Swim" tvg-id="adultswim.us_east" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a8cc-d4a4df23f6b6/d1hb85a-b4eead99-c85f-4d12-ab1e-4f31b68c8b8f.png",Adult Swim US East
+https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
+#EXTINF:-1 group-title="Adult Swim" tvg-id="adultswim.us_west" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a8cc-d4a4df23f6b6/d1hb85a-b4eead99-c85f-4d12-ab1e-4f31b68c8b8f.png",Adult Swim US West
+https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_1928000.m3u8
+#EXTINF:-1 group-title="Boomerang" tvg-id="boomerang.us" tvg-logo="https://www.bing.com/ck/a?!&&p=1880a4ff44cb1256c87b4fd42ddf832fbbf4c13f20556695e077e06bc81ac9f9JmltdHM9MTc4MDcwNDAwMA&ptn=3&ver=2",Boomerang
+http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
+#EXTINF:-1 group-title="FX Networks" tvg-id="fxx.us" tvg-logo="https://tse2.mm.bing.net/th/id/OIP.mO4GZxhbcCW-ck_ok6BNLgHaEJ?r=0&cb=thfc1falcon2&rs=1&pid=ImgDetMain&o=7&rm=3",FXX SD 480P
+http://23.237.104.106:8080/USA_FXX/index.m3u8
+#EXTINF:-1 group-title="Comedy Central" tvg-id="comedycentral.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/Comedy_Central_logo_2018.png",Comedy Central 480p
+http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
+#EXTINF:-1 group-title="Nickelodeon" tvg-id="Nickelodeon.us" tvg-name="Nickelodeon.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg",Nickelodeon 480p
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:-1 group-title="Nickelodeon" tvg-id="nicktoons.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg" tvg-name="Nicktoons 576p",Nicktoons 576p
+http://41.205.93.154/NICKTOONS/index.m3u8
+#EXTINF:-1 tvg-id="AdultSwimWest.us"  tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Animation", TEST Adult Swim (West Simulcast)
+https://tve-live-lln.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_1928000.m3u8
+#EXTINF:-1 tvg-id="AdultSwimRickAndMorty.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Marathons", Adult Swim: Rick and Morty 24/7
+http://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+#EXTINF:-1 tvg-id="AdultSwimPrimal.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Adult Swim: Primal 24/7
+https://adultswim-vodlive.cdn.turner.com/live/primal/stream_de.m3u8
+#EXTINF:-1 tvg-id="AdultSwimWilliams.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Adult Swim: Williams Stream
+https://adultswim-vodlive.cdn.turner.com/live/williams-stream/stream.m3u8
+#EXTINF:-1 tvg-id="ATHF.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Aqua Teen Hunger Force
+https://adultswim-vodlive.cdn.turner.com/live/aqua-teen/stream.m3u8
+#EXTINF:-1 tvg-id="BlackJesus.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Black Jesus
+https://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream.m3u8
+#EXTINF:-1 tvg-id="Channel5.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Channel 5
+https://adultswim-vodlive.cdn.turner.com/live/channel-5/stream.m3u8
+#EXTINF:-1 tvg-id="DailyAnimated.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Daily Animated
+https://adultswim-vodlive.cdn.turner.com/live/daily_animated_1/stream.m3u8
+#EXTINF:-1 tvg-id="DailyLiveAction.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Daily Live Action
+https://adultswim-vodlive.cdn.turner.com/live/daily_liveaction_1/stream.m3u8
+#EXTINF:-1 tvg-id="DreamCorp.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Dream Corp LLC
+https://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8
+#EXTINF:-1 tvg-id="HomeMovies.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Home Movies
+https://adultswim-vodlive.cdn.turner.com/live/test-2/stream.m3u8
+#EXTINF:-1 tvg-id="Infomercials.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Infomercials
+https://adultswim-vodlive.cdn.turner.com/live/infomercials/stream.m3u8
+#EXTINF:-1 tvg-id="Metalocalypse.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Metalocalypse
+https://adultswim-vodlive.cdn.turner.com/live/metalocalypse/stream.m3u8
+#EXTINF:-1 tvg-id="MrPickles.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Mr. Pickles
+https://adultswim-vodlive.cdn.turner.com/live/mr-pickles/stream.m3u8
+#EXTINF:-1 tvg-id="OffTheAir.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Off The Air
+https://adultswim-vodlive.cdn.turner.com/live/off-the-air/stream.m3u8
+#EXTINF:-1 tvg-id="Primal.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Primal
+https://adultswim-vodlive.cdn.turner.com/live/primal/stream.m3u8
+#EXTINF:-1 tvg-id="RickAndMorty.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Rick and Morty
+https://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+#EXTINF:-1 tvg-id="RobotChicken.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Robot Chicken
+https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
+#EXTINF:-1 tvg-id="SamuraiJack.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Samurai Jack
+https://adultswim-vodlive.cdn.turner.com/live/samurai-jack/stream.m3u8
+#EXTINF:-1 tvg-id="Squidbillies.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Squidbillies
+https://adultswim-vodlive.cdn.turner.com/live/squidbillies/stream.m3u8
+#EXTINF:-1 tvg-id="Superjail.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Superjail!
+https://adultswim-vodlive.cdn.turner.com/live/superjail/stream.m3u8
+#EXTINF:-1 tvg-id="ATHF.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Aqua Teen Hunger Force
+https://adultswim-vodlive.cdn.turner.com/live/aqua-teen/stream.m3u8
+#EXTINF:-1 tvg-id="BlackJesus.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Black Jesus
+https://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream.m3u8
+#EXTINF:-1 tvg-id="Channel5.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Channel 5
+https://adultswim-vodlive.cdn.turner.com/live/channel-5/stream.m3u8
+#EXTINF:-1 tvg-id="DailyAnimated.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Daily Animated
+https://adultswim-vodlive.cdn.turner.com/live/daily_animated_1/stream.m3u8
+#EXTINF:-1 tvg-id="DailyLiveAction.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Daily Live Action
+https://adultswim-vodlive.cdn.turner.com/live/daily_liveaction_1/stream.m3u8
+#EXTINF:-1 tvg-id="DreamCorp.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Dream Corp LLC
+https://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8
+#EXTINF:-1 tvg-id="HomeMovies.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Home Movies
+https://adultswim-vodlive.cdn.turner.com/live/test-2/stream.m3u8
+#EXTINF:-1 tvg-id="Infomercials.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Infomercials
+https://adultswim-vodlive.cdn.turner.com/live/infomercials/stream.m3u8
+#EXTINF:-1 tvg-id="Metalocalypse.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Metalocalypse
+https://adultswim-vodlive.cdn.turner.com/live/metalocalypse/stream.m3u8
+#EXTINF:-1 tvg-id="MrPickles.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Mr. Pickles
+https://adultswim-vodlive.cdn.turner.com/live/mr-pickles/stream.m3u8
+#EXTINF:-1 tvg-id="OffTheAir.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Off The Air
+https://adultswim-vodlive.cdn.turner.com/live/off-the-air/stream.m3u8
+#EXTINF:-1 tvg-id="Primal.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Primal
+https://adultswim-vodlive.cdn.turner.com/live/primal/stream.m3u8
+#EXTINF:-1 tvg-id="RickAndMorty.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Rick and Morty
+https://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+#EXTINF:-1 tvg-id="RobotChicken.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Robot Chicken
+https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
+#EXTINF:-1 tvg-id="SamuraiJack.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Samurai Jack
+https://adultswim-vodlive.cdn.turner.com/live/samurai-jack/stream.m3u8
+#EXTINF:-1 tvg-id="Squidbillies.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Squidbillies
+https://adultswim-vodlive.cdn.turner.com/live/squidbillies/stream.m3u8
+#EXTINF:-1 tvg-id="Superjail.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Superjail!
+https://adultswim-vodlive.cdn.turner.com/live/superjail/stream.m3u8
+#EXTINF:-1 tvg-id="EricAndre.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", The Eric Andre Show
+https://adultswim-vodlive.cdn.turner.com/live/eric-andre/stream.m3u8
+#EXTINF:-1 tvg-id="VentureBros.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", The Venture Bros.
+https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
+#EXTINF:-1 tvg-id="TimAndEric.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Tim and Eric
+https://adultswim-vodlive.cdn.turner.com/live/tim-and-eric/stream.m3u8
+#EXTINF:-1 tvg-id="YPF.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Your Pretty Face Is Going To Hell
+https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
+#EXTINF:-1 tvg-id="EricAndre.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", The Eric Andre Show
+https://adultswim-vodlive.cdn.turner.com/live/eric-andre/stream.m3u8
+#EXTINF:-1 tvg-id="VentureBros.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", The Venture Bros.
+https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
+#EXTINF:-1 tvg-id="TimAndEric.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Tim and Eric
+https://adultswim-vodlive.cdn.turner.com/live/tim-and-eric/stream.m3u8
+#EXTINF:-1 tvg-id="YPF.us" tvg-logo="https://i.imgur.com/vPofX5h.png" group-title="Adult Swim Marathons", Your Pretty Face Is Going To Hell
+https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.la@mx" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="Forced Video", Cartoon Network LATAM (Direct TS)
+http://200.115.120.1:8000/play/ca002/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryScience.la@mx" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="Forced Video", Discovery Science LATAM (Direct TS)
+http://200.115.120.1:8000/play/ca087/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.la" group-title="Cibernet", Cartoon Network LATAM (Active)
+http://200.115.120.1:8000/play/ca002/index.m3u8
+#EXTINF:-1 tvg-id="AdultSwim.la" group-title="Cibernet", Adult Swim Latinoamérica (Possible Map)
+http://200.115.120.1:8000/play/ca003/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.la" group-title="Cibernet", Nickelodeon LATAM (Possible Map)
+http://200.115.120.1:8000/play/ca001/index.m3u8
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/in/cartoonnetwork.in.epg.xml"
+#EXTINF:-1 tvg-id="CartoonNetwork.in" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="International", Cartoon Network India (Full Fix)
+https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-samsungin-cartoonnw-samsungin/playlist.m3u8|User-Agent="Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/12.0 Chrome/79.0.3945.136 Mobile Safari/537.36"
+#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="US Live", Cartoon Network East (US Proxy Relay)
+http://142.44.214.194:8080/cartoon/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.tr" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="International", Cartoon Network Turkey (Official Unlocked Web Feed)
+https://live.dogantv.com.tr/cartoonnetwork/cartoonnetwork.m3u8
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.us_east" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="TVE Cartoon Network USA East",TVE Cartoon Network USA East 720p
+https://fl2.moveonjoy.com/CARTOON_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="TBS.us" tvg-name="TBS East" tvg-logo="https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Logos/tbs.png" group-title="US East",TBS East
+https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="TNT.us" tvg-name="TNT East" tvg-logo="https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Logos/tnt.png" group-title="US East",TNT East
+https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="FOX.us" tvg-name="FOX East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg" group-title="Entertainment",FOX East
+http://84.17.50.102/fox/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetworkExtras" tvg-name="CN Extras" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_2010_logo.svg" group-title="Animation",CN Extras
+https://mci01.nive.live/8/index.m3u8
+#EXTINF:-1 tvg-id="WKYC.us" tvg-name="WKYC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/WKYC_logo_2021.png" group-title="News", WKYC (NBC Cleveland)
+https://livevideo01.wkyc.com/hls/live/2015504/newscasts/live.m3u8
+#EXTINF:-1 tvg-id="MeTVPlus.us@SD" tvg-name="MeTV Plus" tvg-logo="" group-title="Entertainment",MeTV Plus (SD)
+http://206.212.244.63/111/index.m3u8
 
