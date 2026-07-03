@@ -584,4 +584,6 @@ http://206.212.244.63/670/index.m3u8
 http://206.212.244.63/112/index.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.ru" tvg-name="Nicktoons (Russia)" tvg-logo="" group-title="Nickelodeon",Nicktoons Russia (Not 24/7)
 http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/849/index.m3u8
+#EXTINF:-1 tvg-id="AE.us" tvg-name="A&E East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/60/A%26E_Network_logo.svg" group-title="Entertainment",A&E East (720p)
+http://23.239.31.26:8989/aande/index.m3u8
 
