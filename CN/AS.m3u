@@ -115,7 +115,7 @@ https://adultswim-vodlive.cdn.turner.com/live/tim-and-eric/stream.m3u8
 https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
 #EXTINF:-1 tvg-id="CartoonNetwork.la@mx" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="Forced Video", Cartoon Network LATAM (Direct TS)
 http://200.115.120.1:8000/play/ca002/index.m3u8
-#EXTINF:-1 tvg-id="VeaCanal.la@mx" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="Forced Video", Vea Canal LATAM (Direct TS)
+#EXTINF:-1 tvg-id="VeaCanal.la@mx" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="Forced Video",Vea Canal LATAM (Direct TS)
 http://200.115.120.1:8000/play/ca087/index.m3u8
 #EXTINF:-1 tvg-id="CartoonNetwork.la" group-title="Cibernet", Cartoon Network LATAM (Active)
 http://200.115.120.1:8000/play/ca002/index.m3u8
@@ -129,7 +129,7 @@ https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-
 #EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="US Live", Cartoon Network East (US Proxy Relay) 720p
 http://142.44.214.194:8080/cartoon/index.m3u8
 #EXTINF:-1 tvg-id="CartoonNetwork.tr" tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="International", Cartoon Network Turkey (Official Unlocked Web Feed) HD 720p
-https://live.dogantv.com.tr/cartoonnetwork/cartoonnetwork.ts
+http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6846/index.m3u8
 #EXTINF:-1 tvg-id="TBS.us" tvg-name="TBS East" tvg-logo="https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Logos/tbs.png" group-title="US East",TBS East
 https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TNT.us" tvg-name="TNT East" tvg-logo="https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Logos/tnt.png" group-title="US East",TNT East
