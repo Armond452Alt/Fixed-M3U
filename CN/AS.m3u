@@ -144,3 +144,5 @@ http://206.212.244.63/111/index.m3u8
 http://206.212.244.63/108/index.m3u8
 #EXTINF:-1 tvg-id="MeTVToons.us@SD" tvg-name="MeTV Toons" tvg-logo="" group-title="Animation",MeTV Toons (SD)
 http://206.212.244.63/112/index.m3u8
+#EXTINF:-1 tvg-id="TeenNick.us@East" tvg-name="TeenNick East" tvg-logo="" group-title="Nickelodeon",TeenNick East (720p SD)
+http://206.212.244.63/670/index.m3u8
