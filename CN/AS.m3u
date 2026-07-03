@@ -142,3 +142,5 @@ https://livevideo01.wkyc.com/hls/live/2015504/newscasts/live.m3u8
 http://206.212.244.63/111/index.m3u8
 #EXTINF:-1 tvg-id="MeTV.us@SD" tvg-name="MeTV" tvg-logo="" group-title="Entertainment",MeTV (SD)
 http://206.212.244.63/108/index.m3u8
+#EXTINF:-1 tvg-id="MeTVToons.us@SD" tvg-name="MeTV Toons" tvg-logo="" group-title="Animation",MeTV Toons (SD)
+http://206.212.244.63/112/index.m3u8
