@@ -136,7 +136,7 @@ https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_356
 https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkExtras" tvg-name="CN Extras" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_2010_logo.svg" group-title="Animation",CN Extras
 https://mci01.nive.live/8/index.m3u8
-#EXTINF:-1 tvg-id="WKYC.us" tvg-name="WKYC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/WKYC_logo_2021.png" group-title="News", WKYC NBC Cleveland
+#EXTINF:-1 tvg-id="WKYC.us" tvg-name="WKYC NBC Cleveland" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/WKYC_logo_2021.png" group-title="News", WKYC NBC Cleveland
 https://livevideo01.wkyc.com/hls/live/2015504/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="MeTVPlus.us@SD" tvg-name="MeTV Plus" tvg-logo="" group-title="Entertainment",MeTV Plus (SD)
 http://206.212.244.63/111/index.m3u8
@@ -148,5 +148,7 @@ http://206.212.244.63/112/index.m3u8
 http://206.212.244.63/670/index.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.ru" tvg-name="Nicktoons (Russia)" tvg-logo="" group-title="Nickelodeon",Nicktoons Russia (Not 24/7)
 http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/849/index.m3u8
-#EXTINF:-1 tvg-id="AE.us" tvg-name="A&E East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/60/A%26E_Network_logo.svg" group-title="Entertainment",A&E East (720p)
+#EXTINF:-1 tvg-id="AE.us" tvg-name="A&E East  (720p60 HD)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/60/A%26E_Network_logo.svg" group-title="Entertainment",A&E East (720p60 HD) 
 http://23.239.31.26:8989/aande/index.m3u8
+#EXTINF:-1 tvg-id="AMC.us" tvg-name="AMC East (720p60 HD)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/34/AMC_logo_2019.svg" group-title="Entertainment",AMC East (720p60 HD)
+http://41.223.30.230/AMC/index.m3u8
