@@ -604,5 +604,5 @@ http://40.160.24.55/NICKTOONS/index.m3u8
 https://i.mjh.nz/.r/sky-hgtv.m3u8
 #EXTINF:-1 tvg-id="truTV.us" tvg-name="truTV East" tvg-logo="https://raw.githubusercontent.com/BiglyTV/BiglyTV-Logos/main/logos/trutv.png" group-title="Entertainment",truTV East
 https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="FXX.us" tvg-name="FXX East 720p HD" group-title="Entertainment", FXX East 720p HD
+#EXTINF:-1 tvg-id="FXX.us@Easr" tvg-name="FXX East 720p HD" group-title="Entertainment", FXX East 720p HD
 http://40.160.24.52/FXX/index.m3u8
