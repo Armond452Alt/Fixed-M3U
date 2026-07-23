@@ -1,115 +1,157 @@
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/Armond452Alt/Fixed-M3U/master/CN/AS.xml,https://iptv-org.github.io/epg/guides/in/cartoonnetwork.in.epg.xml"
 
-#EXTINF:-1 group-title="Cartoon Network" tvg-id="Cartoon Network East" tvg-name="Cartoon Network East" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200",Cartoon Network USA East
-http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
-
-#EXTINF:-1 group-title="Cartoon Network" tvg-id="Cartoon Network East" tvg-name="Cartoon Network East" tvg-logo="https://i.imgur.com/SUPQAok.png",Cartoon Network East (US Proxy Relay)
-http://142.44.214.194:8080/cartoon/index.m3u8
-
-#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetworkasia.sg" tvg-name="Cartoon Network Southeast Asia HD 1080p" tvg-logo="https://logodix.com/logo/851092.jpg",Cartoon Network HD (SE Asia)
+# ==========================================
+# CARTOON NETWORK & ANIMATION
+# ==========================================
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetworkasia.sg" tvg-name="Cartoon Network Southeast Asia HD 1080p" tvg-logo="https://logodix.com/logo/851092.jpg",Cartoon Network HD
 https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
 
-#EXTINF:-1 group-title="Cartoon Network" tvg-id="CartoonNetwork.la@mx" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="Cartoon Network LA 480p",Cartoon Network LA (LATAM) 480p
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.latam" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="Cartoon Network LA (LATAM) 480p",Cartoon Network LA (LATAM) 480p
 https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_SD
 
-#EXTINF:-1 group-title="Cartoon Network" tvg-id="CartoonNetwork.la@mx" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="Cartoon Network LA 720p",Cartoon Network LA (LATAM) 720p
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.latam" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="Cartoon Network LA (LATAM) 720p",Cartoon Network LA (LATAM) 720p
 https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 
-#EXTINF:-1 group-title="Adult Swim" tvg-id="Adult Swim East" tvg-name="Adult Swim East" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a8cc-d4a4df23f6b6/d1hb85a-b4eead99-c85f-4d12-ab1e-4f31b68c8b8f.png",Adult Swim US East
-https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.us_east" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="TVE Cartoon Network USA East",TVE Cartoon Network USA East
+http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
 
-#EXTINF:-1 group-title="Adult Swim" tvg-id="Adult Swim West" tvg-name="Adult Swim West" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a8cc-d4a4df23f6b6/d1hb85a-b4eead99-c85f-4d12-ab1e-4f31b68c8b8f.png",Adult Swim US West
-https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_1928000.m3u8
+#EXTINF:-1 group-title="US Live" tvg-id="CartoonNetwork.us" tvg-logo="https://i.imgur.com/SUPQAok.png",Cartoon Network East (US Proxy Relay)
+http://142.44.214.194:8080/cartoon/index.m3u8
 
-#EXTINF:-1 group-title="Boomerang" tvg-id="Boomerang" tvg-name="Boomerang" tvg-logo="https://www.bing.com/ck/a?!&&p=1880a4ff44cb1256c87b4fd42ddf832fbbf4c13f20556695e077e06bc81ac9f9JmltdHM9MTc4MDcwNDAwMA&ptn=3&ver=2",Boomerang US
+#EXTINF:-1 group-title="International" tvg-id="CartoonNetwork.in" tvg-logo="https://i.imgur.com/SUPQAok.png",Cartoon Network India (Full Fix)
+https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-samsungin-cartoonnw-samsungin/playlist.m3u8|User-Agent="Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/12.0 Chrome/79.0.3945.136 Mobile Safari/537.36"
+
+#EXTINF:-1 group-title="International" tvg-id="CartoonNetwork.tr" tvg-logo="https://i.imgur.com/SUPQAok.png",Cartoon Network Turkey (Official Unlocked Web Feed)
+https://live.dogantv.com.tr/cartoonnetwork/cartoonnetwork.m3u8
+
+#EXTINF:-1 group-title="Animation" tvg-id="CartoonNetworkExtras" tvg-name="CN Extras" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_2010_logo.svg",CN Extras
+https://mci01.nive.live/8/index.m3u8
+
+#EXTINF:-1 group-title="Boomerang" tvg-id="boomerang.us" tvg-logo="https://www.bing.com/ck/a?!&&p=1880a4ff44cb1256c87b4fd42ddf832fbbf4c13f20556695e077e06bc81ac9f9JmltdHM9MTc4MDcwNDAwMA&ptn=3&ver=2",Boomerang
 http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 
-#EXTINF:-1 group-title="FX Networks" tvg-id="FXX" tvg-name="FXX" tvg-logo="https://tse2.mm.bing.net/th/id/OIP.mO4GZxhbcCW-ck_ok6BNLgHaEJ?r=0&cb=thfc1falcon2&rs=1&pid=ImgDetMain&o=7&rm=3",FXX SD 480P
-http://23.237.104.106:8080/USA_FXX/index.m3u8
+# ==========================================
+# ADULT SWIM FEEDS
+# ==========================================
+#EXTINF:-1 group-title="Adult Swim" tvg-id="adultswim.us_east" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a8cc-d4a4df23f6b6/d1hb85a-b4eead99-c85f-4d12-ab1e-4f31b68c8b8f.png",Adult Swim US East
+https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
 
-#EXTINF:-1 group-title="Comedy Central" tvg-id="Comedy Central" tvg-name="Comedy Central" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/Comedy_Central_logo_2018.png",Comedy Central 480p
-http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
+#EXTINF:-1 group-title="Adult Swim" tvg-id="adultswim.us_west" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24ee3bed-0a47-4866-b7b4-c4429b4ffe2b/dgwo214-b4eead99-c85f-4d12-a8cc-d4a4df23f6b6/d1hb85a-b4eead99-c85f-4d12-ab1e-4f31b68c8b8f.png",Adult Swim US West
+https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_1928000.m3u8
 
-#EXTINF:-1 group-title="Nickelodeon" tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg",Nickelodeon 480p
-http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:-1 group-title="Animation" tvg-id="AdultSwimWest.us" tvg-logo="https://i.imgur.com/vPofX5h.png",TEST Adult Swim (West Simulcast)
+https://tve-live-lln.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_1928000.m3u8
 
-#EXTINF:-1 group-title="Nickelodeon" tvg-id="Nicktoons" tvg-name="Nicktoons" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg",Nicktoons 576p
-http://41.205.93.154/NICKTOONS/index.m3u8
-
-#EXTINF:-1 group-title="US East" tvg-id="TBS East" tvg-name="TBS East" tvg-logo="https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Logos/tbs.png",TBS East
-https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
-
-#EXTINF:-1 group-title="US East" tvg-id="TNT East" tvg-name="TNT East" tvg-logo="https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Logos/tnt.png",TNT East
-https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
-
-#EXTINF:-1 group-title="Entertainment" tvg-id="FOX" tvg-name="FOX East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg",FOX East
-http://84.17.50.102/fox/index.m3u8
-
-#EXTINF:-1 group-title="News" tvg-id="WKYC" tvg-name="WKYC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/WKYC_logo_2021.png",WKYC (NBC Cleveland)
-https://livevideo01.wkyc.com/hls/live/2015504/newscasts/live.m3u8
-
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Adult Swim: Rick and Morty 24/7
-http://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
-
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Adult Swim: Primal 24/7
-https://adultswim-vodlive.cdn.turner.com/live/primal/stream_de.m3u8
-
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Adult Swim: Williams Stream
-https://adultswim-vodlive.cdn.turner.com/live/williams-stream/stream.m3u8
-
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Aqua Teen Hunger Force
+# ==========================================
+# ADULT SWIM 24/7 MARATHONS
+# ==========================================
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="ATHF.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Aqua Teen Hunger Force
 https://adultswim-vodlive.cdn.turner.com/live/aqua-teen/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Black Jesus
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="BlackJesus.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Black Jesus
 https://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Channel 5
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Channel5.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Channel 5
 https://adultswim-vodlive.cdn.turner.com/live/channel-5/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Daily Animated
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="DailyAnimated.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Daily Animated
 https://adultswim-vodlive.cdn.turner.com/live/daily_animated_1/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Daily Live Action
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="DailyLiveAction.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Daily Live Action
 https://adultswim-vodlive.cdn.turner.com/live/daily_liveaction_1/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Dream Corp LLC
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="DreamCorp.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Dream Corp LLC
 https://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Home Movies
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="HomeMovies.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Home Movies
 https://adultswim-vodlive.cdn.turner.com/live/test-2/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Infomercials
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Infomercials.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Infomercials
 https://adultswim-vodlive.cdn.turner.com/live/infomercials/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Metalocalypse
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Metalocalypse.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Metalocalypse
 https://adultswim-vodlive.cdn.turner.com/live/metalocalypse/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Mr. Pickles
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="MrPickles.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Mr. Pickles
 https://adultswim-vodlive.cdn.turner.com/live/mr-pickles/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Off The Air
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="OffTheAir.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Off The Air
 https://adultswim-vodlive.cdn.turner.com/live/off-the-air/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Robot Chicken
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="AdultSwimPrimal.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Adult Swim: Primal 24/7
+https://adultswim-vodlive.cdn.turner.com/live/primal/stream_de.m3u8
+
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Primal.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Primal
+https://adultswim-vodlive.cdn.turner.com/live/primal/stream.m3u8
+
+#EXTINF:-1 group-title="Marathons" tvg-id="AdultSwimRickAndMorty.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Adult Swim: Rick and Morty 24/7
+http://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="RobotChicken.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Robot Chicken
 https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Samurai Jack
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="SamuraiJack.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Samurai Jack
 https://adultswim-vodlive.cdn.turner.com/live/samurai-jack/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Squidbillies
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Squidbillies.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Squidbillies
 https://adultswim-vodlive.cdn.turner.com/live/squidbillies/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Superjail!
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Superjail.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Superjail!
 https://adultswim-vodlive.cdn.turner.com/live/superjail/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",The Eric Andre Show
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="EricAndre.us" tvg-logo="https://i.imgur.com/vPofX5h.png",The Eric Andre Show
 https://adultswim-vodlive.cdn.turner.com/live/eric-andre/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",The Venture Bros.
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="VentureBros.us" tvg-logo="https://i.imgur.com/vPofX5h.png",The Venture Bros.
 https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Tim and Eric
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="TimAndEric.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Tim and Eric
 https://adultswim-vodlive.cdn.turner.com/live/tim-and-eric/stream.m3u8
 
-#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="Adult Swim East" tvg-logo="https://i.imgur.com/vPofX5h.png",Your Pretty Face Is Going To Hell
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="AdultSwimWilliams.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Adult Swim: Williams Stream
+https://adultswim-vodlive.cdn.turner.com/live/williams-stream/stream.m3u8
+
+#EXTINF:-1 group-title="Adult Swim Marathons" tvg-id="YPF.us" tvg-logo="https://i.imgur.com/vPofX5h.png",Your Pretty Face Is Going To Hell
 https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
+
+# ==========================================
+# CIBERNET / FORCED VIDEO FEEDS
+# ==========================================
+#EXTINF:-1 group-title="Forced Video" tvg-id="CartoonNetwork.la@mx" tvg-logo="https://i.imgur.com/SUPQAok.png",Cartoon Network LATAM (Direct TS)
+http://200.115.120.1:8000/play/ca002/index.m3u8
+
+#EXTINF:-1 group-title="Forced Video" tvg-id="DiscoveryScience.la@mx" tvg-logo="https://i.imgur.com/SUPQAok.png",Discovery Science LATAM (Direct TS)
+http://200.115.120.1:8000/play/ca087/index.m3u8
+
+#EXTINF:-1 group-title="Cibernet" tvg-id="AdultSwim.la",Adult Swim Latinoamérica (Possible Map)
+http://200.115.120.1:8000/play/ca003/index.m3u8
+
+#EXTINF:-1 group-title="Cibernet" tvg-id="Nickelodeon.la",Nickelodeon LATAM (Possible Map)
+http://200.115.120.1:8000/play/ca001/index.m3u8
+
+# ==========================================
+# GENERAL ENTERTAINMENT & CABLE
+# ==========================================
+#EXTINF:-1 group-title="Nickelodeon" tvg-id="Nickelodeon.us" tvg-name="Nickelodeon.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg",Nickelodeon 480p
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+
+#EXTINF:-1 group-title="Nickelodeon" tvg-id="nicktoons.us" tvg-name="Nicktoons 576p" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2010_logo.svg",Nicktoons 576p
+http://41.205.93.154/NICKTOONS/index.m3u8
+
+#EXTINF:-1 group-title="Comedy Central" tvg-id="comedycentral.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/Comedy_Central_logo_2018.png",Comedy Central 480p
+http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
+
+#EXTINF:-1 group-title="FX Networks" tvg-id="fxx.us" tvg-logo="https://tse2.mm.bing.net/th/id/OIP.mO4GZxhbcCW-ck_ok6BNLgHaEJ?r=0&cb=thfc1falcon2&rs=1&pid=ImgDetMain&o=7&rm=3",FXX SD 480P
+http://23.237.104.106:8080/USA_FXX/index.m3u8
+
+#EXTINF:-1 group-title="US East" tvg-id="TBS.us" tvg-name="TBS East" tvg-logo="https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Logos/tbs.png",TBS East
+https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
+
+#EXTINF:-1 group-title="US East" tvg-id="TNT.us" tvg-name="TNT East" tvg-logo="https://raw.githubusercontent.com/BuddyChewChew/My-Streams/main/Logos/tnt.png",TNT East
+https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
+
+#EXTINF:-1 group-title="Entertainment" tvg-id="FOX.us" tvg-name="FOX East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg",FOX East
+http://84.17.50.102/fox/index.m3u8
+
+#EXTINF:-1 group-title="News" tvg-id="WKYC.us" tvg-name="WKYC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/WKYC_logo_2021.png",WKYC (NBC Cleveland)
+https://livevideo01.wkyc.com/hls/live/2015504/newscasts/live.m3u8
