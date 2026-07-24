@@ -15,10 +15,10 @@ https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playl
 #EXTINF:-1 group-title="Cartoon Network" tvg-id="cartoonnetwork.us_east" tvg-logo="https://graph.facebook.com/cartoonnetwork.spain/picture?width=200&height=200" tvg-name="TVE Cartoon Network USA East",TVE Cartoon Network USA East
 http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
 
-#EXTINF:-1 tvg-id="CartoonNetwork.us@SD" tvg-name="Cartoon Network US" group-title="Animation", Cartoon Network (1080p)
+#EXTINF:-1 tvg-id="CartoonNetwork.us@SD" tvg-name="Cartoon Network US East 1080p HD" group-title="Cartoon Network", Cartoon Network (1080p)
 http://206.212.244.63/646/index.m3u8
 
-#EXTINF:-1 group-title="US Live" tvg-id="CartoonNetwork.us" tvg-logo="https://i.imgur.com/SUPQAok.png",Cartoon Network East (US Proxy Relay)
+#EXTINF:-1 group-title="" tvg-id="CartoonNetwork.us" tvg-logo="https://i.imgur.com/SUPQAok.png",Cartoon Network East (US Proxy Relay)
 http://142.44.214.194:8080/cartoon/index.m3u8
 
 #EXTINF:-1 group-title="International" tvg-id="CartoonNetwork.in" tvg-logo="https://i.imgur.com/SUPQAok.png",Cartoon Network India (Full Fix)
