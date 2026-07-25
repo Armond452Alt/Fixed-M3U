@@ -174,3 +174,5 @@ http://40.160.24.52/FXX/index.m3u8
 http://45.190.28.50/TRUTV_HD/index.m3u8
 #EXTINF:-1 tvg-id="CartoonNetwork.us@SD" tvg-name="Cartoon Network US 1080p HD Backup" group-title="Cartoon Network", Cartoon Network (1080p)
 http://206.212.244.63/646/index.m3u8
+#EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN USA 1" tvg-logo="https://example.com/logos/espn.png" group-title="Sports", ESPN USA
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/21.m3u8
