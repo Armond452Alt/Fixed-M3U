@@ -172,3 +172,5 @@ https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_356
 http://40.160.24.52/FXX/index.m3u8
 #EXTINF:-1 tvg-id="AdultSwimLatinAmerica.la" tvg-name="Adult Swim Latin America" tvg-logo="https://i.imgur.com/vH9p4wA.png" group-title="Latin America", [adult swim] LatAm (720p)
 http://45.190.28.50/TRUTV_HD/index.m3u8
+#EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN USA" tvg-logo="https://example.com/logos/espn.png" group-title="Sports", ESPN USA
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/21.m3u8
