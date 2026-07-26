@@ -176,9 +176,9 @@ http://45.190.28.50/TRUTV_HD/index.m3u8
 http://206.212.244.63/646/index.m3u8
 #EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN USA 1" tvg-logo="https://example.com/logos/espn.png" group-title="Sports", ESPN USA
 https://ubuntu.fromthyheart.site/dailymotion/live/playlist/21.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="AEW Feed 1" tvg-logo="" group-title="Live TV", AEW Feed
+#EXTINF:-1 tvg-id="" tvg-name="AEW Feed 1" tvg-logo="" group-title="Live TV", AEW Feed 1
 https://ubuntu.fromthyheart.site/dailymotion/live/playlist/19.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="AEW Feed 2" tvg-logo="" group-title="Live TV", AEW Feed
+#EXTINF:-1 tvg-id="" tvg-name="AEW Feed 2" tvg-logo="" group-title="Live TV", AEW Feed 2
 https://ubuntu.fromthyheart.site/dailymotion/live/playlist/18.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="DAZN 1" tvg-logo="" group-title="Live TV", DAZN 1
 https://ubuntu.fromthyheart.site/dailymotion/live/playlist/20.m3u8
