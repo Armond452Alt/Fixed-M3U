@@ -194,3 +194,13 @@ https://wvizdt.lls.pbs.org/lls/wvizdt/wvizdt-hls-drm/hls-drm_empv2-234p.m3u8
 # Audio Only Feed
 #EXTINF:-1 tvg-id="WVIZ.us" tvg-name="WVIZ PBS Cleveland (Audio Only)" tvg-logo="https://npr.brightspotcdn.com/dims4/default/a6b1acf/2147483647/strip/true/crop/1101x470+0+0/resize/140x60!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F77%2F49%2F189bce164a66aaa761effe8851dd%2Fpbs-wblue-rgb.png" group-title="Radio",WVIZ PBS Cleveland (Audio)
 https://wvizdt.lls.pbs.org/lls/wvizdt/wvizdt-hls-drm/hls-drm_empv2-audio.m3u8
+#EXTINF:-1 tvg-id="WWE.Netflix.Feed9" tvg-name="WWE Netflix Feed 9" group-title="WWE",WWE Netflix Feed 9
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/9.m3u8
+#EXTINF:-1 tvg-id="WWE.Netflix.Feed8" tvg-name="WWE Netflix Feed 8" group-title="WWE",WWE Netflix Feed 8
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/8.m3u8
+#EXTINF:-1 tvg-id="WWE.Netflix.Feed7" tvg-name="WWE Netflix Feed 7" group-title="WWE",WWE Netflix Feed 7
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/7.m3u8
+#EXTINF:-1 tvg-id="WWE.Netflix.Feed6" tvg-name="WWE Netflix Feed 6" group-title="WWE",WWE Netflix Feed 6
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/6.m3u8
+#EXTINF:-1 tvg-id="WWE.Netflix.Feed5" tvg-name="WWE Netflix Feed 5" group-title="WWE",WWE Netflix Feed 5
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8
