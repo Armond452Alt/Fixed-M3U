@@ -204,3 +204,5 @@ https://ubuntu.fromthyheart.site/dailymotion/live/playlist/7.m3u8
 https://ubuntu.fromthyheart.site/dailymotion/live/playlist/6.m3u8
 #EXTINF:-1 tvg-id="WWE.Netflix.Feed5" tvg-name="WWE Netflix Feed 5" group-title="WWE",WWE Netflix Feed 5
 https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-name="Cartoon Network By Me" tvg-logo="https://raw.githubusercontent.com/Armond452Alt/The-Cartoon-Network-Webchnl/main/public/logo.png" group-title="Animation",Cartoon Network By Me
+https://the-cartoon-network-webchnl.onrender.com/public/hls/index.m3u8
