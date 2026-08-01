@@ -182,8 +182,9 @@ https://ubuntu.fromthyheart.site/dailymotion/live/playlist/19.m3u8
 https://ubuntu.fromthyheart.site/dailymotion/live/playlist/18.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="DAZN 1" tvg-logo="" group-title="Live TV", DAZN 1
 https://ubuntu.fromthyheart.site/dailymotion/live/playlist/20.m3u8
-#EXTINF:-1 tvg-id="WJW.us" tvg-name="FOX 8 Cleveland" tvg-logo="https://i.imgur.com/uG9X3y2.png" group-title="Local News",FOX 8 Cleveland (WJW)
-https://dcs-live-ue4.mp.lura.live/server/play/R7OVlOJU3yPvUONj/rendition.m3u8?track=video-0&anvsid=m177635079-n091b86dc66d362851dbb865b68eb9a73&ts=1785552817&anvtrid=dd9eb1299c0cf0f30b56d6212c9439a2
+#EXTINF:-1 tvg-id="" tvg-name="Fox 8 Cleveland" tvg-logo="" group-title="News", Fox 8 Cleveland
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Android 13; Mobile; rv:144.0) Gecko/144.0 Firefox/144.0
+https://dcs-live-uw1.mp.lura.live/server/play/R7OVlOJU3yPvUONj/rendition.m3u8?track=video-1&anvsid=m177610497-n7e6ba629f11aa629df154062bdc784bf&ts=1785553622&anvtrid=f2ea333aded417fceab2de04e0265507
 # 234p Low Bandwidth Video
 #EXTINF:-1 tvg-id="WVIZ.us" tvg-name="WVIZ PBS Cleveland (234p)" tvg-logo="https://npr.brightspotcdn.com/dims4/default/a6b1acf/2147483647/strip/true/crop/1101x470+0+0/resize/140x60!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F77%2F49%2F189bce164a66aaa761effe8851dd%2Fpbs-wblue-rgb.png" group-title="Documentary",WVIZ PBS Cleveland (234p)
 https://wvizdt.lls.pbs.org/lls/wvizdt/wvizdt-hls-drm/hls-drm_empv2-234p.m3u8
