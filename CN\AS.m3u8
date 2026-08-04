@@ -281,3 +281,7 @@ https://sra72yz.s.gy/MGM_PLUS_MARQUEE_SD
 https://sra72yz.s.gy/live-view
 #EXTINF:-1 tvg-id="CartoonNetwork.jp" tvg-name="Cartoon Network Japan" tvg-logo="https://i.imgur.com/vH9p4wA.png" group-title="Japan", Cartoon Network Japan
 https://naori-test.netgenx.site/pxx.php?shk_cid=cs25
+#EXTINF:-1 tvg-id="CartoonNetwork.us@East" tvg-name="Cartoon Network East" group-title="Animation", Cartoon Network East
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.cartoonnetwork.com/
+https://tve-live-lln.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
