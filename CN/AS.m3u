@@ -210,3 +210,5 @@ https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8
 https://the-cartoon-network-webchnl.onrender.com/public/hls/index.m3u8
 #EXTINF:-1 tvg-id="AdultSwim.ca" tvg-name="Adult Swim Canada" tvg-logo="https://i.imgur.com/vH9p4wA.png" group-title="Canada", [adult swim] Canada (1080p)
 http://206.212.244.63/6132/index.m3u8
+#EXTINF:-1 tvg-id="YTV.ca" tvg-name="YTV Canada" tvg-logo="https://i.imgur.com/8QxW5Zk.png" group-title="Canada", YTV Canada
+https://tvsen6.aynaott.com/ytv/index.m3u8
