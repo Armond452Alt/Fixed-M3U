@@ -213,3 +213,69 @@ https://tvsen6.aynaott.com/ytv/index.m3u8
 https://sra72yz.s.gy/FXX_CANADA
 #EXTINF:-1 tvg-id="FXCanada.ca" tvg-name="FX Canada" tvg-logo="https://i.imgur.com/vH9p4wA.png" group-title="Canada", FX Canada (720p)
 https://sra72yz.s.gy/FX_CANADA
+# --- ASIA & PHILIPPINES ---
+#EXTINF:-1 tvg-id="AXN.sg" tvg-name="AXN Asia" group-title="Asia", AXN Asia
+https://sra72yz.s.gy/AXN_ASIA_VISION_PLUS
+#EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-name="Animax Asia" group-title="Asia", Animax Asia
+https://sra72yz.s.gy/ANIMAX_ASIA_SD
+#EXTINF:-1 tvg-id="OnePH.ph" tvg-name="One PH" group-title="Philippines", One PH
+https://sra72yz.s.gy/ONE_PH_SD
+#EXTINF:-1 tvg-id="OneSports.ph" tvg-name="One Sports PH" group-title="Philippines", One Sports PH
+https://sra72yz.s.gy/ONE_SPORTS_PH_SD
+# --- CANADA ---
+#EXTINF:-1 tvg-id="FXCanada.ca" tvg-name="FX Canada" group-title="Canada", FX Canada
+https://sra72yz.s.gy/FX_CANADA
+#EXTINF:-1 tvg-id="FXXCanada.ca" tvg-name="FXX Canada" group-title="Canada", FXX Canada
+https://sra72yz.s.gy/FXX_CANADA
+#EXTINF:-1 tvg-id="Crave1.ca" tvg-name="Crave 1 Canada" group-title="Canada", Crave 1 Canada
+https://sra72yz.s.gy/CRAVE_1_CANADA
+#EXTINF:-1 tvg-id="EEntertainment.ca" tvg-name="E! Canada" group-title="Canada", E! Canada
+https://sra72yz.s.gy/E_ENTERTAINMENT_CANADA
+#EXTINF:-1 tvg-id="NBATV.ca" tvg-name="NBA TV Canada" group-title="Canada", NBA TV Canada
+https://sra72yz.s.gy/NBA_TV_CANADA
+# --- UNITED KINGDOM ---
+#EXTINF:-1 tvg-id="Channel4.uk" tvg-name="Channel 4 UK" group-title="United Kingdom", Channel 4 UK
+https://sra72yz.s.gy/CHANNEL_4_UNITED_KINGDOM
+#EXTINF:-1 tvg-id="Channel5.uk" tvg-name="Channel 5 UK" group-title="United Kingdom", Channel 5 UK
+https://sra72yz.s.gy/CHANNEL_5_UNITED_KINGDOM
+# --- UNITED STATES (CABLE & ENTERTAINMENT) ---
+#EXTINF:-1 tvg-id="FX.us" tvg-name="FX US West" group-title="USA", FX US (West)
+https://sra72yz.s.gy/fx-west
+#EXTINF:-1 tvg-id="FXX.us" tvg-name="FXX US West" group-title="USA", FXX US (West)
+https://sra72yz.s.gy/fxx-west
+#EXTINF:-1 tvg-id="Syfy.us" tvg-name="Syfy West" group-title="USA", Syfy (West)
+https://sra72yz.s.gy/syfy-west
+#EXTINF:-1 tvg-id="Nickelodeon.us" tvg-name="Nickelodeon West" group-title="USA", Nickelodeon (West)
+https://sra72yz.s.gy/NICK_WEST_US
+#EXTINF:-1 tvg-id="NickJr.us" tvg-name="Nick Jr West" group-title="USA", Nick Jr. (West)
+https://sra72yz.s.gy/NICK_JR_WEST_US
+#EXTINF:-1 tvg-id="EdgeSport.us" tvg-name="Edge Sport" group-title="USA Sports", Edge Sport
+https://sra72yz.s.gy/EDGE_SPORTS_SD
+# --- UNITED STATES (PREMIUM MOVIE CHANNELS) ---
+#EXTINF:-1 tvg-id="ShowtimeShowcase.us" tvg-name="Showtime Showcase East" group-title="USA Movies", Showtime Showcase (East)
+https://sra72yz.s.gy/SHOWTIME_SHOWCASE_EAST_US
+#EXTINF:-1 tvg-id="TheMovieChannel.us" tvg-name="The Movie Channel West" group-title="USA Movies", The Movie Channel (West)
+https://sra72yz.s.gy/THE_MOVIE_CHANNEL_WEST
+#EXTINF:-1 tvg-id="TheMovieChannelXtra.us" tvg-name="The Movie Channel Xtra West" group-title="USA Movies", TMC Xtra (West)
+https://sra72yz.s.gy/THE_MOVIE_CHANNEL_XTRA_WEST
+#EXTINF:-1 tvg-id="StarzEncore.us" tvg-name="Starz Encore West" group-title="USA Movies", Starz Encore (West)
+https://sra72yz.s.gy/STARZ_ENCORE_WEST_US
+#EXTINF:-1 tvg-id="StarzEncoreClassic.us" tvg-name="Starz Encore Classic" group-title="USA Movies", Starz Encore Classic
+https://sra72yz.s.gy/starz-encore-classic
+#EXTINF:-1 tvg-id="StarzEncoreWesterns.us" tvg-name="Starz Encore Westerns East" group-title="USA Movies", Starz Encore Westerns (East)
+https://sra72yz.s.gy/STARZ_ENCORE_WESTER_EAST_US
+#EXTINF:-1 tvg-id="StarzInBlack.us" tvg-name="Starz InBlack East" group-title="USA Movies", Starz InBlack (East)
+https://sra72yz.s.gy/STARZ_IN_BLACK_EAST_US
+#EXTINF:-1 tvg-id="StarzEncoreEspanol.us" tvg-name="Starz Encore Espanol East" group-title="USA Movies", Starz Encore Español (East)
+https://sra72yz.s.gy/STARZ_ENCORE_ESPANOL_EAST_HD
+#EXTINF:-1 tvg-id="StarzEncoreSuspense.us" tvg-name="Starz Encore Suspense East" group-title="USA Movies", Starz Encore Suspense (East)
+https://sra72yz.s.gy/STARZ_ENCORE_SUSPENSE_EAST_HD
+#EXTINF:-1 tvg-id="StarzEncoreAction.us" tvg-name="Starz Encore Action East" group-title="USA Movies", Starz Encore Action (East)
+https://sra72yz.s.gy/STARZ_ENCORE_ACTION_EAST_HD
+#EXTINF:-1 tvg-id="MGMPlusHits.us" tvg-name="MGM+ Hits" group-title="USA Movies", MGM+ Hits
+https://sra72yz.s.gy/MGM_PLUS_HITS_HD
+#EXTINF:-1 tvg-id="MGMPlusMarquee.us" tvg-name="MGM+ Marquee" group-title="USA Movies", MGM+ Marquee
+https://sra72yz.s.gy/MGM_PLUS_MARQUEE_SD
+# --- MISC ---
+#EXTINF:-1 tvg-id="" tvg-name="Live View" group-title="Misc", Live View Stream
+https://sra72yz.s.gy/live-view
