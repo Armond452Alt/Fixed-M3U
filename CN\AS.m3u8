@@ -297,3 +297,5 @@ https://tve-live-ctl.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; LINUX; Tizen 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/7.0 TV Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.cartoonnetwork.com/
 https://turnerlive.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8 | Mozilla/5.0 (SMART-TV; LINUX; Tizen 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/7.0 TV Safari/537.36 
+#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-name="Cartoon Network West" tvg-logo="https://i.imgur.com/vH9p4wA.png" group-title="Cartoon Network", Cartoon Network / Adult Swim West (720p)
+https://turnerlive.warnermediacdn.com/hls/live/2023181/toonwest/noslate/VIDEO_3_1928000.m3u8
