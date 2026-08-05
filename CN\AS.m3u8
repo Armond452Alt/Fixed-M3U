@@ -288,8 +288,8 @@ https://tve-live-lln.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_
 #EXTINF:-1 tvg-id="CartoonNetwork.us@East" tvg-name="Cartoon Network East (Akamai)" group-title="Animation", Cartoon Network East (Akamai)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.cartoonnetwork.com/
-https://tve-live-aka.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8?hdnea=YOUR_TOKEN_HERE
+https://tve-live-aka.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="CartoonNetwork.us@East" tvg-name="Cartoon Network East (Lumen)" group-title="Animation", Cartoon Network East (Lumen)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.cartoonnetwork.com/
-https://tve-live-ctl.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8?hdnea=YOUR_TOKEN_HERE
+https://tve-live-ctl.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
