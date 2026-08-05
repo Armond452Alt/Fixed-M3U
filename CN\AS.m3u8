@@ -286,14 +286,14 @@ https://naori-test.netgenx.site/pxx.php?shk_cid=cs25
 #EXTVLCOPT:http-referrer=https://www.cartoonnetwork.com/
 https://tve-live-lln.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="CartoonNetwork.us@East" tvg-name="Cartoon Network East (Akamai)" group-title="Animation", Cartoon Network East (Akamai)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; LINUX; Tizen 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/5.0 TV Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.cartoonnetwork.com/
 https://tve-live-aka.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="CartoonNetwork.us@East" tvg-name="Cartoon Network East (Lumen)" group-title="Animation", Cartoon Network East (Lumen)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; LINUX; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/6.0 TV Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.cartoonnetwork.com/
 https://tve-live-ctl.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="CartoonNetwork.us@East" tvg-name="Cartoon Network East (High Profile)" group-title="Animation", Cartoon Network East (720p/1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; LINUX; Tizen 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/7.0 TV Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.cartoonnetwork.com/
-https://turnerlive.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
+https://turnerlive.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8 | Mozilla/5.0 (SMART-TV; LINUX; Tizen 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/7.0 TV Safari/537.36 
