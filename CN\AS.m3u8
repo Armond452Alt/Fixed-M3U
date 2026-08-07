@@ -362,3 +362,5 @@ http://212.18.115.177:3549/play/a066
 http://141.95.52.206:6565/play/a01r
 #EXTINF:-1 tvg-id="EelChannel" tvg-name="Eel Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_2010_logo.svg" group-title="Animation",Eel Channel
 https://mci01.nive.live/28/index.m3u8
+#EXTINF:-1 tvg-id="ToonDisneyAgain" tvg-name="Toon Disney Again" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/eb/Toon_Disney_logo.svg" group-title="Animation",Toon Disney Again
+https://mci01.nive.live/29/index.m3u8
