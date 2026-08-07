@@ -334,3 +334,29 @@ http://141.95.52.206:6565/play/a01s
 https://livecdn.fptplay.net/hda3/boomerang_vhls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="Cartoonito.la@mx" group-title="Kids",Cartoonito Mexico (formerly Boomerang)
 http://187.135.163.145:8000/play/a01c/index.m3u8
+#EXTINF:-1 tvg-id="Boomerang.vn" group-title="Kids",Boomerang Vietnam (5Mbps)
+https://vips-livecdn.fptplay.net/hda3/boomerang_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="Boomerang.vn" group-title="Kids",Boomerang Vietnam (2.5Mbps)
+https://livecdn.fptplay.net/hda3/boomerang_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="Boomerang.ru" group-title="Kids",Boomerang Russia
+http://iptv.prosto.tv:7000/ch208/video.m3u8
+#EXTINF:-1 tvg-id="Cartoonito.la@mx" group-title="Kids",Cartoonito Mexico (formerly Boomerang)
+http://187.135.163.145:8000/play/a01c/index.m3u8
+#EXTINF:-1 tvg-id="Cartoonito.la" group-title="Kids",Cartoonito Latino
+http://190.92.72.98:8185/play/a01j/index.m3u8
+#EXTINF:-1 tvg-id="Cartoonito.la" group-title="Kids",Cartoonito Latino (Stream 2)
+http://45.226.67.3:58001/play/a04t/index.m3u8
+#EXTINF:-1 tvg-id="Cartoonito.la" group-title="Kids",Cartoonito Latino (Stream 3)
+http://45.189.117.37:7879/play/a0ee/index.m3u8
+#EXTINF:-1 tvg-id="Cartoonito.la" group-title="Kids",Cartoonito Latino (Stream 4)
+http://201.108.227.250:8000/play/a027/index.m3u8
+#EXTINF:-1 tvg-id="Cartoonito.la" group-title="Kids",Cartoonito Latino (Stream 5)
+http://201.108.227.250:8001/play/a027/index.m3u8
+#EXTINF:-1 tvg-id="Boomerang.fr" group-title="Kids",Boomerang France
+http://193.252.43.21:10200/play/a07w
+#EXTINF:-1 tvg-id="Cartoonito.de" group-title="Kids",Cartoonito Germany (formerly Boomerang)
+http://149.62.183.209:4549/play/a03r/index.m3u8
+#EXTINF:-1 tvg-id="Cartoonito.de" group-title="Kids",Cartoonito Germany (Stream 2)
+http://212.18.115.177:3549/play/a066
+#EXTINF:-1 tvg-id="Cartoonito.ba" group-title="Kids",Cartoonito Balkans (formerly Boomerang)
+http://141.95.52.206:6565/play/a01r
