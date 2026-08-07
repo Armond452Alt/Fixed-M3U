@@ -330,3 +330,7 @@ http://89.249.49.78:8000/play/a0f7
 http://82.77.132.49:7881/play/a00z
 #EXTINF:-1 tvg-id="CartoonNetwork.ba" group-title="Kids",Cartoon Network Balkans (Stream 2)
 http://141.95.52.206:6565/play/a01s
+#EXTINF:-1 tvg-id="Boomerang.vn" group-title="Kids",Boomerang Vietnam HD
+https://livecdn.fptplay.net/hda3/boomerang_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="Cartoonito.la@mx" group-title="Kids",Cartoonito Mexico (formerly Boomerang)
+http://187.135.163.145:8000/play/a01c/index.m3u8
