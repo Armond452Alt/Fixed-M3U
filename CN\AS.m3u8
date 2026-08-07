@@ -302,3 +302,31 @@ https://i.mjh.nz/.r/sky-hgtv.m3u8
 https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="FXX.us@East" tvg-name="FXX East 720p HD" group-title="Entertainment", FXX East 720p HD
 http://40.160.24.52/FXX/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.tr" group-title="Kids",Cartoon Network Turkey
+http://iptvmasterlink.dyndns.org:8080/CartoonNetwork/playlist.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.tr" group-title="Kids",Cartoon Network Turkey HD
+http://lives2.canlitv.center/cartoonnet.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.ae" group-title="Kids",Cartoon Network Arabic HD
+https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.ae" group-title="Kids",Cartoon Network Arabic (Stream 2)
+https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_4.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.ru" group-title="Kids",Cartoon Network Russia
+http://iptv.prosto.tv:7000/ch207/video.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.la@mx" group-title="Kids",Cartoon Network Mexico
+http://187.135.163.145:8000/play/a01b/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.la" group-title="Kids",Cartoon Network Latino
+http://45.189.117.99:8000/play/a00h/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.la" group-title="Kids",Cartoon Network Latino SD
+http://45.189.117.37:7879/play/a00g/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.la" group-title="Kids",Cartoon Network Latino (Stream 2)
+http://201.108.227.250:8000/play/a025/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.la" group-title="Kids",Cartoon Network Latino (Stream 3)
+http://201.108.227.250:8001/play/a025/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.de" group-title="Kids",Cartoon Network Germany
+http://212.18.115.177:3549/play/a065
+#EXTINF:-1 tvg-id="CartoonNetwork.pl" group-title="Kids",Cartoon Network Poland HD
+http://89.249.49.78:8000/play/a0f7
+#EXTINF:-1 tvg-id="CartoonNetwork.ba" group-title="Kids",Cartoon Network Balkans
+http://82.77.132.49:7881/play/a00z
+#EXTINF:-1 tvg-id="CartoonNetwork.ba" group-title="Kids",Cartoon Network Balkans (Stream 2)
+http://141.95.52.206:6565/play/a01s
