@@ -36,7 +36,7 @@ https://ubuntu.fromthyheart.site/dailymotion/live/playlist/18.m3u8
 # ==========================================
 # ANIMATION & CARTOON NETWORK
 # ==========================================
-#EXTINF:-1 group-title="Cartoon Network" tvg-id="CartoonNetworkEast.us" tvg-name="Cartoon Network East" tvg-logo="https://raw.githubusercontent.com/Armond452Alt/The-Cartoon-Network-Webchnl/main/public/logo.png",Cartoon Network By ME
+#EXTINF:-1 group-title="Cartoon Network" tvg-id="CartoonNetworkEast.us" tvg-name="Cartoon Network nive.live" tvg-logo="https://raw.githubusercontent.com/Armond452Alt/The-Cartoon-Network-Webchnl/main/public/logo.png",Cartoon Network By ME
 https://the-cartoon-network-webchnl.onrender.com/public/hls/index.m3u8
 
 #EXTINF:-1 group-title="Animation" tvg-id="CartoonNetworkEast.us" tvg-name="Cartoon Network US East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_2010_logo.svg",Cartoon Network East (720p)
