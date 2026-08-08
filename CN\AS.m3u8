@@ -421,8 +421,6 @@ https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29e
 #EXTVLCOPT:http-referrer=https://shahid.mbc.net/
 https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_10.m3u8
 
-#EXTM3U
-
 #EXTINF:-1 tvg-id="DisneyChannel.la" tvg-logo="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" group-title="Kids",Disney Channel Latino
 http://190.92.72.98:8185/play/a04q/index.m3u8
 
