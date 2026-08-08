@@ -1,17 +1,15 @@
-name: Auto Update CN/AS EPG
+name: epg-grabber
 
 on:
   schedule:
-    # Runs twice a day at 00:00 and 12:00 UTC
     - cron: '0 0,12 * * *'
-  # Allows manual triggers directly from the GitHub Actions UI
   workflow_dispatch:
 
 jobs:
   update-epg:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Grants write permission to push commits
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -20,26 +18,27 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
-      - name: Install dependencies
-        run: npm install -g epgstream
+      - name: Install epg-grabber
+        run: npm install -g epg-grabber
 
-      - name: Run epgstream scraper
-        run: epgstream --config config.json --output CN/AS.xml
+      - name: Run EPG Grabber for TVPassport
+        run: |
+          # Grabs TVPassport data and writes straight to CN/AS.xml
+          epg-grabber --site=tvpassport.com --config=sites.config.js --output=CN/AS.xml || epg-grabber --config=config.json --output=CN/AS.xml
 
-      - name: Commit and push if changed
+      - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Stage the updated XML file
           git add CN/AS.xml
           
-          # Only commit and push if there are actual changes
           if git diff --staged --quiet; then
             echo "No changes detected in CN/AS.xml"
           else
-            git commit -m "Auto-update CN/AS.xml EPG [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+            git commit -m "Auto-update CN/AS.xml via epg-grabber [$(date -u +'%Y-%m-%d %H:%M UTC')]"
             git push
           fi
+          
