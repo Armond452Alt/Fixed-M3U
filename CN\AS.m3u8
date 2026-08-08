@@ -420,3 +420,89 @@ https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29e
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://shahid.mbc.net/
 https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_10.m3u8
+
+#EXTM3U
+
+#EXTINF:-1 tvg-id="DisneyChannel.la" tvg-logo="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" group-title="Kids",Disney Channel Latino
+http://190.92.72.98:8185/play/a04q/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyChannel.la" tvg-logo="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" group-title="Kids",Disney Channel Latino (Stream 2)
+http://45.226.67.3:58001/play/a034/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyChannel.la" tvg-logo="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" group-title="Kids",Disney Channel Latino (Stream 3)
+http://45.189.117.99:8000/play/a01i/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyChannel.la" tvg-logo="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" group-title="Kids",Disney Channel Latino (Stream 4)
+http://45.189.117.37:7879/play/a01f/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyChannel.la" tvg-logo="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" group-title="Kids",Disney Channel Latino (Stream 5)
+http://201.108.227.250:8000/play/a05l/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyChannel.la" tvg-logo="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" group-title="Kids",Disney Channel Latino (Stream 6)
+http://201.108.227.250:8001/play/a05l/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyChannel.la@mx" tvg-logo="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" group-title="Kids",Disney Channel Mexico
+http://187.135.163.145:8000/play/a03w/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyChannel.ch" tvg-logo="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" group-title="Kids",Disney Channel Switzerland
+https://streams.wilmaa.com/m3u8/get?channelId=disney_channel_de&profile=8
+
+#EXTINF:-1 tvg-id="DisneyChannel.de" tvg-logo="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" group-title="Kids",Disney Channel Germany
+http://212.18.115.177:3549/play/a062
+
+#EXTINF:-1 tvg-id="DisneyChannel.de" tvg-logo="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" group-title="Kids",Disney Channel Germany FHD
+http://212.18.115.177:3549/play/a063
+
+#EXTINF:-1 tvg-id="DisneyChannel.de" tvg-logo="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" group-title="Kids",Disney Channel Germany HD
+http://149.62.183.209:4549/play/a04v/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyChannel.es" tvg-logo="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" group-title="Kids",Disney Channel Spain
+http://protocol.solanaflix.com:8080/play/pIhYgD3N1KpnDEqlm2bhCEkc72EW-8Kqe53LT_ZVBRZBh7euEZFFAtXnEBxgEyrI
+
+#EXTINF:-1 tvg-id="DisneyChannel.ba" tvg-logo="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" group-title="Kids",Disney Channel Balkans
+http://82.77.132.49:7881/play/a01y
+
+#EXTINF:-1 tvg-id="DisneyCinemagic.de" tvg-logo="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" group-title="Entertainment",Disney Cinemagic Germany HD
+http://109.200.130.123:7027/play/a00r
+
+#EXTINF:-1 tvg-id="DisneyJunior.la" tvg-logo="https://deadline.com/wp-content/uploads/2025/08/Disney-Jr.-copy.jpg?w=681&h=383&crop=1" group-title="Kids",Disney Junior Latino
+http://190.92.72.98:8185/play/a01k/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyJunior.la" tvg-logo="https://deadline.com/wp-content/uploads/2025/08/Disney-Jr.-copy.jpg?w=681&h=383&crop=1" group-title="Kids",Disney Junior Latino (Stream 2)
+http://45.189.117.99:8000/play/a015/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyJunior.la" tvg-logo="https://deadline.com/wp-content/uploads/2025/08/Disney-Jr.-copy.jpg?w=681&h=383&crop=1" group-title="Kids",Disney Junior Latino (Stream 3)
+http://45.226.67.3:58001/play/a04u/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyJunior.la" tvg-logo="https://deadline.com/wp-content/uploads/2025/08/Disney-Jr.-copy.jpg?w=681&h=383&crop=1" group-title="Kids",Disney Junior Latino (Stream 4)
+http://45.189.117.37:7879/play/a00r/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyJunior.la" tvg-logo="https://deadline.com/wp-content/uploads/2025/08/Disney-Jr.-copy.jpg?w=681&h=383&crop=1" group-title="Kids",Disney Junior Latino (Stream 5)
+http://201.108.227.250:8000/play/a028/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyJunior.la" tvg-logo="https://deadline.com/wp-content/uploads/2025/08/Disney-Jr.-copy.jpg?w=681&h=383&crop=1" group-title="Kids",Disney Junior Latino (Stream 6)
+http://201.108.227.250:8001/play/a028/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyJunior.pl" tvg-logo="https://deadline.com/wp-content/uploads/2025/08/Disney-Jr.-copy.jpg?w=681&h=383&crop=1" group-title="Kids",Disney Junior Poland
+http://89.249.49.78:8000/play/a0fb
+
+#EXTINF:-1 tvg-id="DisneyJunior.ba" tvg-logo="https://deadline.com/wp-content/uploads/2025/08/Disney-Jr.-copy.jpg?w=681&h=383&crop=1" group-title="Kids",Disney Junior Balkans
+http://82.77.132.49:7881/play/a01z
+
+#EXTINF:-1 tvg-id="DisneyJunior.fr" tvg-logo="https://deadline.com/wp-content/uploads/2025/08/Disney-Jr.-copy.jpg?w=681&h=383&crop=1" group-title="Kids",Disney Junior France
+http://193.252.43.21:10200/play/a0b9
+
+#EXTINF:-1 tvg-id="DisneyXD.pl" tvg-logo="https://logos-world.net/wp-content/uploads/2023/06/Disney-XD-Logo.jpg" group-title="Kids",Disney XD Poland
+http://89.249.49.78:8000/play/a0dt
+
+#EXTINF:-1 tvg-id="DisneyXD.la" tvg-logo="https://logos-world.net/wp-content/uploads/2023/06/Disney-XD-Logo.jpg" group-title="Kids",Disney XD Latino
+http://190.92.72.98:8185/play/a09d/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyXD.la" tvg-logo="https://logos-world.net/wp-content/uploads/2023/06/Disney-XD-Logo.jpg" group-title="Kids",Disney XD Latino (Stream 2)
+http://45.226.67.3:58001/play/a02b/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyXD.la" tvg-logo="https://logos-world.net/wp-content/uploads/2023/06/Disney-XD-Logo.jpg" group-title="Kids",Disney XD Latino (Stream 3)
+http://201.108.227.250:8000/play/a04f/index.m3u8
+
+#EXTINF:-1 tvg-id="DisneyXD.la" tvg-logo="https://logos-world.net/wp-content/uploads/2023/06/Disney-XD-Logo.jpg" group-title="Kids",Disney XD Latino (Stream 4)
+http://201.108.227.250:8001/play/a04f/index.m3u8
