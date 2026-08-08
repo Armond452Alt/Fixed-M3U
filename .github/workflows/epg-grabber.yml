@@ -21,7 +21,7 @@ jobs:
           node-version: '22'
 
       - name: Run EPG Grabber
-        run: npx epg-grabber --config=sites.config.js
+        run: npx epg-grabber --config=config.json
 
       - name: Commit and push changes
         run: |
