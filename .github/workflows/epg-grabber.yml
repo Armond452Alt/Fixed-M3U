@@ -20,13 +20,8 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Install epg-grabber
-        run: npm install -g epg-grabber
-
-      - name: Run EPG Grabber for TVPassport
-        run: |
-          # Grabs TVPassport data and writes straight to CN/AS.xml
-          epg-grabber --site=tvpassport.com --config=sites.config.js --output=CN/AS.xml || epg-grabber --config=config.json --output=CN/AS.xml
+      - name: Run EPG Grabber
+        run: npx epg-grabber --config=sites.config.js
 
       - name: Commit and push changes
         run: |
