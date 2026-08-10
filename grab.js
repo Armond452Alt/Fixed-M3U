@@ -22,7 +22,8 @@ const channels = [
 
 async function run() {
   console.log('Fetching EPG data...')
-  const xml = await grabber.grab({ channels })
+  // Pass channels directly as an array argument
+  const xml = await grabber.grab(channels)
   fs.writeFileSync('CN/AS.xml', xml)
   console.log('CN/AS.xml successfully updated!')
 }
