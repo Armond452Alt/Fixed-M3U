@@ -496,3 +496,5 @@ http://iptv.prosto.tv:7000/ch208/video.m3u8
 
 #EXTINF:-1 tvg-id="Cartoonito.la" tvg-logo="" group-title="Kids",Cartoonito Latino
 http://190.92.72.98:8185/play/a01j/index.m3u8
+#EXTINF:-1 tvg-id="FXX.us" tvg-logo="" group-title="USA",FXX
+http://23.237.104.106:8080/USA_FXX/tracks-v1a1/index.m3u8
