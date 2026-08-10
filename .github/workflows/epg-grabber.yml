@@ -18,10 +18,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: '22'
 
-      - name: Run EPG Grabber
-        run: npx epg-grabber --config=config.json
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run EPG Grabber Script
+        run: node grab.js
 
       - name: Commit and push changes
         run: |
@@ -33,7 +36,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes detected in CN/AS.xml"
           else
-            git commit -m "Auto-update CN/AS.xml via epg-grabber [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+            git commit -m "Auto-update CN/AS.xml via grab.js [$(date -u +'%Y-%m-%d %H:%M UTC')]"
             git push
           fi
-          
