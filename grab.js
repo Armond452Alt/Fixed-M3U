@@ -1,10 +1,8 @@
-import { sites } from 'epg-grabber'
+import site from 'epg-grabber/sites/tvpassport.com.js'
 import fs from 'fs'
 
 async function run() {
   console.log('Fetching EPG data...')
-
-  const site = sites['tvpassport.com']
 
   const channels = [
     {
@@ -28,10 +26,11 @@ async function run() {
   for (const channel of channels) {
     console.log(`Grabbing ${channel.name}...`)
     try {
-      const url = site.url({ channel, date: new Date() })
+      const date = new Date()
+      const url = site.url({ channel, date })
       const res = await fetch(url)
       const buffer = await res.arrayBuffer()
-      const programs = await site.parser({ buffer, channel, date: new Date() })
+      const programs = await site.parser({ buffer, channel, date })
 
       xml += `\n  <channel id="${channel.xmltv_id}">\n    <display-name>${channel.name}</display-name>\n  </channel>`
 
