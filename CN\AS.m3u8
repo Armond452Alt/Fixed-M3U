@@ -447,7 +447,7 @@ http://206.212.244.63/2502/index.m3u8
 http://40.160.24.55/NICKTOONS/index.m3u8
 
 #EXTINF:-1 tvg-id="FXX.us" tvg-logo="" group-title="Entertainment",FXX East 720p HD
-http://40.160.24.52/FXX/index.m3u8
+http://23.237.104.106:8080/USA_FXX/mpegts
 
 #EXTINF:-1 tvg-id="CartoonNetwork.tr" tvg-logo="" group-title="Kids",Cartoon Network Turkey
 http://iptvmasterlink.dyndns.org:8080/CartoonNetwork/playlist.m3u8
