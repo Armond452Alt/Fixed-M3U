@@ -92,6 +92,9 @@ https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_356
 #EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic HD
 https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
 
+#EXTINF:-1 tvg-id="CartoonNetwork.bg" tvg-name="CartoonNetwork.bg" tvg-logo="" group-title="",Cartoon Network (Bulgaria)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://shift03.isp.bg/Cartoon_Network/index.m3u8
 
 # --- REACHABLE / ALTERNATE ENDPOINTS ---
 
