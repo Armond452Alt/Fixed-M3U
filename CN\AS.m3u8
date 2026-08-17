@@ -5,6 +5,21 @@
 #EXTINF:-1 tvg-id="CartoonNetworkEast.us" tvg-logo="" group-title="Animation",Cartoon Network East (720p)
 https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
 
+#EXTINF:-1 tvg-id="CartoonNetwork.la@mx" tvg-name="Cartoon Network LA (MX)" group-title="Kids",Cartoon Network (LA)
+http://181.78.64.71:16123/play/ch09
+
+#EXTINF:-1 tvg-id="CartoonNetwork.la" tvg-name="Cartoon Network HD" group-title="Kids",Cartoon Network HD
+http://181.78.208.254:8008/play/a04u
+
+#EXTINF:-1 tvg-id="CartoonNetwork.la" tvg-name="Cartoon Network Alt" group-title="Kids",Cartoon Network (HLS Stream)
+http://191.97.63.182:8888/play/a0n4/index.m3u8
+
+#EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-name="Cartoon Network Argentina" group-title="Kids",Cartoon Network Argentina
+http://181.209.105.115:2525/play/cartoonnetwork/index.m3u8
+
+#EXTINF:-1 tvg-id="CartoonNetwork.in" tvg-name="Cartoon Network India" group-title="Kids",Cartoon Network (India Host)
+http://103.110.110.11:8081/live/cartoon/playlist.m3u8
+
 #EXTINF:-1 tvg-id="CartoonNetworkBrazil.br" tvg-name="Cartoon Network (BR)" group-title="Kids",Cartoon Network Brasil
 https://playout.cdn.cartoonnetwork.com.br/playout_01/playlist.m3u8
 
