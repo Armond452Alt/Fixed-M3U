@@ -8,6 +8,9 @@ https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_
 #EXTINF:-1 tvg-id="CartoonNetworkBrazil.br" tvg-name="Cartoon Network (BR)" group-title="Kids",Cartoon Network Brasil
 https://playout.cdn.cartoonnetwork.com.br/playout_01/playlist.m3u8
 
+#EXTINF:-1 tvg-id="CartoonNetworkHDPlus.in" tvg-name="Cartoon Network HD+ (India)" group-title="Kids",Cartoon Network HD+ (India)
+http://103.68.28.58:5001/live/1079.m3u8
+
 #EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="" group-title="Animation",Cartoon Network / Adult Swim West (720p)
 https://turnerlive.warnermediacdn.com/hls/live/2023181/toonwest/noslate/VIDEO_1_5128000.m3u8
 
