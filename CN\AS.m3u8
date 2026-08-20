@@ -5,6 +5,9 @@
 #EXTINF:-1 tvg-id="CartoonNetworkEast.us" tvg-logo="" group-title="Animation",Cartoon Network East (720p)
 https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
 
+#EXTINF:-1 tvg-id="CartoonNetworkOnWebchnl.us" tvg-name="Cartoon Network Webchnl" tvg-logo="https://the-cartoon-network-webchnl.onrender.com/public/logo.png" group-title="Webchnl",Cartoon Network Webchnl
+https://the-cartoon-network-webchnl.onrender.com/live/user/pass/1001.m3u8
+
 #EXTINF:-1 tvg-id="AE.us" tvg-name="A&E" tvg-logo="https://i.imgur.com/8QzX9mG.png" group-title="Entertainment", A&E
 http://23.239.31.26:8989/aande/index.m3u8
 
