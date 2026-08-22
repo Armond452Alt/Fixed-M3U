@@ -8,6 +8,9 @@ https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_
 #EXTINF:-1 tvg-id="CartoonNetworkOnWebchnl.us" tvg-name="Cartoon Network Webchnl" tvg-logo="https://the-cartoon-network-webchnl.onrender.com/public/logo.png" group-title="Webchnl",Cartoon Network Webchnl
 https://the-cartoon-network-webchnl.onrender.com/live/user/pass/1001.m3u8
 
+#EXTINF:-1 tvg-id="WOIO.us" tvg-name="WOIO 19 News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/WOIO_19_News_logo.svg/512px-WOIO_19_News_logo.svg.png" group-title="Local", WOIO 19 News Cleveland
+https://live-streaming-mcdn.api.graylive.quickplay.com/woio-xos1-input-1/woio-xos1-input-1.isml/woio-xos1-input-1-audio_eng=96000-video=388000.m3u8
+
 #EXTINF:-1 tvg-id="AE.us" tvg-name="A&E" tvg-logo="https://i.imgur.com/8QzX9mG.png" group-title="Entertainment", A&E
 http://23.239.31.26:8989/aande/index.m3u8
 
