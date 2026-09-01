@@ -8,8 +8,11 @@ https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_
 #EXTINF:-1 tvg-id="CartoonNetworkOnWebchnl.us" tvg-name="Cartoon Network Webchnl" tvg-logo="https://the-cartoon-network-webchnl.onrender.com/public/logo.png" group-title="Webchnl",Cartoon Network Webchnl
 https://the-cartoon-network-webchnl.onrender.com/live/user/pass/1001.m3u8
 
-#EXTINF:-1 tvg-id="HGTV.us" tvg-name="HGTV USA" tvg-logo="https://raw.githubusercontent.com/BiglyTV/BiglyTV-Logos/main/logos/hgtv.png" group-title="Entertainment",HGTV
-https://ondemand.st/player/hls/?v=538&preroll=1&url=https%3A%2F%2Fmessi.damitv.st%2Fpapi%2Fts2%2Fhgtv-usa.m3u8&name=HGTV
+#EXTINF:-1 tvg-id="HGTV.us" tvg-name="HGTV USA" tvg-logo="https://raw.githubusercontent.com/BiglyTV/BiglyTV-Logos/main/logos/hgtv.png" group-title="Entertainment",HGTV USA
+#EXTVLCOPT:http-referrer=https://ondemand.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer":"https://ondemand.st/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+https://messi.damitv.st/papi/ts2/hgtv-usa.m3u8
 
 #EXTINF:-1 tvg-id="Corus.ca" group-title="Corus Networks (CA)", Corus Networks (CA) (CORUS)1
 https://live.corusdigitaldev.com/groupa/live/023a9e25-f0cf-4d97-af9f-5c665b7d45b9/live.isml/.m3u8
