@@ -5,6 +5,24 @@
 #EXTINF:-1 tvg-id="CartoonNetworkEast.us" tvg-logo="" group-title="Animation",Cartoon Network East (720p)
 https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
 
+EXTINF:-1 tvg-id="FIFA+.ww" tvg-logo="https://i.imgur.com/K502P5R.png" group-title="Football",FIFA+ (World)
+https://fifa-fifaplus-1-us.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RealMadridTV.es" tvg-logo="https://i.imgur.com/8QG1n8E.png" group-title="Football",Real Madrid TV (Spanish Feed)
+https://rmtvlive-lh.akamaihd.net/i/rmtv_es@154407/master.m3u8
+
+#EXTINF:-1 tvg-id="RealMadridTVEnglish.es" tvg-logo="https://i.imgur.com/8QG1n8E.png" group-title="Football",Real Madrid TV (English Feed)
+https://rmtvlive-lh.akamaihd.net/i/rmtv_en@154408/master.m3u8
+
+#EXTINF:-1 tvg-id="FCBarcelonaTV.es" tvg-logo="https://i.imgur.com/bY30S0j.png" group-title="Football",Barça TV
+https://barca-tv.akamaized.net/hls/live/2034937/barcatv/master.m3u8
+
+#EXTINF:-1 tvg-id="CBSSportsGolazoNetwork.us" tvg-logo="https://i.imgur.com/L7pY62x.png" group-title="Football",CBS Sports Golazo Network
+https://cbsn-us.cbsnstat.com/m3u8/cbsn-us/master.m3u8
+
+#EXTINF:-1 tvg-id="RedBullTV.us" tvg-logo="https://i.imgur.com/8Z6q1zW.png" group-title="Sports",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/591070/FL01/master.m3u8
+
 #EXTINF:-1 tvg-id="CartoonNetworkOnWebchnl.us" tvg-name="Cartoon Network Webchnl" tvg-logo="https://the-cartoon-network-webchnl.onrender.com/public/logo.png" group-title="Webchnl",Cartoon Network Webchnl
 https://the-cartoon-network-webchnl.onrender.com/live/user/pass/1001.m3u8
 
