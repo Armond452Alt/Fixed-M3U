@@ -5,7 +5,7 @@
 #EXTINF:-1 tvg-id="CartoonNetworkEast.us" tvg-logo="" group-title="Animation",Cartoon Network East (720p)
 https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
 
-EXTINF:-1 tvg-id="FIFA+.ww" tvg-logo="https://i.imgur.com/K502P5R.png" group-title="Football",FIFA+ (World)
+#EXTINF:-1 tvg-id="FIFA+.ww" tvg-logo="https://i.imgur.com/K502P5R.png" group-title="Football",FIFA+ (World)
 https://fifa-fifaplus-1-us.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="RealMadridTV.es" tvg-logo="https://i.imgur.com/8QG1n8E.png" group-title="Football",Real Madrid TV (Spanish Feed)
