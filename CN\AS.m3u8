@@ -218,109 +218,6 @@ https://naori-test.netgenx.site/pxx.php?shk_cid=cs25
 #EXTINF:-1 tvg-id="CartoonNetwork.in" tvg-logo="" group-title="International",Cartoon Network India
 https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-samsungin-cartoonnw-samsungin/playlist.m3u8
 
-
-# --- UNTESTED / PENDING STREAMS ---
-
-#EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic (Adaptive Master)
-https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic (Stream 1)
-https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_1.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic (Stream 2)
-https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_2.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic (Stream 3)
-https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_3.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic (Stream 4)
-https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_4.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic (Stream 5)
-https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_5.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic (Stream 6)
-https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_6.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic (Stream 7)
-https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_7.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic (Stream 8)
-https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_8.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic (Stream 9)
-https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_9.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic (Stream 10)
-https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_10.m3u8
-
-#EXTINF:-1 tvg-id="Disney.la" tvg-logo="" group-title="Kids",Disney Channel Latino
-http://190.92.72.98:8185/play/a04q/index.m3u8
-
-#EXTINF:-1 tvg-id="Disney.la" tvg-logo="" group-title="Kids",Disney Channel Latino (Stream 2)
-http://45.226.67.3:58001/play/a034/index.m3u8
-
-#EXTINF:-1 tvg-id="Disney.la" tvg-logo="" group-title="Kids",Disney Channel Latino (Stream 3)
-http://45.189.117.99:8000/play/a01i/index.m3u8
-
-#EXTINF:-1 tvg-id="Disney.la" tvg-logo="" group-title="Kids",Disney Channel Latino (Stream 4)
-http://45.189.117.37:7879/play/a01f/index.m3u8
-
-#EXTINF:-1 tvg-id="Disney.la" tvg-logo="" group-title="Kids",Disney Channel Latino (Stream 5)
-http://201.108.227.250:8000/play/a05l/index.m3u8
-
-#EXTINF:-1 tvg-id="Disney.la" tvg-logo="" group-title="Kids",Disney Channel Latino (Stream 6)
-http://201.108.227.250:8001/play/a05l/index.m3u8
-
-#EXTINF:-1 tvg-id="Disney.mx" tvg-logo="" group-title="Kids",Disney Channel Mexico
-http://187.135.163.145:8000/play/a03w/index.m3u8
-
-#EXTINF:-1 tvg-id="Disney.ch" tvg-logo="" group-title="Kids",Disney Channel Switzerland
-https://streams.wilmaa.com/m3u8/get?channelId=disney_channel_de&profile=8
-
-#EXTINF:-1 tvg-id="Disney.de" tvg-logo="" group-title="Kids",Disney Channel Germany
-http://212.18.115.177:3549/play/a062
-
-#EXTINF:-1 tvg-id="Disney.de" tvg-logo="" group-title="Kids",Disney Channel Germany FHD
-http://212.18.115.177:3549/play/a063
-
-#EXTINF:-1 tvg-id="Disney.de" tvg-logo="" group-title="Kids",Disney Channel Germany HD
-http://149.62.183.209:4549/play/a04v/index.m3u8
-
-#EXTINF:-1 tvg-id="Disney.es" tvg-logo="" group-title="Kids",Disney Channel Spain
-http://protocol.solanaflix.com:8080/play/pIhYgD3N1KpnDEqlm2bhCEkc72EW-8Kqe53LT_ZVBRZBh7euEZFFAtXnEBxgEyrI
-
-#EXTINF:-1 tvg-id="Disney.balkans" tvg-logo="" group-title="Kids",Disney Channel Balkans
-http://82.77.132.49:7881/play/a01y
-
-#EXTINF:-1 tvg-id="DisneyCinemagic.de" tvg-logo="" group-title="Entertainment",Disney Cinemagic Germany HD
-http://109.200.130.123:7027/play/a00r
-
-#EXTINF:-1 tvg-id="DisneyJunior.la" tvg-logo="" group-title="Kids",Disney Junior Latino
-http://190.92.72.98:8185/play/a01k/index.m3u8
-
-#EXTINF:-1 tvg-id="DisneyJunior.la" tvg-logo="" group-title="Kids",Disney Junior Latino (Stream 2)
-http://45.189.117.99:8000/play/a015/index.m3u8
-
-#EXTINF:-1 tvg-id="DisneyJunior.la" tvg-logo="" group-title="Kids",Disney Junior Latino (Stream 3)
-http://45.226.67.3:58001/play/a04u/index.m3u8
-
-#EXTINF:-1 tvg-id="DisneyJunior.la" tvg-logo="" group-title="Kids",Disney Junior Latino (Stream 4)
-http://45.189.117.37:7879/play/a00r/index.m3u8
-
-#EXTINF:-1 tvg-id="DisneyJunior.la" tvg-logo="" group-title="Kids",Disney Junior Latino (Stream 5)
-http://201.108.227.250:8000/play/a028/index.m3u8
-
-#EXTINF:-1 tvg-id="DisneyJunior.la" tvg-logo="" group-title="Kids",Disney Junior Latino (Stream 6)
-http://201.108.227.250:8001/play/a028/index.m3u8
-
-#EXTINF:-1 tvg-id="DisneyJunior.pl" tvg-logo="" group-title="Kids",Disney Junior Poland
-#EXTINF:-1 tvg-id="ESPN.us" tvg-logo="" group-title="Sports",ESPN USA
-https://ubuntu.fromthyheart.site/dailymotion/live/playlist/21.m3u8
-
-#EXTINF:-1 tvg-id="DAZN.us" tvg-logo="" group-title="Sports",DAZN 1
-https://ubuntu.fromthyheart.site/dailymotion/live/playlist/20.m3u8
-
 #EXTINF:-1 tvg-id="AEW.us" tvg-logo="" group-title="Sports & Live",AEW Feed 1
 https://ubuntu.fromthyheart.site/dailymotion/live/playlist/19.m3u8
 
@@ -330,23 +227,11 @@ https://ubuntu.fromthyheart.site/dailymotion/live/playlist/18.m3u8
 #EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="" group-title="Cartoon Network",Cartoon Network By ME
 https://the-cartoon-network-webchnl.onrender.com/public/hls/index.m3u8
 
-#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="" group-title="Animation",Cartoon Network East (1080p Backup)
-http://206.212.244.63/646/index.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="" group-title="Animation",Cartoon Network East (Proxy Relay)
-http://142.44.214.194:8080/cartoon/index.m3u8
-
 #EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="" group-title="Animation",Cartoon Network East (720p/1080p)
 https://turnerlive.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
 
 #EXTINF:-1 tvg-id="Boomerang.us" tvg-logo="" group-title="Boomerang",Boomerang US
 http://212.5.144.156:8080/boomerang/index.m3u8
-
-#EXTINF:-1 tvg-id="Nickelodeon.us" tvg-logo="" group-title="Nickelodeon",Nickelodeon US (480p)
-https://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
-
-#EXTINF:-1 tvg-id="Nickelodeon.us" tvg-logo="" group-title="USA",Nickelodeon (West)
-https://sra72yz.s.gy/NICK_WEST_US
 
 #EXTINF:-1 tvg-id="Nicktoons.us" tvg-logo="" group-title="Nickelodeon",Nicktoons 576p
 https://tvsen7.aynascope.net/nicktoons/index.m3u8
@@ -354,35 +239,10 @@ https://tvsen7.aynascope.net/nicktoons/index.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.us" tvg-logo="" group-title="Nickelodeon",Nicktoons US HD
 https://tvsen7.aynascope.net/nicktoons/index.m3u8
 
-#EXTINF:-1 tvg-id="NickJr.us" tvg-logo="" group-title="USA",Nick Jr. (West)
-https://sra72yz.s.gy/NICK_JR_WEST_US
-
-#EXTINF:-1 tvg-id="TeenNick.us" tvg-logo="" group-title="TeenNick",TeenNick East (720p)
-http://206.212.244.63/670/index.m3u8
-
-#EXTINF:-1 tvg-id="CNExtras.us" tvg-logo="" group-title="CN Extras",CN Extras
-https://mci01.nive.live/8/index.m3u8
 
 #EXTINF:-1 tvg-id="RickAndMorty.us" tvg-logo="" group-title="Adult Swim Marathons",Rick and Morty 24/7
 http://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
 
-#EXTINF:-1 tvg-id="AdultSwim.ca" tvg-logo="" group-title="Canada",[adult swim] Canada (1080p)
-http://206.212.244.63/6132/index.m3u8
-
-#EXTINF:-1 tvg-id="FX.ca" tvg-logo="" group-title="Canada",FX Canada (720p)
-https://sra72yz.s.gy/FX_CANADA
-
-#EXTINF:-1 tvg-id="FXX.ca" tvg-logo="" group-title="Canada",FXX Canada
-http://restream-live.realiptv.to:8080/live/monstercable/Dq6jjknxCr/3055.ts
-
-#EXTINF:-1 tvg-id="Crave1.ca" tvg-logo="" group-title="Canada",Crave 1 Canada
-https://sra72yz.s.gy/CRAVE_1_CANADA
-
-#EXTINF:-1 tvg-id="E.ca" tvg-logo="" group-title="Canada",E! Canada
-https://sra72yz.s.gy/E_ENTERTAINMENT_CANADA
-
-#EXTINF:-1 tvg-id="NBATV.ca" tvg-logo="" group-title="Canada",NBA TV Canada
-https://sra72yz.s.gy/NBA_TV_CANADA
 
 #EXTINF:-1 tvg-id="CartoonNetwork.la" tvg-logo="" group-title="Latin America",Cartoon Network LATAM (Direct TS)
 http://200.115.120.1:8000/play/ca002/index.m3u8
@@ -399,118 +259,18 @@ http://200.115.120.1:8000/play/ca001/index.m3u8
 #EXTINF:-1 tvg-id="VeaCanal.la" tvg-logo="" group-title="Latin America",Vea Canal LATAM
 http://200.115.120.1:8000/play/ca087/index.m3u8
 
-#EXTINF:-1 tvg-id="AXN.asia" tvg-logo="" group-title="Asia",AXN Asia
-https://sra72yz.s.gy/AXN_ASIA_VISION_PLUS
-
-#EXTINF:-1 tvg-id="Animax.asia" tvg-logo="" group-title="Asia",Animax Asia
-https://sra72yz.s.gy/ANIMAX_ASIA_SD
-
-#EXTINF:-1 tvg-id="OnePH.ph" tvg-logo="" group-title="Philippines",One PH
-https://sra72yz.s.gy/ONE_PH_SD
-
-#EXTINF:-1 tvg-id="OneSports.ph" tvg-logo="" group-title="Philippines",One Sports PH
-https://sra72yz.s.gy/ONE_SPORTS_PH_SD
-
 #EXTINF:-1 tvg-id="CartoonNetwork.tr" tvg-logo="" group-title="International",Cartoon Network Turkey (720p)
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6846/index.m3u8
-
-#EXTINF:-1 tvg-id="Nicktoons.ru" tvg-logo="" group-title="International",Nicktoons Russia
-http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/849/index.m3u8
-
-#EXTINF:-1 tvg-id="Channel4.uk" tvg-logo="" group-title="United Kingdom",Channel 4 UK
-https://sra72yz.s.gy/CHANNEL_4_UNITED_KINGDOM
-
-#EXTINF:-1 tvg-id="Channel5.uk" tvg-logo="" group-title="United Kingdom",Channel 5 UK
-https://sra72yz.s.gy/CHANNEL_5_UNITED_KINGDOM
-
-#EXTINF:-1 tvg-id="FOX.us" tvg-logo="" group-title="News",FOX East (720p)
-http://stream.cammonitorplus.net/1752/index.m3u8
-
-#EXTINF:-1 tvg-id="FX.us" tvg-logo="" group-title="USA",FX US (West)
-https://sra72yz.s.gy/fx-west
-
-#EXTINF:-1 tvg-id="FXX.us" tvg-logo="" group-title="USA",FXX US (West)
-https://sra72yz.s.gy/fxx-west
-
-#EXTINF:-1 tvg-id="Syfy.us" tvg-logo="" group-title="USA",Syfy (West)
-https://sra72yz.s.gy/syfy-west
-
-#EXTINF:-1 tvg-id="Showtime.us" tvg-logo="" group-title="USA Movies",Showtime Showcase (East)
-https://sra72yz.s.gy/SHOWTIME_SHOWCASE_EAST_US
-
-#EXTINF:-1 tvg-id="TheMovieChannel.us" tvg-logo="" group-title="USA Movies",The Movie Channel (West)
-https://sra72yz.s.gy/THE_MOVIE_CHANNEL_WEST
 
 #EXTINF:-1 tvg-id="AMC.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/34/AMC_logo_2019.svg" group-title="Entertainment",AMC East (720p60 HD)
 http://23.239.31.26:8989/amc/index.m3u8
 
-#EXTINF:-1 tvg-id="FYI.us" tvg-logo="" group-title="Entertainment",FYI East (720p60 HD)
-http://206.212.244.63/78/index.m3u8
-
 #EXTINF:-1 tvg-id="ID.us" tvg-logo="" group-title="Entertainment",Investigation Discovery
 http://212.5.144.156:8080/id/index.m3u8
-
-#EXTINF:-1 tvg-id="TLC.us" tvg-logo="" group-title="Entertainment",TLC East
-http://206.212.244.63/81/index.m3u8
-
-#EXTINF:-1 tvg-id="Viceland.us" tvg-logo="" group-title="Entertainment",Viceland
-http://40.160.24.55/VICELAND/index.m3u8
-
-#EXTINF:-1 tvg-id="MotorTrend.us" tvg-logo="" group-title="Entertainment",MotorTrend
-http://206.212.244.63/2502/index.m3u8
-
-#EXTINF:-1 tvg-id="Nicktoons.us" tvg-logo="" group-title="Kids",Nicktoons HD
-http://40.160.24.55/NICKTOONS/index.m3u8
-
-#EXTINF:-1 tvg-id="FXX.us" tvg-logo="" group-title="Entertainment",FXX East 720p HD
-http://23.237.104.106:8080/USA_FXX/mpegts
-
-#EXTINF:-1 tvg-id="CartoonNetwork.tr" tvg-logo="" group-title="Kids",Cartoon Network Turkey
-http://iptvmasterlink.dyndns.org:8080/CartoonNetwork/playlist.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.tr" tvg-logo="" group-title="Kids",Cartoon Network Turkey HD
-http://lives2.canlitv.center/cartoonnet.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic (Stream 2)
-https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_4.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.ru" tvg-logo="" group-title="Kids",Cartoon Network Russia
-http://iptv.prosto.tv:7000/ch207/video.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.mx" tvg-logo="" group-title="Kids",Cartoon Network Mexico
-http://187.135.163.145:8000/play/a01b/index.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.la" tvg-logo="" group-title="Kids",Cartoon Network Latino
-http://45.189.117.99:8000/play/a00h/index.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.la" tvg-logo="" group-title="Kids",Cartoon Network Latino SD
-http://45.189.117.37:7879/play/a00g/index.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.la" tvg-logo="" group-title="Kids",Cartoon Network Latino (Stream 2)
-http://201.108.227.250:8000/play/a025/index.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.la" tvg-logo="" group-title="Kids",Cartoon Network Latino (Stream 3)
-http://201.108.227.250:8001/play/a025/index.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.de" tvg-logo="" group-title="Kids",Cartoon Network Germany
-http://212.18.115.177:3549/play/a065
 
 #EXTINF:-1 tvg-id="CartoonNetwork.pl" tvg-logo="" group-title="Kids",Cartoon Network Poland HD
 http://89.249.49.78:8000/play/a0f7
 
-#EXTINF:-1 tvg-id="CartoonNetwork.balkans" tvg-logo="" group-title="Kids",Cartoon Network Balkans
-http://82.77.132.49:7881/play/a00z
-
-#EXTINF:-1 tvg-id="CartoonNetwork.balkans" tvg-logo="" group-title="Kids",Cartoon Network Balkans (Stream 2)
-http://141.95.52.206:6565/play/a01s
-
-#EXTINF:-1 tvg-id="Cartoonito.mx" tvg-logo="" group-title="Kids",Cartoonito Mexico (formerly Boomerang)
-http://187.135.163.145:8000/play/a01c/index.m3u8
-
 #EXTINF:-1 tvg-id="Boomerang.ru" tvg-logo="" group-title="Kids",Boomerang Russia
 http://iptv.prosto.tv:7000/ch208/video.m3u8
 
-#EXTINF:-1 tvg-id="Cartoonito.la" tvg-logo="" group-title="Kids",Cartoonito Latino
-http://190.92.72.98:8185/play/a01j/index.m3u8
-#EXTINF:-1 tvg-id="FXX.us" tvg-logo="" group-title="Entertainment",FXX Fixed 
-http://23.237.104.106:8080/USA_FXX/tracks-v1a1/index.m3u8
