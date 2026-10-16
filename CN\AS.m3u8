@@ -6,8 +6,6 @@
 https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
 #EXTINF:-1 group-title="Comedy Central" tvg-id="comedycentral.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/Comedy_Central_logo_2018.png",Comedy Central 720p
 https://tvsen3.aynaott.com/5fUWDMxZ/index.m3u8
-#EXTINF:-1 tvg-id="FIFA+.ww" tvg-logo="https://i.imgur.com/K502P5R.png" group-title="Football",FIFA+ (World)
-https://fifa-fifaplus-1-us.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Discovery.us" tvg-name="Discovery Channel" group-title="Documentary",Discovery Channel
 http://212.5.144.156:8080/discovery/index.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkHDPlus.in@SD" tvg-name="Cartoon Network HD+ India" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg" group-title="International",Cartoon Network HD+ India English 
@@ -19,20 +17,6 @@ https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-id="FIFAPlus.uk@French" tvg-logo="https://i.imgur.com/K502P5R.png" group-title="Football",FIFA+ (France)
 https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RealMadridTV.es" tvg-logo="https://i.imgur.com/8QG1n8E.png" group-title="Football",Real Madrid TV (Spanish Feed)
-https://rmtvlive-lh.akamaihd.net/i/rmtv_es@154407/master.m3u8
-
-#EXTINF:-1 tvg-id="RealMadridTVEnglish.es" tvg-logo="https://i.imgur.com/8QG1n8E.png" group-title="Football",Real Madrid TV (English Feed)
-https://rmtvlive-lh.akamaihd.net/i/rmtv_en@154408/master.m3u8
-
-#EXTINF:-1 tvg-id="FCBarcelonaTV.es" tvg-logo="https://i.imgur.com/bY30S0j.png" group-title="Football",Barça TV
-https://barca-tv.akamaized.net/hls/live/2034937/barcatv/master.m3u8
-
-#EXTINF:-1 tvg-id="CBSSportsGolazoNetwork.us" tvg-logo="https://i.imgur.com/L7pY62x.png" group-title="Football",CBS Sports Golazo Network
-https://cbsn-us.cbsnstat.com/m3u8/cbsn-us/master.m3u8
-
-#EXTINF:-1 tvg-id="RedBullTV.us" tvg-logo="https://i.imgur.com/8Z6q1zW.png" group-title="Sports",Red Bull TV
-https://rbmn-live.akamaized.net/hls/live/591070/FL01/master.m3u8
 
 #EXTINF:-1 tvg-id="CartoonNetworkOnWebchnl.us" tvg-name="Cartoon Network Webchnl" tvg-logo="https://the-cartoon-network-webchnl.onrender.com/public/logo.png" group-title="Webchnl",Cartoon Network Webchnl
 https://the-cartoon-network-webchnl.onrender.com/live/user/pass/1001.m3u8
@@ -134,26 +118,6 @@ https://live-streaming-mcdn.api.graylive.quickplay.com/woio-xos1-input-1/woio-xo
 #EXTINF:-1 tvg-id="AE.us" tvg-name="A&E" tvg-logo="https://i.imgur.com/8QzX9mG.png" group-title="Entertainment", A&E
 http://23.239.31.26:8989/aande/index.m3u8
 
-#EXTINF:-1 tvg-id="CartoonNetwork.la@mx" tvg-name="Cartoon Network LA (MX)" group-title="Kids",Cartoon Network (LA)
-http://181.78.64.71:16123/play/ch09
-
-#EXTINF:-1 tvg-id="CartoonNetwork.la" tvg-name="Cartoon Network HD" group-title="Kids",Cartoon Network HD
-http://181.78.208.254:8008/play/a04u
-
-#EXTINF:-1 tvg-id="CartoonNetwork.la" tvg-name="Cartoon Network Alt" group-title="Kids",Cartoon Network (HLS Stream)
-http://191.97.63.182:8888/play/a0n4/index.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-name="Cartoon Network Argentina" group-title="Kids",Cartoon Network Argentina
-http://181.209.105.115:2525/play/cartoonnetwork/index.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.in" tvg-name="Cartoon Network India" group-title="Kids",Cartoon Network (India Host)
-http://103.110.110.11:8081/live/cartoon/playlist.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetworkBrazil.br" tvg-name="Cartoon Network (BR)" group-title="Kids",Cartoon Network Brasil
-https://playout.cdn.cartoonnetwork.com.br/playout_01/playlist.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetworkHDPlus.in" tvg-name="Cartoon Network HD+ (India)" group-title="Kids",Cartoon Network HD+ (India)
-http://103.68.28.58:5001/live/1079.m3u8
 
 #EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="" group-title="Animation",Cartoon Network / Adult Swim West (720p)
 https://turnerlive.warnermediacdn.com/hls/live/2023181/toonwest/noslate/VIDEO_1_5128000.m3u8
@@ -248,71 +212,14 @@ https://shift03.isp.bg/Cartoon_Network/index.m3u8
 
 # --- REACHABLE / ALTERNATE ENDPOINTS ---
 
-#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="" group-title="Animation",Cartoon Network East (Limelight)
-https://tve-live-lln.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="" group-title="Animation",Cartoon Network East (Akamai)
-https://tve-live-aka.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="" group-title="Animation",Cartoon Network East (Lumen)
-https://tve-live-ctl.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
-
-#EXTINF:-1 tvg-id="AdultSwim.us" tvg-logo="" group-title="Adult Swim",Adult Swim West (LLN Simulcast)
-https://tve-live-lln.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_3_1928000.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.la" tvg-logo="" group-title="Latin America",Cartoon Network LATAM (480p)
-https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_SD
-
-#EXTINF:-1 tvg-id="CartoonNetwork.la" tvg-logo="" group-title="Latin America",Cartoon Network LATAM (720p)
-https://ats-edge-iqui-1.live.clarovtrcdn.vtrplay.com/cartoonhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
-
 #EXTINF:-1 tvg-id="CartoonNetwork.jp" tvg-logo="" group-title="Japan",Cartoon Network Japan
 https://naori-test.netgenx.site/pxx.php?shk_cid=cs25
 
 #EXTINF:-1 tvg-id="CartoonNetwork.in" tvg-logo="" group-title="International",Cartoon Network India
 https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-samsungin-cartoonnw-samsungin/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Boomerang.vn" tvg-logo="" group-title="Kids",Boomerang Vietnam HD
-https://livecdn.fptplay.net/hda3/boomerang_vhls.smil/chunklist_b2500000.m3u8
-
-#EXTINF:-1 tvg-id="Boomerang.vn" tvg-logo="" group-title="Kids",Boomerang Vietnam (2.5Mbps)
-https://livecdn.fptplay.net/hda3/boomerang_vhls.smil/chunklist_b2500000.m3u8
-
 
 # --- UNTESTED / PENDING STREAMS ---
-
-#EXTINF:-1 tvg-id="Boomerang.vn" tvg-logo="" group-title="Kids",Boomerang Vietnam (5Mbps)
-https://vips-livecdn.fptplay.net/hda3/boomerang_vhls.smil/chunklist_b5000000.m3u8
-
-#EXTINF:-1 tvg-id="Cartoonito.la" tvg-logo="" group-title="Kids",Cartoonito Latino (Stream 2)
-http://45.226.67.3:58001/play/a04t/index.m3u8
-
-#EXTINF:-1 tvg-id="Cartoonito.la" tvg-logo="" group-title="Kids",Cartoonito Latino (Stream 3)
-http://45.189.117.37:7879/play/a0ee/index.m3u8
-
-#EXTINF:-1 tvg-id="Cartoonito.la" tvg-logo="" group-title="Kids",Cartoonito Latino (Stream 4)
-http://201.108.227.250:8000/play/a027/index.m3u8
-
-#EXTINF:-1 tvg-id="Cartoonito.la" tvg-logo="" group-title="Kids",Cartoonito Latino (Stream 5)
-http://201.108.227.250:8001/play/a027/index.m3u8
-
-#EXTINF:-1 tvg-id="Boomerang.fr" tvg-logo="" group-title="Kids",Boomerang France
-http://193.252.43.21:10200/play/a07w
-
-#EXTINF:-1 tvg-id="Cartoonito.de" tvg-logo="" group-title="Kids",Cartoonito Germany
-http://149.62.183.209:4549/play/a03r/index.m3u8
-
-#EXTINF:-1 tvg-id="Cartoonito.de" tvg-logo="" group-title="Kids",Cartoonito Germany (Stream 2)
-http://212.18.115.177:3549/play/a066
-
-#EXTINF:-1 tvg-id="Cartoonito.balkans" tvg-logo="" group-title="Kids",Cartoonito Balkans
-http://141.95.52.206:6565/play/a01r
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Animation",Eel Channel
-https://mci01.nive.live/28/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Animation",Toon Disney Again
-https://mci01.nive.live/29/index.m3u8
 
 #EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic (Adaptive Master)
 https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
@@ -408,50 +315,6 @@ http://201.108.227.250:8000/play/a028/index.m3u8
 http://201.108.227.250:8001/play/a028/index.m3u8
 
 #EXTINF:-1 tvg-id="DisneyJunior.pl" tvg-logo="" group-title="Kids",Disney Junior Poland
-http://89.249.49.78:8000/play/a0fb
-
-#EXTINF:-1 tvg-id="DisneyJunior.balkans" tvg-logo="" group-title="Kids",Disney Junior Balkans
-http://82.77.132.49:7881/play/a01z
-
-#EXTINF:-1 tvg-id="DisneyJunior.fr" tvg-logo="" group-title="Kids",Disney Junior France
-http://193.252.43.21:10200/play/a0b9
-
-#EXTINF:-1 tvg-id="DisneyXD.pl" tvg-logo="" group-title="Kids",Disney XD Poland
-http://89.249.49.78:8000/play/a0dt
-
-#EXTINF:-1 tvg-id="DisneyXD.la" tvg-logo="" group-title="Kids",Disney XD Latino
-http://190.92.72.98:8185/play/a09d/index.m3u8
-
-#EXTINF:-1 tvg-id="DisneyXD.la" tvg-logo="" group-title="Kids",Disney XD Latino (Stream 2)
-http://45.226.67.3:58001/play/a02b/index.m3u8
-
-#EXTINF:-1 tvg-id="DisneyXD.la" tvg-logo="" group-title="Kids",Disney XD Latino (Stream 3)
-http://201.108.227.250:8000/play/a04f/index.m3u8
-
-#EXTINF:-1 tvg-id="DisneyXD.la" tvg-logo="" group-title="Kids",Disney XD Latino (Stream 4)
-http://201.108.227.250:8001/play/a04f/index.m3u8
-
-
-# --- INACTIVE / OFFLINE STREAMS ---
-
-#EXTINF:-1 tvg-id="WWE.us" tvg-logo="" group-title="WWE Events",WWE Netflix Feed 9
-https://ubuntu.fromthyheart.site/dailymotion/live/playlist/9.m3u8
-
-#EXTINF:-1 tvg-id="WWE.us" tvg-logo="" group-title="WWE Events",WWE Netflix Feed 8
-https://ubuntu.fromthyheart.site/dailymotion/live/playlist/8.m3u8
-
-#EXTINF:-1 tvg-id="WWE.us" tvg-logo="" group-title="WWE Events",WWE Netflix Feed 7
-https://ubuntu.fromthyheart.site/dailymotion/live/playlist/7.m3u8
-
-#EXTINF:-1 tvg-id="WWE.us" tvg-logo="" group-title="WWE Events",WWE Netflix Feed 6
-https://ubuntu.fromthyheart.site/dailymotion/live/playlist/6.m3u8
-
-#EXTINF:-1 tvg-id="WWE.us" tvg-logo="" group-title="WWE Events",WWE Netflix Feed 5
-https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8
-
-#EXTINF:-1 tvg-id="EdgeSport.us" tvg-logo="" group-title="USA Sports",Edge Sport
-https://sra72yz.s.gy/EDGE_SPORTS_SD
-
 #EXTINF:-1 tvg-id="ESPN.us" tvg-logo="" group-title="Sports",ESPN USA
 https://ubuntu.fromthyheart.site/dailymotion/live/playlist/21.m3u8
 
