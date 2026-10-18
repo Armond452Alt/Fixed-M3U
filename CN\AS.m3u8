@@ -22,10 +22,7 @@ https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 https://the-cartoon-network-webchnl.onrender.com/live/user/pass/1001.m3u8
 
 #EXTINF:-1 tvg-id="HGTV.us" tvg-name="HGTV USA" tvg-logo="https://raw.githubusercontent.com/BiglyTV/BiglyTV-Logos/main/logos/hgtv.png" group-title="Entertainment",HGTV USA
-#EXTVLCOPT:http-referrer=https://ondemand.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTHTTP:{"Referer":"https://ondemand.st/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
-https://messi.damitv.st/papi/ts2/hgtv-usa.m3u8
+http://tvsen7.aynascope.net/hgtv/index.m3u8
 
 #EXTINF:-1 tvg-id="Corus.ca" group-title="Corus Networks (CA)", Corus Networks (CA) (CORUS)1
 https://live.corusdigitaldev.com/groupa/live/023a9e25-f0cf-4d97-af9f-5c665b7d45b9/live.isml/.m3u8
