@@ -201,7 +201,7 @@ https://i.mjh.nz/.r/sky-hgtv.m3u8
 https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
 
 #EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic HD
-https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
+http://149.100.11.252:8000/play/a056/index.m3u8
 
 #EXTINF:-1 tvg-id="CartoonNetwork.bg" tvg-name="CartoonNetwork.bg" tvg-logo="" group-title="Kids",Cartoon Network (Bulgaria)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
