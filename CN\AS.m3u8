@@ -24,9 +24,9 @@ https://247.grassy-level770.workers.dev/?stream_id=foxwnyw&pro_id=sling&index.m3
 https://247.grassy-level770.workers.dev/?stream_id=tlc&pro_id=sling&index.m3u8
 #EXTINF:-1 tvg-id="FYI.us" tvg-name="FYI (Sling TV)" group-title="Lifestyle", FYI (Sling TV)
 https://247.grassy-level770.workers.dev/?stream_id=fyi&pro_id=sling&index.m3u8
-#EXTINF:-1 tvg-id="MeTVToons.us" tvg-name="MeTV Toons" group-title="Classic", MeTV Toons (Sling)
+#EXTINF:-1 tvg-id="MeTVToons.us" tvg-name="MeTV Toons (Sling TV)" group-title="Classic", MeTV Toons (Sling)
 https://247.grassy-level770.workers.dev/?stream_id=metvtoons&pro_id=sling&index.m3u8
-#EXTINF:-1 tvg-id="OxygenTrueCrime.us" tvg-name="Oxygen True Crime" group-title="Entertainment", Oxygen True Crime (Sling)
+#EXTINF:-1 tvg-id="OxygenTrueCrime.us" tvg-name="Oxygen True Crime (Sling TV)" group-title="Entertainment", Oxygen True Crime (Sling)
 https://247.grassy-level770.workers.dev/?stream_id=oxygentruecrime&pro_id=sling&index.m3u8
 
 #EXTINF:-1 tvg-id="FIFAPlus.uk@Spain" tvg-logo="https://i.imgur.com/K502P5R.png" group-title="Football",FIFA+ (Spain)
