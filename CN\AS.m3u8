@@ -20,8 +20,10 @@ https://247.grassy-level770.workers.dev/?stream_id=vice&pro_id=sling&index.m3u8
 https://247.grassy-level770.workers.dev/?stream_id=discoveryturbo&pro_id=sling&index.m3u8
 #EXTINF:-1 tvg-id="WNYW.us" tvg-name="FOX 5 WNYW New York(Sling TV)" group-title="Local", FOX WNYW (Sling TV)
 https://247.grassy-level770.workers.dev/?stream_id=foxwnyw&pro_id=sling&index.m3u8
-#EXTINF:-1 tvg-id="TLC.us" tvg-name="TLC" group-title="Lifestyle", TLC (Sling)
+#EXTINF:-1 tvg-id="TLC.us" tvg-name="TLC (Sling TV)" group-title="Lifestyle", TLC (Sling TV)
 https://247.grassy-level770.workers.dev/?stream_id=tlc&pro_id=sling&index.m3u8
+#EXTINF:-1 tvg-id="FYI.us" tvg-name="FYI (Sling TV)" group-title="Lifestyle", FYI (Sling TV)
+https://247.grassy-level770.workers.dev/?stream_id=fyi&pro_id=sling&index.m3u8
 
 #EXTINF:-1 tvg-id="FIFAPlus.uk@Spain" tvg-logo="https://i.imgur.com/K502P5R.png" group-title="Football",FIFA+ (Spain)
 https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8
