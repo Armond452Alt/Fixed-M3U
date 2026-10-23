@@ -12,7 +12,10 @@ http://212.5.144.156:8080/discovery/index.m3u8
 http://103.151.60.162:2122/play/a010/index.m3u8
 #EXTINF:-1 tvg-id="FXX.us" tvg-name="FXX East (Sling)" group-title="Entertainment", FXX East (Sling)
 https://247.grassy-level770.workers.dev/?stream_id=fxx&pro_id=sling&index.m3u8
-
+#EXTINF:-1 tvg-id="MeTV.us" tvg-name="MeTV (Sling TV)" group-title="Classic", MeTV (Sling TV)
+https://247.grassy-level770.workers.dev/?stream_id=metv&pro_id=sling&index.m3u8
+#EXTINF:-1 tvg-id="Vice.us" tvg-name="VICE (Sling TV)" group-title="Documentary", VICE (Sling TV)
+https://247.grassy-level770.workers.dev/?stream_id=vice&pro_id=sling&index.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@Spain" tvg-logo="https://i.imgur.com/K502P5R.png" group-title="Football",FIFA+ (Spain)
 https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8
 
