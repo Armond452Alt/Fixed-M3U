@@ -28,6 +28,8 @@ https://247.grassy-level770.workers.dev/?stream_id=fyi&pro_id=sling&index.m3u8
 https://247.grassy-level770.workers.dev/?stream_id=metvtoons&pro_id=sling&index.m3u8
 #EXTINF:-1 tvg-id="OxygenTrueCrime.us" tvg-name="Oxygen True Crime (Sling TV)" group-title="Entertainment", Oxygen True Crime (Sling)
 https://247.grassy-level770.workers.dev/?stream_id=oxygentruecrime&pro_id=sling&index.m3u8
+#EXTINF:-1 tvg-id="DisneyXD.us" tvg-name="Disney XD" group-title="Kids", Disney XD (Sling)
+https://247.grassy-level770.workers.dev/?stream_id=disneyxd&pro_id=sling&index.m3u8
 
 #EXTINF:-1 tvg-id="FIFAPlus.uk@Spain" tvg-logo="https://i.imgur.com/K502P5R.png" group-title="Football",FIFA+ (Spain)
 https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8
