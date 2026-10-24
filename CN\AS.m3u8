@@ -1,7 +1,8 @@
 #EXTM3U
 
 # --- WORKING / ONLINE STREAMS ---
-
+#EXTINF:-1 tvg-id="CartoonNetwork.pk" tvg-name="Cartoon Network Pakistan" group-title="Animation",CARTOON NETWORK PAKISTAN (MJUNOON)
+https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkEast.us" tvg-logo="" group-title="Animation",Cartoon Network East (720p)
 https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
 #EXTINF:-1 group-title="Comedy Central" tvg-id="comedycentral.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/Comedy_Central_logo_2018.png",Comedy Central 720p
