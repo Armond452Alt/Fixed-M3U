@@ -225,7 +225,7 @@ https://i.mjh.nz/.r/sky-hgtv.m3u8
 #EXTINF:-1 tvg-id="truTV.us" tvg-logo="" group-title="Entertainment",truTV East
 https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
 
-#EXTINF:-1 tvg-id="CartoonNetwork.ar" tvg-logo="" group-title="Kids",Cartoon Network Arabic HD
+#EXTINF:-1 tvg-id="CartoonNetworkArabic.ae" tvg-logo="" group-title="Kids",Cartoon Network Arabic HD
 http://149.100.11.252:8000/play/a056/index.m3u8
 
 #EXTINF:-1 tvg-id="CartoonNetwork.bg" tvg-name="CartoonNetwork.bg" tvg-logo="" group-title="Kids",Cartoon Network (Bulgaria)
@@ -291,8 +291,10 @@ http://23.239.31.26:8989/amc/index.m3u8
 http://212.5.144.156:8080/id/index.m3u8
 
 #EXTINF:-1 tvg-id="CartoonNetworkCEE.uk@Poland" tvg-logo="" group-title="Kids",Cartoon Network Poland HD
-http://92.114.85.87:8007/play/a009/73891923.m3u8
+http://92.114.85.87:8007/play/a009/index.m3u8
 
 #EXTINF:-1 tvg-id="Boomerang.ru" tvg-logo="" group-title="Kids",Boomerang Russia
 http://iptv.prosto.tv:7000/ch208/video.m3u8
 
+#EXTINF:-1 tvg-id="CartoonNetworkCEE.uk@Ukraine" tvg-name="Cartoon Network CEE Ukraine/UK" group-title="Animation",CARTOON NETWORK CEE (UKRAINE / UK FEED)
+http://45.132.87.69:8080/cartoon_network/index.m3u8
