@@ -119,7 +119,7 @@ https://live.corusdigitaldev.com/groupd/live/deb8cec5-87fb-460a-ab82-0929374fc5f
 https://live-streaming-mcdn.api.graylive.quickplay.com/woio-xos1-input-1/woio-xos1-input-1.isml/woio-xos1-input-1-audio_eng=96000-video=388000.m3u8
 
 #EXTINF:-1 tvg-id="AE.us" tvg-name="A&E" tvg-logo="https://i.imgur.com/8QzX9mG.png" group-title="Entertainment", A&E
-http://23.239.31.26:8989/aande/index.m3u8
+https://dlstreams.onrender.com/api/stream/302.m3u8?server=stream
 
 
 #EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="" group-title="Animation",Cartoon Network / Adult Swim West (720p)
